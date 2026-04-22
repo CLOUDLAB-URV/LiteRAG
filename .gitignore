@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+literag_config.local.yaml
+.LiteRAG_cache/

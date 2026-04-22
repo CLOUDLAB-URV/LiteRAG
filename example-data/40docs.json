@@ -1,0 +1,130 @@
+{
+  "lc_001": {
+    "question": "What is the primary function of the tool NAMB?",
+    "ground_truth": "NAMB (Not only A Micro-Benchmark) is a generic application prototype generator for Data Stream Processing (DSP) platforms. It automatically generates code for different platforms (like Flink, Storm, Heron) based on a high-level description to allow for quick evaluation and benchmarking."
+  },
+  "lc_002": {
+    "question": "According to the paper on 'Human-centric Software Engineering', what are the key human roles in software development?",
+    "ground_truth": "The key human roles identified are customers, designers, coders, testers, and end users."
+  },
+  "lc_003": {
+    "question": "What does the acronym REDEMON stand for?",
+    "ground_truth": "REDEMON stands for Resilient Decentralized Monitoring System."
+  },
+  "lc_004": {
+    "question": "What architecture does DIMINET rely on for inter-site networking?",
+    "ground_truth": "DIMINET relies on a decentralized architecture where each agent communicates with others only if needed, without a global view of all networking resources."
+  },
+  "lc_005": {
+    "question": "What is the 'Merge, Split, and Cluster' approach used for?",
+    "ground_truth": "It is used for the dynamic deployment of stream processing applications to minimize inter-node traffic while guaranteeing that node capacity is not exceeded."
+  },
+  "lc_006": {
+    "question": "What is the specific goal of the kESP problem in Mobile Edge Computing?",
+    "ground_truth": "The goal of kESP (k Edge Server Placement) is to place k edge servers within a particular geographic area to maximize their coverage."
+  },
+  "lc_007": {
+    "question": "What is 'Tag Matching' in the context of MPI?",
+    "ground_truth": "Tag Matching (TM) is the act of searching through receive queues to find the appropriate match for incoming data using source rank, tag, and communicator id."
+  },
+  "lc_008": {
+    "question": "What is the 'co-utility' property defined in the context of P2P computing?",
+    "ground_truth": "Co-utility characterizes a situation in which honest co-operation is the best rational option to take even for purely selfish agents, making a protocol self-enforcing."
+  },
+  "lr_001": {
+    "question": "Compare the approaches of 'NAMB' and 'Merge, Split, and Cluster' regarding Stream Processing.",
+    "ground_truth": "NAMB focuses on generating prototypes and benchmarks for stream processing platforms to ease testing, whereas 'Merge, Split, and Cluster' focuses on the operational deployment and dynamic resource management of those applications to minimize traffic and optimize node usage."
+  },
+  "lr_002": {
+    "question": "How do the 'REDEMON' and 'Reliability Management for Blockchain' papers address the issue of trust or failure?",
+    "ground_truth": "REDEMON addresses failure by creating a resilient decentralized monitoring system using CRDTs to replace legacy systems. The Blockchain paper addresses trust by defining a model to predict provider reliability from historical logs to ensure computational results are correct despite untrusted providers."
+  },
+  "lr_003": {
+    "question": "What common challenge do the papers on 'NFV Placement' and 'Robustness-oriented k Edge Server Placement' address?",
+    "ground_truth": "Both papers address the challenge of resource allocation and placement in Edge Computing. NFV placement focuses on maximizing customer benefit given scarce resources, while k-Edge Server placement focuses on maximizing coverage and robustness against server failures."
+  },
+  "lr_004": {
+    "question": "How does the 'Multiverse' framework's goal relate to the 'BBOS' storage management system?",
+    "ground_truth": "Both aim to improve utilization in HPC systems. Multiverse focuses on VM provisioning elasticity to utilize hardware and improve job throughput, while BBOS focuses on Burst Buffer over-subscription to improve storage utilization and I/O performance."
+  },
+  "lr_005": {
+    "question": "What specific hardware optimizations are discussed in the papers regarding InfiniBand and Arm SVE?",
+    "ground_truth": "The InfiniBand paper discusses offloading Tag Matching to the network card (ConnectX-5) to reduce CPU overhead. The Arm SVE paper discusses using Scalable Vector Extensions to vectorize MPI operations like reduction and memcpy to increase parallelism."
+  },
+  "lr_006": {
+    "question": "How do the 'Co-Utile Peer-to-Peer' and 'Reliability Management for Blockchain' papers utilize historical or reputation data?",
+    "ground_truth": "The Co-Utile paper uses reputation as an incentive to make the protocol self-enforcing for honest cooperation. The Blockchain paper extracts potential dependencies from historical log traces to build a reliability model for provider reputation."
+  },
+  "lr_007": {
+    "question": "Compare the 'DeepFreeze' and 'Pufferscale' approaches to managing HPC data services.",
+    "ground_truth": "DeepFreeze focuses on asynchronous checkpointing to hide I/O overhead for Deep Learning models. Pufferscale focuses on rescaling distributed storage systems (up and down) to adapt to changing workloads for High Energy Physics. Both aim to optimize data handling but for different lifecycle stages (resilience vs. elasticity)."
+  },
+  "lr_008": {
+    "question": "How do 'Thermo-Mechanical Coupling' and 'Energy efficiency modeling of stencil applications' approach energy consumption?",
+    "ground_truth": "Thermo-Mechanical Coupling focuses on the physical hardware interaction (fan vibrations) affecting storage power. The Stencil application paper focuses on software/algorithmic modeling to predict energy efficiency on heterogeneous resources (GPUs/CPUs)."
+  },
+  "g_001": {
+    "question": "Summarize the major challenges associated with Edge and Fog computing discussed across the entire corpus.",
+    "ground_truth": "Major challenges include: 1) Resource scarcity at edge nodes requiring efficient placement algorithms. 2) Latency reduction requirements for IoT applications. 3) Reliability and robustness against hardware failures or malicious peers. 4) The need for decentralized monitoring and management tools."
+  },
+  "g_002": {
+    "question": "What are the common techniques proposed for improving HPC system performance in this dataset?",
+    "ground_truth": "Techniques include: 1) Hardware offloading (e.g., InfiniBand Tag Matching). 2) Advanced vectorization (Arm SVE). 3) Dynamic VM provisioning (Multiverse). 4) Optimized storage indexing (Brindexer) and checkpointing (DeepFreeze). 5) Energy-aware scheduling."
+  },
+  "g_003": {
+    "question": "Identify the different application domains mentioned that benefit from the proposed computing optimizations.",
+    "ground_truth": "The domains include: Smart Living/Cities (Human-centric SE), Computer Vision (Edge/Fog API), High Energy Physics (Pufferscale), Deep Learning (DeepFreeze), Molecular Dynamics/Astrophysics (Time-series modeling), and Telecommunications (Guifi.net)."
+  },
+  "g_004": {
+    "question": "How is 'reliability' or 'resilience' addressed across different layers of the computing stack in these papers?",
+    "ground_truth": "1) Network layer: Resilient monitoring (REDEMON). 2) Infrastructure layer: Robust edge server placement. 3) Service layer: Reliability management for decentralized multi-cloud. 4) Application layer: Checkpointing for Deep Learning (DeepFreeze) and soft-error detection in simulations."
+  },
+  "g_005": {
+    "question": "Summarize the approaches taken to manage energy consumption and efficiency.",
+    "ground_truth": "Approaches include: 1) Modeling energy efficiency for stencil applications on GPUs. 2) Environment-aware control of fans to reduce vibration and power in storage. 3) Offloading tasks to appropriate hardware (Edge vs Cloud) to balance cost/performance."
+  },
+  "g_006": {
+    "question": "What role does 'Machine Learning' or 'Deep Learning' play in the system optimizations described in the corpus?",
+    "ground_truth": "Machine Learning is used for: 1) Detecting software aging (GAN-ASD). 2) Predicting provider reliability in multi-cloud. 3) As a workload itself that requires optimized scheduling (Marabunta) and checkpointing (DeepFreeze). 4) Federated learning protocols."
+  },
+  "g_007": {
+    "question": "Describe the trend of 'Decentralization' as presented in the provided papers.",
+    "ground_truth": "Decentralization is a key trend, seen in: 1) Decentralized multi-cloud reliability management. 2) P2P computing leveraging idle edge devices. 3) Decentralized monitoring systems (REDEMON). 4) Distributed networking modules (DIMINET)."
+  },
+  "g_008": {
+    "question": "Summarize the proposed solutions for handling data streams and Big Data.",
+    "ground_truth": "Solutions include: 1) Prototype generators for benchmarking (NAMB). 2) Dynamic deployment (Merge, Split, Cluster) for stream operators. 3) Distributed processing for skewed streams (Marabunta). 4) Parallel I/O for compressed data files."
+  },
+  "d_001": {
+    "question": "Start with the concept of Stream Processing. How do NAMB and Marabunta address different lifecycle stages of stream applications?",
+    "ground_truth": "Stream processing handles continuous data. NAMB addresses the *development/testing* stage by generating prototypes to benchmark platforms. Marabunta addresses the *runtime/execution* stage by handling skewed data and dynamic load balancing to ensure performance during operation."
+  },
+  "d_002": {
+    "question": "Focus on High Performance Computing (HPC). Explain how the integration of VMs (Multiverse) and Storage optimizations (Brindexer, BBOS) collectively aims to modernize HPC infrastructures.",
+    "ground_truth": "HPC is evolving from bare-metal to virtualized and data-intensive environments. Multiverse integrates schedulers with hypervisors to allow dynamic VM provisioning, modernizing the compute layer. Simultaneously, Brindexer (metadata indexing) and BBOS (burst buffer management) modernize the storage layer to handle the scale and speed of virtualized/data-intensive workloads."
+  },
+  "d_003": {
+    "question": "Consider the challenge of reliability in distributed systems. How does the approach change when moving from a blockchain-based multi-cloud context to a physical edge network monitoring context (REDEMON)?",
+    "ground_truth": "In the blockchain-based multi-cloud context, reliability is predictive and reputation-based, modeling dependencies to avoid untrusted providers. In the physical edge network (REDEMON), reliability is structural and architectural, using decentralized, consistent data structures (CRDTs) and redundant monitoring nodes to survive device failures."
+  },
+  "d_004": {
+    "question": "Deep Learning workloads are resource-intensive. Discuss how the corpus addresses this via both 'checkpointing' and 'scheduling' optimizations.",
+    "ground_truth": "Deep Learning requires resilience and scale. For resilience, 'DeepFreeze' introduces asynchronous checkpointing to hide I/O overhead without blocking training. For scaling, other papers (like those discussing GPU resilience or load imbalance) suggest that intelligent scheduling and resource allocation are required to handle the computational intensity on heterogeneous clusters."
+  },
+  "d_005": {
+    "question": "Start broad with the concept of 'Edge Computing'. How do the papers dealing with 'NFV Placement' and 'Serverless Task Placement' illustrate the trade-off between edge-only and edge-cloud execution?",
+    "ground_truth": "Edge computing places resources near the user. The NFV placement paper illustrates the constraint of 'edge-only' execution (scarce resources) and attempts to optimize within that box. The Serverless Task Placement paper illustrates the 'edge-cloud' trade-off, acknowledging that edge devices may be overwhelmed, and dynamically deciding when to offload to the cloud based on cost/latency, thus bridging the two paradigms."
+  },
+  "d_006": {
+    "question": "Software Aging is a problem in long-running systems. How does the GAN-ASD approach for Android differ from traditional maintenance strategies mentioned in the text?",
+    "ground_truth": "Traditional strategies involve 'fixed-interval' or 'random' rejuvenation (restarts). GAN-ASD shifts to a proactive, data-driven approach. It uses Generative Adversarial Networks to model normal vs. aging states and clustering to precisely detect *when* aging occurs, triggering rejuvenation only when necessary, thereby optimizing the trade-off between user experience and cost."
+  },
+  "d_007": {
+    "question": "Data Management is critical in Big Data. Contrast the approach of 'Brindexer' for file systems with 'DeepFreeze' for model training states.",
+    "ground_truth": "Brindexer manages 'metadata' (file attributes, location) using partitioning and in-tree structures to speed up *finding* data in large namespaces. DeepFreeze manages 'payload data' (model states) using asynchronous I/O to speed up *saving* data during computation. Both optimize data operations but target different bottlenecks (lookup latency vs. write throughput)."
+  },
+  "d_008": {
+    "question": "Focus on the evolution of MPI (Message Passing Interface). How do the papers on InfiniBand and Arm SVE illustrate the shift in where MPI operations are executed?",
+    "ground_truth": "MPI operations are shifting away from the main CPU. The InfiniBand paper illustrates moving logic (Tag Matching) *out* to the network card. The Arm SVE paper illustrates changing *how* the CPU executes the remaining logic (using wide vector units for packing/reduction). Both represent a shift toward specialized hardware utilization for communication tasks."
+  }
+}

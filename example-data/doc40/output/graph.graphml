@@ -1,0 +1,3621 @@
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="KAI CHEN" />
+    <node id="QUEEN'S UNIVERSITY BELFAST" />
+    <node id="CROSS ARCHITECTURAL POWER MODELLING" />
+    <node id="PETER KILPATRICK" />
+    <node id="DIMITRIOS S. NIKOLOPOULOS" />
+    <node id="VIRGINIA TECH" />
+    <node id="BLESSON VARGHESE" />
+    <node id="CCGRID" />
+    <node id="2020" />
+    <node id="AUTOMATED POWER MODELLING PROCESS" />
+    <node id="NOISE FILTER BASED ON CLUSTERING" />
+    <node id="AUTOMATED HARDWARE PERFORMANCE COUNTER SELECTION METHOD" />
+    <node id="TWO STAGE POWER MODEL" />
+    <node id="ARM PROCESSORS" />
+    <node id="INTEL PROCESSORS" />
+    <node id="ARM" />
+    <node id="INTEL" />
+    <node id="UNIVERSIDADE DE BRAS&#205;LIA" />
+    <node id="LEONARDO REBOU&#199;AS DE CARVALHO" />
+    <node id="ALET&#201;IA ARA&#218;JO" />
+    <node id="PERFORMANCE COMPARISON OF TERRAFORM AND CLOUDIFY AS MULTICLOUD ORCHESTRATORS" />
+    <node id="TERRAFORM" />
+    <node id="CLOUDIFY" />
+    <node id="HEAT" />
+    <node id="CLOUDFORMATION" />
+    <node id="CLOUD ASSEMBLY" />
+    <node id="TOSCA STANDARD" />
+    <node id="SKY COMPUTING" />
+    <node id="MULTICLOUD" />
+    <node id="CLOUD COMPUTING" />
+    <node id="UNIVERSITY OF UTAH" />
+    <node id="DMITRY DUPLYAKIN" />
+    <node id="ALEKSANDER MARICQ" />
+    <node id="ROBERT RICCI" />
+    <node id="DATACENTER PERFORMANCE, THE ONLY CONSTANT IS CHANGE" />
+    <node id="ALEXANDRU UTA" />
+    <node id="VRIJE UNIVERSITEIT AMSTERDAM" />
+    <node id="PERFORMANCE VARIABILITY" />
+    <node id="BARE-METAL HARDWARE" />
+    <node id="CLOUDLAB" />
+    <node id="CHANGETPOINT DETECTION" />
+    <node id="NOISY NEIGHBORS" />
+    <node id="HARDWARE CHANGES" />
+    <node id="HYPERVISOR STACK CHANGES" />
+    <node id="UNDOCUMENTED INTERACTIONS" />
+    <node id="VIRTUALIZED INFRASTRUCTURE" />
+    <node id="BENCHMARK RESULTS" />
+    <node id="COMPUTING FACILITY" />
+    <node id="METHODOLOGY" />
+    <node id="PERFORMANCE REGIMES" />
+    <node id="WORKLOADS" />
+    <node id="COMPUTING RESOURCE PROVIDER" />
+    <node id="CLOUDS" />
+    <node id="PERFORMANCE MEASUREMENTS" />
+    <node id="HPC FACILITIES" />
+    <node id="DATACENTER ENVIRONMENTS" />
+    <node id="APPLICATION PERFORMANCE" />
+    <node id="NONSTATIONARITIES" />
+    <node id="ZHE ZHANG" />
+    <node id="TRUA: EFFICIENT TASK REPLICATION FOR FLEXIBLE USER-DEFINED AVAILABILITY IN SCIENTIFIC GRIDS." />
+    <node id="UNIVERSITY OF NEBRASKA&#8211;LINCOLN" />
+    <node id="DEREK WEITZEL" />
+    <node id="XINKAI ZHANG" />
+    <node id="HAMID VAKILZADIAN" />
+    <node id="DAVID SWANSON" />
+    <node id="BRIAN BOCKELMAN" />
+    <node id="MORGRIDGE INSTITUTE FOR RESEARCH" />
+    <node id="TRUA" />
+    <node id="SCIENTIFIC GRIDS" />
+    <node id="TASK REPLICATION FOR USERDEFINED AVAILABILITY" />
+    <node id="FAILURE IS INEVITABLE IN SCIENTIFIC COMPUTING" />
+    <node id="RELIABILITY MODEL" />
+    <node id="ANOMALY DETECTOR" />
+    <node id="SELECTION ALGORITHMS" />
+    <node id="OPEN SCIENCE GRID (OSG)" />
+    <node id="USER-DEFINED AVAILABILITY" />
+    <node id="HISTORIC FAILURE INFORMATION" />
+    <node id="TEMPORARY CORRELATIONS" />
+    <node id="SPATIAL CORRELATIONS" />
+    <node id="SCIENTIFIC COMPUTING CUSTOMERS" />
+    <node id="SCIENTIFIC APPLICATIONS" />
+    <node id="FACILITIES" />
+    <node id="BIMODAL JOHNSON DISTRIBUTION" />
+    <node id="COMPUTATIONAL PROVIDERS" />
+    <node id="VIRTUAL LAYER" />
+    <node id="QINGHAI UNIVERSITY" />
+    <node id="HAODONG BIAN" />
+    <node id="JIANQIANG HUANG" />
+    <node id="RUNTING DONG" />
+    <node id="LINGBIN LIU" />
+    <node id="XIAOYING WANG" />
+    <node id="A NEW FORMAT FOR SIMD-ACCELERATED SPMV" />
+    <node id="CSR2" />
+    <node id="SPMV" />
+    <node id="SIMD" />
+    <node id="CSR5" />
+    <node id="INTEL CORE I7-7700HQ CPU" />
+    <node id="INTEL XEON CPU E5-2670 V3" />
+    <node id="10.1109/CCGRID49817.2020.00-58" />
+    <node id="MAVERICK CHARDET" />
+    <node id="PREDICTABLE EFFICIENCY FOR RECONFIGURATION OF SERVICE-ORIENTED SYSTEMS WITH CONCERTO" />
+    <node id="IMT ATLANTIQUE" />
+    <node id="LABORATOIRE DES SCIENCES DU NUM&#201;RIQUE DE NANTES" />
+    <node id="H&#201;L&#200;NE COULLON" />
+    <node id="CHRISTIAN P&#201;REZ" />
+    <node id="&#201;COLE NORMALE SUP&#201;RIEURE DE LYON" />
+    <node id="UNIVERSIT&#201; CLAUDE BERNARD LYON 1" />
+    <node id="CENTRE NATIONAL DE LA RECHERCHE SCIENTIFIQUE" />
+    <node id="CONCERTO" />
+    <node id="DYNAMIC RECONFIGURATION OF DISTRIBUTED SOFTWARE SYSTEMS" />
+    <node id="IOT AND SMART APPLICATIONS" />
+    <node id="FOG AND EDGE COMPUTING" />
+    <node id="QUALITY OF SERVICE AND EXPERIENCE" />
+    <node id="PERFORMANCE PREDICTABILITY" />
+    <node id="DYNAMIC RECONFIGURATION" />
+    <node id="SERVICE-ORIENTED SYSTEMS" />
+    <node id="DISTRIBUTED SOFTWARE SYSTEMS" />
+    <node id="STATE-OF-THE-ART SYSTEMS" />
+    <node id="TIME ESTIMATION" />
+    <node id="PARALLELISM" />
+    <node id="HAMZA DJIGAL" />
+    <node id="HOHAI UNIVERSITY" />
+    <node id="PERFORMANCE EVALUATION OF SECURITY-AWARE LIST SCHEDULING ALGORITHMS IN IAAS CLOUD" />
+    <node id="JUN FENG" />
+    <node id="JIAMIN LU" />
+    <node id="SECURITY-AWARE WORKFLOW SCHEDULING" />
+    <node id="LIST SCHEDULING ALGORITHMS" />
+    <node id="TASKS PRIORITIZING PHASE" />
+    <node id="VIRTUAL MACHINE SELECTION PHASE" />
+    <node id="SCHEDULING LENGTH" />
+    <node id="SPEEDUP" />
+    <node id="EFFICIENCY" />
+    <node id="IAAS CLOUD" />
+    <node id="SECURITY REQUIREMENTS" />
+    <node id="SECURITY SERVICES" />
+    <node id="REAL-WORLD APPLICATIONS" />
+    <node id="DISTRIBUTED INFRASTRUCTURES" />
+    <node id="HETEROGENEOUS SYSTEMS" />
+    <node id="VIRTUAL MACHINES" />
+    <node id="TASK GRAPHS" />
+    <node id="MOHAMED HANDAOUI" />
+    <node id="SALAMANDER: A HOLISTIC SCHEDULING OF MAPREDUCE JOBS ON EPHEMERAL CLOUD RESOURCES" />
+    <node id="JEAN-EMILE DARTOIS" />
+    <node id="LAURENT LEMARCHAND" />
+    <node id="JALIL BOUKHOBZA" />
+    <node id="CLOUD DATA CENTERS" />
+    <node id="EPHEMERAL RESOURCES" />
+    <node id="HADOOP MAPREDUCE" />
+    <node id="HOLISTIC SCHEDULER" />
+    <node id="CLOUD INFRASTRUCTURE" />
+    <node id="RESOURCE UTILIZATION PREDICTIONS" />
+    <node id="DATA LOCALITY" />
+    <node id="CO-LOCATED WORKLOADS" />
+    <node id="CLOUD RESOURCES" />
+    <node id="DATA-INTENSIVE APPLICATIONS" />
+    <node id="MAPREDUCE TASK AND JOB SCHEDULER" />
+    <node id="SCHEDULER-BASED DATA PLACEMENT STRATEGY" />
+    <node id="REACTIVE QOS CONTROLLER" />
+    <node id="SERVICE-LEVEL AGREEMENT (SLA)" />
+    <node id="THE UNIVERSITY OF TOKYO" />
+    <node id="HIDEHITO YABUUCHI" />
+    <node id="TAKAHIRO SHINAGAWA" />
+    <node id="MULTI-RESOURCE LOW-LATENCY CLUSTER SCHEDULING WITHOUT EXECUTION TIME ESTIMATION" />
+    <node id="CLUSTER SCHEDULING" />
+    <node id="KAIROS" />
+    <node id="TASKS" />
+    <node id="JOB LATENCY" />
+    <node id="PREEMPTION" />
+    <node id="SLOWDOWN RATES" />
+    <node id="HETEROGENEOUS COMPUTING RESOURCE DEMANDS" />
+    <node id="EXECUTION TIME ESTIMATION" />
+    <node id="QICHEN CHEN" />
+    <node id="FLEXGPU: A FLEXIBLE AND EFFICIENT SCHEDULER FOR GPU SHARING SYSTEMS." />
+    <node id="CHUNG-ANG UNIVERSITY" />
+    <node id="HYOJEONG LEE" />
+    <node id="HEON Y. YEOM" />
+    <node id="YONGSEOK SON" />
+    <node id="FLEXGPU" />
+    <node id="GRAPHICS PROCESSING UNIT (GPU)" />
+    <node id="GPU SHARING SYSTEMS" />
+    <node id="MEMORY OVERSUBSCRIPTION ISSUE" />
+    <node id="KERNELS" />
+    <node id="HOST MEMORY" />
+    <node id="GPU UTILIZATION" />
+    <node id="OUT-OF-MEMORY FAILURE" />
+    <node id="FINANCE" />
+    <node id="MACHINE LEARNING" />
+    <node id="IMAGE PROCESSING" />
+    <node id="ZEINA HOUMANI" />
+    <node id="ENHANCING MICROSERVICES ARCHITECTURES USING DATA-DRIVEN SERVICE DISCOVERY AND QOS GUARANTEES" />
+    <node id="INSTITUT NATIONAL DE RECHERCHE EN INFORMATIQUE ET EN AUTOMATIQUE" />
+    <node id="DANIEL BALOUK&#8208;THOMERT" />
+    <node id="RUTGERS, THE STATE UNIVERSITY OF NEW JERSEY" />
+    <node id="EDDY CARON" />
+    <node id="MANISH PARASHAR" />
+    <node id="MICROSERVICES" />
+    <node id="SERVICE MESHES" />
+    <node id="DATA-DRIVEN SERVICE DISCOVERY FRAMEWORK" />
+    <node id="GEOGRAPHICAL ZONES" />
+    <node id="BOXIONG TAN" />
+    <node id="A NSGA-II-BASED APPROACH FOR MULTI-OBJECTIVE MICRO-SERVICE ALLOCATION IN CONTAINER-BASED CLOUDS" />
+    <node id="HUI MA" />
+    <node id="YI MEI" />
+    <node id="MICRO-SERVICES" />
+    <node id="CONTAINER-BASED CLOUDS" />
+    <node id="NSGA-II" />
+    <node id="MICRO-SERVICE ALLOCATION" />
+    <node id="JINGO0 HAN" />
+    <node id="10.1109/CCGRID49817.2020.00-66" />
+    <node id="ALI R. BUTT" />
+    <node id="M. MUSTAFA RAFIQUE" />
+    <node id="ROCHESTER INSTITUTE OF TECHNOLOGY" />
+    <node id="LING XU" />
+    <node id="SEUNG&#8211;HWAN LIM" />
+    <node id="OAK RIDGE NATIONAL LABORATORY" />
+    <node id="SUDHARSHAN S. VAZHKUDAI" />
+    <node id="MARBLE" />
+    <node id="DEEP LEARNING" />
+    <node id="HPC SYSTEMS" />
+    <node id="SUMMIT SUPERCOMPUTER" />
+    <node id="PLATFORM LOAD SHARING FACILITY (LSF)" />
+    <node id="OPTIMUS" />
+    <node id="GRAPHICS PROCESSING UNITS (GPUS)" />
+    <node id="CPU" />
+    <node id="SARUNYA PUMMA" />
+    <node id="ALIEVIATING LOAD IMBALANCE IN DATA PROCESSING FOR LARGE-SCALE DEEP LEARNING" />
+    <node id="DANIELLE BUONO" />
+    <node id="IBM (UNITED STATES)" />
+    <node id="FABIO CHECCONI" />
+    <node id="XINYU QUE" />
+    <node id="WU-CHUN FENG" />
+    <node id="LOAD IMBALANCE" />
+    <node id="TENSORFLOW" />
+    <node id="HOROVOD" />
+    <node id="SCALABLE DEEP LEARNING" />
+    <node id="DEEP LEARNING PERFORMANCE" />
+    <node id="RESOURCE CONTENTION" />
+    <node id="DEGRADED SCALABILITY" />
+    <node id="NEURAL NETWORK TRAINING" />
+    <node id="GRAPH SCHEDULING" />
+    <node id="INPUT PIPELINE" />
+    <node id="GRADIENT SYNCHRONIZATION" />
+    <node id="GPUS" />
+    <node id="HARDWARE RESOURCES" />
+    <node id="NEURAL NETWORKS" />
+    <node id="BING LI" />
+    <node id="MARABUNTA: CONTINUOUS DISTRIBUTED PROCESSING OF SKEWED STREAMS." />
+    <node id="ZHIBIN ZHANG" />
+    <node id="TIANQI ZHENG" />
+    <node id="QIAOLING ZHONG" />
+    <node id="QUN HUANG" />
+    <node id="XUEQI CHENG" />
+    <node id="MARABUNTA" />
+    <node id="FLINK" />
+    <node id="HERON" />
+    <node id="STREAM PROCESSING SYSTEMS (SPSS)" />
+    <node id="DATA DISTRIBUTIONS" />
+    <node id="COMPUTATIONAL RESOURCES" />
+    <node id="LOAD BALANCING" />
+    <node id="DYNAMIC SCALING" />
+    <node id="THROUGHPUT" />
+    <node id="ELASTICITY" />
+    <node id="UNIVERSITAT POLIT&#200;CNICA DE CATALUNYA" />
+    <node id="KONSTANTINOS PARASYRIS" />
+    <node id="KAI KELLER" />
+    <node id="LEONARDO BAUTISTA-GOMEZ" />
+    <node id="OSMAN &#220;NSAL" />
+    <node id="BARCELONA SUPERCOMPUTING CENTER" />
+    <node id="CHECKPOINT RESTART SUPPORT FOR HETEROGENEOUS HPC APPLICATIONS" />
+    <node id="EXA-SCALE COMPUTING" />
+    <node id="FAULT TOLERANCE" />
+    <node id="CHECKPOINT/RESTART" />
+    <node id="HETEROGENEOUS HPC APPLICATIONS" />
+    <node id="FAULT TOLERANCE INTERFACE (FTI)" />
+    <node id="DIFFERENTIAL CHECKPOINT" />
+    <node id="10.1109/CCGRID49817.2020.00-69" />
+    <node id="TOP 500 LIST" />
+    <node id="OPTIMIZATION STEPS" />
+    <node id="OVERHEAD" />
+    <node id="SUPERCOMPUTING SYSTEMS" />
+    <node id="MEMORY MANAGER" />
+    <node id="MULTI-NODE/MULTI-GPU CHECKPOINTS" />
+    <node id="CHECKPOINT FILE" />
+    <node id="KRZYSZTOF KUROWSKI" />
+    <node id="ENERGY EFFICIENCY AND PERFORMANCE MODELING OF STENCIL APPLICATIONS ON MANYCORE AND GPU COMPUTING RESOURCES" />
+    <node id="POZNAN SUPERCOMPUTING AND NETWORKING CENTER" />
+    <node id="MI&#321;OSZ CI&#379;NICKI" />
+    <node id="JAN W&#280;GLARZ" />
+    <node id="POZNA&#323; UNIVERSITY OF TECHNOLOGY" />
+    <node id="STENCIL COMPUTATIONS" />
+    <node id="DCWORMS" />
+    <node id="GSSIM" />
+    <node id="HETEROGENEOUS COMPUTING RESOURCES" />
+    <node id="APPLICATION-SPECIFIC PERFORMANCE MODELS" />
+    <node id="PERFORMANCE ANALYSIS TOOLS" />
+    <node id="NUMERICAL WEATHER PREDICTION" />
+    <node id="HPC SYSTEM" />
+    <node id="MANYCORE AND GPUS" />
+    <node id="ENERGY-EFFICIENCY METRICS" />
+    <node id="EXTREME-SCALE STENCIL APPLICATIONS" />
+    <node id="PLUGGABLE AND EXTENSIBLE ARCHITECTURES" />
+    <node id="STENCIL KERNEL" />
+    <node id="ENERGY CONSUMPTION" />
+    <node id="STENCIL APPLICATION-SPECIFIC PARAMETERS" />
+    <node id="REAL EXPERIMENTS" />
+    <node id="DONG ZHONG" />
+    <node id="UNIVERSITY OF TENNESSEE AT KNOXVILLE" />
+    <node id="USING ARM SCALABLE VECTOR EXTENSION TO OPTIMIZE OPEN MPI" />
+    <node id="PAVEL SHAMIS" />
+    <node id="AMERICAN ROCK MECHANICS ASSOCIATION" />
+    <node id="QINGLEI CAO" />
+    <node id="GEORGE BOSILCA" />
+    <node id="SHINJI SUMIMOTO" />
+    <node id="KIYOTAKA MIURA" />
+    <node id="FUJITSU (CHINA)" />
+    <node id="JACK DON &#2458;&#2494;&#2480;&#2463;&#2495;" />
+    <node id="HIGH-PERFORMANCE COMPUTING (HPC)" />
+    <node id="OPEN MPI" />
+    <node id="FUJITSU&#8217;S A64FX PROCESSOR" />
+    <node id="ARMV8-A ARCHITECTURE" />
+    <node id="SCALABLE VECTOR EXTENSION (SVE)" />
+    <node id="A64 INSTRUCTION ENCODINGS" />
+    <node id="MEMCPY" />
+    <node id="LOCAL REDUCTION OPERATIONS" />
+    <node id="MPI OPERATIONS" />
+    <node id="ARM SCALABLE VECTOR EXTENSION" />
+    <node id="DATATYPE PACKING/UNPACKING" />
+    <node id="MPI REDUCTION" />
+    <node id="ZEMING HAO" />
+    <node id="INNER MONGOLIA UNIVERSITY" />
+    <node id="JING LIU" />
+    <node id="GAN-ASD" />
+    <node id="BEGAN MODEL" />
+    <node id="STATE CLUSTERING" />
+    <node id="SOFTWARE AGING" />
+    <node id="ANDROID SYSTEM" />
+    <node id="REJUVENATION COEFFICIENT (RC)" />
+    <node id="REJUVENATION FREQUENCY (RF)" />
+    <node id="SOFTWARE REJUVENATION" />
+    <node id="INTERPOLATION CLIPPING PROCESSING" />
+    <node id="K-MEANS CLUSTERING MODEL" />
+    <node id="MINH NGOC DINH" />
+    <node id="TRACKING SCIENTIFIC SIMULATION USING ONLINE TIME-SERIES MODELLING" />
+    <node id="RMIT VIETNAM" />
+    <node id="CHIEN TRUNG VO" />
+    <node id="DAVID ABRAMSON" />
+    <node id="UNIVERSITY OF QUEENSLAND" />
+    <node id="SOFT ERRORS" />
+    <node id="TIME-SERIES MODELLING" />
+    <node id="LAMMPS" />
+    <node id="PLUTO" />
+    <node id="10.1109/CCGRID49817.2020.00-73" />
+    <node id="SIDDHESH PRATAP SINGH" />
+    <node id="PARALLEL I/O ON COMPRESSED DATA FILES: SEMANTICS, ALGORITHMS, AND PERFORMANCE EVALUATION" />
+    <node id="UNIVERSITY OF HOUSTON" />
+    <node id="EDGAR GABRIEL" />
+    <node id="MPI I/O" />
+    <node id="COLLECTIVE I/O OPERATIONS" />
+    <node id="TWO-PHASE COLLECTIVE I/O ALGORITHM" />
+    <node id="SNAPPY COMPRESSION LIBRARY" />
+    <node id="OMPIO PARALLEL I/O FRAMEWORK" />
+    <node id="BEEGFS FILE SYSTEM" />
+    <node id="PARALLEL I/O" />
+    <node id="DATA COMPRESSION" />
+    <node id="LARGE DATA SETS" />
+    <node id="SEQUENTIAL COMPRESSION/DECOMPRESSION OPERATIONS" />
+    <node id="MPI I/O OPERATIONS" />
+    <node id="INDIVIDUAL READ AND WRITE OPERATIONS" />
+    <node id="PERFORMANCE EVALUATION" />
+    <node id="COMPRESSED DATA FILES" />
+    <node id="PARALLEL BEEGFS FILE SYSTEM" />
+    <node id="NATHANA&#203;L CHERIERE" />
+    <node id="PUFFERSCALE: RESCALING HPC DATA SERVICES FOR HIGH ENERGY PHYSICS APPLICATIONS." />
+    <node id="MATTHIEU DORIER" />
+    <node id="ARGONNE NATIONAL LABORATORY" />
+    <node id="GABRIEL ANTONIU" />
+    <node id="STEFAN WILD" />
+    <node id="SVEN LEYFFER" />
+    <node id="ROBERT ROSS" />
+    <node id="PUFFERSCALE" />
+    <node id="DISTRIBUTED STORAGE SYSTEM" />
+    <node id="HEPNOS STORAGE SYSTEM" />
+    <node id="MICROSERVICE-BASED DISTRIBUTED STORAGE SYSTEMS" />
+    <node id="STORAGE MALLEABILITY" />
+    <node id="HIGH ENERGY PHYSICS" />
+    <node id="USER-SPACE HPC DATA SERVICES" />
+    <node id="HEP" />
+    <node id="EVENT DATA" />
+    <node id="PARALLEL FILE SYSTEMS" />
+    <node id="POSIX COMPLIANCE" />
+    <node id="RESCALING" />
+    <node id="LOAD BALANCE" />
+    <node id="DATA BALANCE" />
+    <node id="DURATION OF THE RESCALING OPERATION" />
+    <node id="RESOURCE USAGE" />
+    <node id="HEURISTIC" />
+    <node id="ANALYSIS WORKFLOWS" />
+    <node id="BOGDAN NICOLAE" />
+    <node id="DEEPFREEZE: TOWARDS SCALABLE ASYNCHRONOUS CHECKPOINTING OF DEEP LEARNING MODELS." />
+    <node id="JIALI LI" />
+    <node id="JUSTIN M. WOZNIAK" />
+    <node id="FRANCK CAPPELLO" />
+    <node id="10.1109/CCGRID49817.2020.00-76" />
+    <node id="CHECKPOINTING" />
+    <node id="SERIALIZATION PERFORMANCE" />
+    <node id="BLOCKING I/O" />
+    <node id="STRAGGLERS" />
+    <node id="ASYNCHRONOUS TECHNIQUES" />
+    <node id="CANDLE" />
+    <node id="RESNET" />
+    <node id="THETA" />
+    <node id="ARNAB K. PAUL" />
+    <node id="EFFICIENT METADATA INDEXING FOR HPC STORAGE SYSTEMS" />
+    <node id="BRIAN WANG" />
+    <node id="NATHAN RUTMAN" />
+    <node id="CORY SPITZ" />
+    <node id="HIGH PERFORMANCE COMPUTING (HPC) STORAGE SYSTEMS" />
+    <node id="BRINDEXER" />
+    <node id="CCGRID 2020" />
+    <node id="10.1109/CCGRID49817.2020.00-77" />
+    <node id="METADATA INDEXING" />
+    <node id="FILE SYSTEM MANAGEMENT" />
+    <node id="SPATIAL TREES" />
+    <node id="EXTERNAL DATABASE" />
+    <node id="LUSTRE" />
+    <node id="LEVELED PARTITIONING" />
+    <node id="IN-TREE DESIGN" />
+    <node id="RDBMS" />
+    <node id="CHANGELOG-BASED APPROACH" />
+    <node id="ORACLE" />
+    <node id="SANJEEV SONDUR" />
+    <node id="KENNETH C. GROSS" />
+    <node id="UNITED STATES" />
+    <node id="THERMO-MECHANICAL COUPLING INDUCED PERFORMANCE DEGRADATION IN STORAGE SYSTEMS" />
+    <node id="KRISHNA KANT" />
+    <node id="TEMPLE UNIVERSITY" />
+    <node id="EADC" />
+    <node id="ORACLE LABS" />
+    <node id="POWER/THERMAL ASPECTS" />
+    <node id="VIBRATIONS" />
+    <node id="MECHANICAL DISKS" />
+    <node id="LEAKAGE POWER" />
+    <node id="COOLING FAN" />
+    <node id="STORAGE SYSTEM PERFORMANCE" />
+    <node id="IO DELAY" />
+    <node id="BASELINE SYSTEM" />
+    <node id="VIBRATION AWARE CONTROLS" />
+    <node id="STORAGE SERVERS" />
+    <node id="SEOUL NATIONAL UNIVERSITY" />
+    <node id="HANUL SUNG" />
+    <node id="JIWOO BANG" />
+    <node id="CHUNGYONG KIM" />
+    <node id="HYUNG&#8208;SIN KIM" />
+    <node id="HYEONSHANG EOM" />
+    <node id="LAWRENCE BERKELEY NATIONAL LABORATORY" />
+    <node id="ALEX SIM" />
+    <node id="GLENN K. LOCKWOOD" />
+    <node id="EFFICIENT HPC STORAGE MANAGEMENT VIA BURST BUFFER OVER-SUBSCRIPTION" />
+    <node id="BURST BUFFER OVER-SUBSCRIPTION" />
+    <node id="BB OVER-SUBSCRIPTION" />
+    <node id="I/O SCHEDULER" />
+    <node id="TRANSPARENT DATA MANAGEMENT SYSTEM" />
+    <node id="HPC" />
+    <node id="ALL-FLASH HPC STORAGE SYSTEMS" />
+    <node id="BB ALLOCATION" />
+    <node id="HPC APPLICATIONS" />
+    <node id="10.1109/CCGRID49817.2020.00-79" />
+    <node id="BURST BUFFER UTILIZATION" />
+    <node id="PERFORMANCE DEGRADATION" />
+    <node id="RESTART REQUESTS" />
+    <node id="PFS" />
+    <node id="BB" />
+    <node id="I/O INTERFERENCE" />
+    <node id="DEMOTION OVERHEAD" />
+    <node id="JASHWANT RAJ GUNASEKARAN" />
+    <node id="PENNSYLVANIA STATE UNIVERSITY" />
+    <node id="MULTIVERSE" />
+    <node id="DYNAMIC VM PROVISIONING FOR VIRTUALIZED HIGH PERFORMANCE COMPUTING CLUSTERS" />
+    <node id="PRASHANTH THINAKARAN" />
+    <node id="MAHMUT KANDEMIR" />
+    <node id="CHITA R. DAS" />
+    <node id="MICHAEL CUI" />
+    <node id="JOSH SIMONS" />
+    <node id="10.1109/CCGRID49817.2020.00-80" />
+    <node id="HIGH PERFORMANCE COMPUTING CLUSTERS" />
+    <node id="VIRTUALIZATION" />
+    <node id="RESOURCE ELASTICITY" />
+    <node id="VIRTUAL MACHINE PROVISIONING" />
+    <node id="HPC SCHEDULER" />
+    <node id="VM HYPERVISOR" />
+    <node id="CLUSTER UTILIZATION" />
+    <node id="JOB COMPLETION THROUGHPUT" />
+    <node id="VM PROVISIONING DELAYS" />
+    <node id="PHYSICAL HARDWARE" />
+    <node id="PROVISIONING OVERHEADS" />
+    <node id="SLURM SCHEDULER" />
+    <node id="VSPHERE VM RESOURCE MANAGER" />
+    <node id="INSTANT CLONING" />
+    <node id="BURSTY JOB ARRIVAL SCENARIOS" />
+    <node id="FULL VM CLONING" />
+    <node id="DAVID ESPINEL SARMIENTO" />
+    <node id="ORANGE (FRANCE)" />
+    <node id="DIMINET: DISTRIBUTED MODULE FOR INTER-SITE NETWORKING" />
+    <node id="ADRIEN L&#200;BRE" />
+    <node id="LUCAS NUSSBAUM" />
+    <node id="UNIVERSIT&#201; DE LORRAINE" />
+    <node id="LABORATOIRE LORRAIN DE RECHERCHE EN INFORMATIQUE ET SES APPLICATIONS" />
+    <node id="ABDELHADI CHARI" />
+    <node id="10.1109/CCGRID49817.2020.00-81" />
+    <node id="GEO-DISTRIBUTED CLOUD INFRASTRUCTURE" />
+    <node id="NETWORK FUNCTION VIRTUALIZATION" />
+    <node id="INTERNET OF THINGS APPLICATIONS" />
+    <node id="VIRTUAL INFRASTRUCTURE MANAGER (VIM)" />
+    <node id="DIMINET" />
+    <node id="POINT-OF-PRESENCES" />
+    <node id="NETWORK EQUIPMENT" />
+    <node id="OPENSTACK" />
+    <node id="BIN NIE" />
+    <node id="CHARACTERIZING ACCURACY-AWARE RESILIENCE OF GPGPU APPLICATIONS" />
+    <node id="ADWAIT JOG" />
+    <node id="EVGENIA SMIRNI" />
+    <node id="GRAPHICS PROCESSING UNITS" />
+    <node id="GPGPU APPLICATIONS" />
+    <node id="MOHAMMADREZA BAYATPOUR" />
+    <node id="DESIGN AND CHARACTERIZATION OF INFINIBAND HARDWARE TAG MATCHING IN MPI" />
+    <node id="S. MAHDIEH GHAZIMIRSAEED" />
+    <node id="SHULEI XU" />
+    <node id="HARI SUBRAMONI" />
+    <node id="DHABALESWAR K. PANDA" />
+    <node id="MESSAGE PASSING INTERFACE (MPI)" />
+    <node id="MPI LIBRARY" />
+    <node id="HARDWARE TAG MATCHING" />
+    <node id="INFINIBAND HARDWARE TAG MATCHING" />
+    <node id="APPLICATION DEVELOPERS" />
+    <node id="TAG MATCHING (TM)" />
+    <node id="SOURCE RANK" />
+    <node id="TAG" />
+    <node id="COMMUNICATOR ID" />
+    <node id="MELLANOX CONNECTX-5" />
+    <node id="INFINIBAND" />
+    <node id="RECEIVE QUEUES" />
+    <node id="APPLICATION RECEIVE BUFFER" />
+    <node id="SYNCHRONIZATION OVERHEADS" />
+    <node id="PERFORMANCE" />
+    <node id="MPI LIBRARIES" />
+    <node id="NETWORK CARD" />
+    <node id="NON-BLOCKING COLLECTIVES" />
+    <node id="3DSTENCIL APPLICATION KERNEL" />
+    <node id="NEKBONE" />
+    <node id="COMMUNICATION PROGRESS" />
+    <node id="COMMUNICATION PROGRESS THREAD" />
+    <node id="HOST" />
+    <node id="MAIN THREAD" />
+    <node id="ROGER PUEYO CENTELLES" />
+    <node id="PAPER &quot;REDEMON: RESILIENT DECENTRALIZED MONITORING SYSTEM FOR EDGE INFRASTRUCTURES.&quot;" />
+    <node id="MENNAN SELIMI" />
+    <node id="F&#200;LIX FREITAG" />
+    <node id="LEANDRO NAVARRO" />
+    <node id="REDEMON" />
+    <node id="GUIFI.NET" />
+    <node id="ANTIDONEDB" />
+    <node id="EDGE INFRASTRUCTURES" />
+    <node id="CRDT-BASED DATA STRUCTURES" />
+    <node id="DECENTRALIZED ASSIGNMENT MECHANISM" />
+    <node id="CONSUMPTION FOOTPRINT" />
+    <node id="CPU USAGE" />
+    <node id="RAM USAGE" />
+    <node id="NETWORK TRAFFIC" />
+    <node id="DATA STORAGE LAYER" />
+    <node id="EDGE APPLICATIONS" />
+    <node id="CLOUD COMPUTING DOMAIN" />
+    <node id="SHARED DATA" />
+    <node id="GUANGMING CUI" />
+    <node id="ROBUSTNESS-ORIENTED K EDGE SERVER PLACEMENT" />
+    <node id="QIANG HE" />
+    <node id="XIAOYU XIA" />
+    <node id="FEIFEI CHEN" />
+    <node id="HAI JIN" />
+    <node id="YUN YANG" />
+    <node id="MOBILE EDGE COMPUTING (MEC)" />
+    <node id="ROBUSTNESS-ORIENTED K EDGE SERVER PLACEMENT (RKESP)" />
+    <node id="EDGE SERVERS" />
+    <node id="COST-EFFECTIVE K EDGE SERVER PLACEMENT (KESP)" />
+    <node id="OPT" />
+    <node id="APPROX" />
+    <node id="AYMEN JLASSI" />
+    <node id="MERGE, SPLIT, AND CLUSTER: DYNAMIC DEPLOYMENT OF STREAM PROCESSING APPLICATIONS." />
+    <node id="INSTITUT DE RECHERCHE EN INFORMATIQUE ET SYST&#200;MES AL&#201;ATOIRES" />
+    <node id="UNIVERSITY OF RENNES" />
+    <node id="C&#201;DRIC TEDESCHI" />
+    <node id="MERGE, SPLIT, AND CLUSTER APPROACH" />
+    <node id="STREAM PROCESSING (SP)" />
+    <node id="STREAM PROCESSING ENGINES (SPE)" />
+    <node id="DIRECTED ACYCLIC GRAPH (DAG)" />
+    <node id="INTER-NODE TRAFFIC" />
+    <node id="NODE CAPACITY" />
+    <node id="COMPUTING RESOURCES" />
+    <node id="INTRA-NODE TRAFFIC" />
+    <node id="ALESSIO PAGLIARI" />
+    <node id="LABORATOIRE D'INFORMATIQUE, SIGNAUX ET SYST&#200;MES DE SOPHIA ANTIPOLIS" />
+    <node id="FABRICE HUET" />
+    <node id="GUILLAUME URVOY-KELLER" />
+    <node id="NAMB: A QUICK AND FLEXIBLE STREAM PROCESSING APPLICATION PROTOTYPE GENERATOR." />
+    <node id="NAMB" />
+    <node id="BIG DATA" />
+    <node id="STREAM PROCESSING" />
+    <node id="DATA STREAM PROCESSING (DSP) PLATFORMS" />
+    <node id="STORM" />
+    <node id="SPARK STREAMING" />
+    <node id="HERON APACHE" />
+    <node id="GOOGLE MILLWHEEL" />
+    <node id="YARON FAIRSTEIN" />
+    <node id="TECHNION &#8211; ISRAEL INSTITUTE OF TECHNOLOGY" />
+    <node id="NFV PLACEMENT IN RESOURCE-SCARCE EDGE NODES." />
+    <node id="DOR HARRIS" />
+    <node id="JOSEPH NAOR" />
+    <node id="DANNY RAZ" />
+    <node id="CAPACITATED MEC ALLOCATION PROBLEM (CMAP)" />
+    <node id="NETWORK FUNCTION PLACEMENT METHODS" />
+    <node id="NETWORK FUNCTIONS" />
+    <node id="CUSTOMERS BENEFIT" />
+    <node id="MULTI-ACCESS EDGE COMPUTING (MEC)" />
+    <node id="5G NETWORKS" />
+    <node id="EDGE NODES" />
+    <node id="RESOURCE ALLOCATION" />
+    <node id="ANIRBAN DAS" />
+    <node id="RENSSELAER POLYTECHNIC INSTITUTE" />
+    <node id="PERFORMANCE OPTIMIZATION FOR EDGE-CLOUD SERVERLESS PLATFORMS VIA DYNAMIC TASK PLACEMENT" />
+    <node id="SHIGERU IMAI" />
+    <node id="STACY PATTERSON" />
+    <node id="MIKE P. WITTIE" />
+    <node id="MONTANA STATE UNIVERSITY" />
+    <node id="DYNAMIC TASK PLACEMENT" />
+    <node id="SERVERLESS EDGE-CLOUD PLATFORMS" />
+    <node id="SMART EDGE DEVICES" />
+    <node id="AWS LAMBDA" />
+    <node id="AWS GREENGRASS" />
+    <node id="SIMULATION EVALUATION" />
+    <node id="PROTOTYPE IMPLEMENTATION" />
+    <node id="PERFORMANCE OPTIMIZATION" />
+    <node id="TASK PLACEMENT" />
+    <node id="EDGE DEVICE" />
+    <node id="CLOUD EXECUTION" />
+    <node id="EDGE-ONLY EXECUTION" />
+    <node id="PERFORMANCE GOALS" />
+    <node id="CONTAINER RESOURCE CONFIGURATION" />
+    <node id="END-TO-END LATENCY" />
+    <node id="JOSEP DOMINGO-FERRER" />
+    <node id="CO-UTILE PEER-TO-PEER DECENTRALIZED COMPUTING" />
+    <node id="ALBERTO BLANCO-JUSTICIA" />
+    <node id="DAVID S&#193;NCHEZ" />
+    <node id="NAJEEB MOHARRAM JEBREEL" />
+    <node id="CO-UTILITY" />
+    <node id="DECENTRALIZED COMPUTATION" />
+    <node id="FEDERATED LEARNING" />
+    <node id="DECENTRALIZED REPUTATION CALCULATION" />
+    <node id="REPUTATION" />
+    <node id="ATAKAN ARAL" />
+    <node id="TU WIEN" />
+    <node id="RELIABILITY MANAGEMENT FOR BLOCKCHAIN-BASED DECENTRALIZED MULTI-CLOUD" />
+    <node id="RAFAEL BRUNDO URIARTE" />
+    <node id="IVONA BRANDI&#262;" />
+    <node id="ANTHONY SIMONET-BOULOGNE" />
+    <node id="BLOCKCHAIN-BASED DECENTRALIZED MULTI-CLOUD" />
+    <node id="PROVIDER RELIABILITY" />
+    <node id="PROBABILISTIC SCHEDULER" />
+    <node id="BLOCKCHAIN" />
+    <node id="DECENTRALIZED CLOUD PROVIDER" />
+    <node id="LOG TRACES" />
+    <node id="PROVIDER REPUTATION" />
+    <node id="SCHEDULING OF NEW SERVICES" />
+    <node id="RELIABILITY CONSTRAINTS" />
+    <node id="DECENTRALIZED MULTI-CLOUD" />
+    <node id="COMPUTATIONAL TASKS" />
+    <node id="JIA GUO" />
+    <node id="THE OHIO STATE UNIVERSITY" />
+    <node id="A PATTERN-BASED API FOR MAPPING APPLICATIONS TO A HIERARCHY OF MULTI-CORE DEVICES." />
+    <node id="RADU TEODORESCU" />
+    <node id="GAGAN AGRAWAL" />
+    <node id="AUGUSTA UNIVERSITY" />
+    <node id="MAPREDUCE" />
+    <node id="IMAGE PROCESSING APPLICATIONS" />
+    <node id="OPENCV" />
+    <node id="INTERNET OF THINGS (IOT)" />
+    <node id="EDGE/FOG COMPUTING" />
+    <node id="COMPUTER VISION APPLICATIONS" />
+    <node id="JOHN GRUNDY" />
+    <node id="HUMAN-CENTRIC SOFTWARE ENGINEERING FOR NEXT GENERATION CLOUD- AND EDGE-BASED SMART LIVING APPLICATIONS" />
+    <node id="MONASH UNIVERSITY" />
+    <node id="HUMAN-CENTRIC ISSUES" />
+    <node id="CLOUD-BASED SOFTWARE SYSTEMS" />
+    <node id="EDGE-BASED SOFTWARE SYSTEMS" />
+    <node id="SOFTWARE ENGINEERING" />
+    <node id="SMART LIVING APPLICATIONS" />
+    <node id="DATA ANALYSIS APPLICATIONS" />
+    <node id="PERSONALITY IMPACT" />
+    <node id="END USER EMOTIONS" />
+    <node id="HUMAN USAGE PATTERNS" />
+    <node id="VISUALISING SMART CITY-RELATED DATA" />
+    <node id="SOFTWARE USABILITY DEFECTS" />
+    <node id="HUMAN-CENTRIC SECURITY AND PRIVACY REQUIREMENTS" />
+    <node id="SOFTWARE REQUIREMENTS ENGINEERING" />
+    <node id="SMART HOMES" />
+    <node id="EDGE COMPUTING APPLICATIONS" />
+    <node id="SMART CITY" />
+    <node id="SMART LIVING SYSTEMS" />
+    <edge source="KAI CHEN" target="QUEEN'S UNIVERSITY BELFAST">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="KAI CHEN" target="CROSS ARCHITECTURAL POWER MODELLING">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="QUEEN'S UNIVERSITY BELFAST" target="PETER KILPATRICK">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="QUEEN'S UNIVERSITY BELFAST" target="BLESSON VARGHESE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CROSS ARCHITECTURAL POWER MODELLING" target="PETER KILPATRICK">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CROSS ARCHITECTURAL POWER MODELLING" target="DIMITRIOS S. NIKOLOPOULOS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CROSS ARCHITECTURAL POWER MODELLING" target="BLESSON VARGHESE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CROSS ARCHITECTURAL POWER MODELLING" target="CCGRID">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CROSS ARCHITECTURAL POWER MODELLING" target="AUTOMATED POWER MODELLING PROCESS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CROSS ARCHITECTURAL POWER MODELLING" target="NOISE FILTER BASED ON CLUSTERING">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CROSS ARCHITECTURAL POWER MODELLING" target="AUTOMATED HARDWARE PERFORMANCE COUNTER SELECTION METHOD">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CROSS ARCHITECTURAL POWER MODELLING" target="TWO STAGE POWER MODEL">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CROSS ARCHITECTURAL POWER MODELLING" target="2020">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="DIMITRIOS S. NIKOLOPOULOS" target="VIRGINIA TECH">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="VIRGINIA TECH" target="JINGO0 HAN">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="VIRGINIA TECH" target="ALI R. BUTT">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="VIRGINIA TECH" target="SARUNYA PUMMA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="VIRGINIA TECH" target="WU-CHUN FENG">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="VIRGINIA TECH" target="ARNAB K. PAUL">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CCGRID" target="2020">
+      <data key="d0">2.0</data>
+    </edge>
+    <edge source="CCGRID" target="PERFORMANCE COMPARISON OF TERRAFORM AND CLOUDIFY AS MULTICLOUD ORCHESTRATORS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CCGRID" target="DATACENTER PERFORMANCE, THE ONLY CONSTANT IS CHANGE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CCGRID" target="TRUA: EFFICIENT TASK REPLICATION FOR FLEXIBLE USER-DEFINED AVAILABILITY IN SCIENTIFIC GRIDS.">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CCGRID" target="A NEW FORMAT FOR SIMD-ACCELERATED SPMV">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CCGRID" target="PREDICTABLE EFFICIENCY FOR RECONFIGURATION OF SERVICE-ORIENTED SYSTEMS WITH CONCERTO">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CCGRID" target="PERFORMANCE EVALUATION OF SECURITY-AWARE LIST SCHEDULING ALGORITHMS IN IAAS CLOUD">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CCGRID" target="CLOUD COMPUTING">
+      <data key="d0">5.0</data>
+    </edge>
+    <edge source="CCGRID" target="SALAMANDER: A HOLISTIC SCHEDULING OF MAPREDUCE JOBS ON EPHEMERAL CLOUD RESOURCES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CCGRID" target="MULTI-RESOURCE LOW-LATENCY CLUSTER SCHEDULING WITHOUT EXECUTION TIME ESTIMATION">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CCGRID" target="FLEXGPU: A FLEXIBLE AND EFFICIENT SCHEDULER FOR GPU SHARING SYSTEMS.">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="CCGRID" target="ENHANCING MICROSERVICES ARCHITECTURES USING DATA-DRIVEN SERVICE DISCOVERY AND QOS GUARANTEES">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="CCGRID" target="A NSGA-II-BASED APPROACH FOR MULTI-OBJECTIVE MICRO-SERVICE ALLOCATION IN CONTAINER-BASED CLOUDS">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="CCGRID" target="10.1109/CCGRID49817.2020.00-66">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CCGRID" target="ALIEVIATING LOAD IMBALANCE IN DATA PROCESSING FOR LARGE-SCALE DEEP LEARNING">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CCGRID" target="MARABUNTA: CONTINUOUS DISTRIBUTED PROCESSING OF SKEWED STREAMS.">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CCGRID" target="CHECKPOINT RESTART SUPPORT FOR HETEROGENEOUS HPC APPLICATIONS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CCGRID" target="ENERGY EFFICIENCY AND PERFORMANCE MODELING OF STENCIL APPLICATIONS ON MANYCORE AND GPU COMPUTING RESOURCES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CCGRID" target="USING ARM SCALABLE VECTOR EXTENSION TO OPTIMIZE OPEN MPI">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="CCGRID" target="ZEMING HAO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CCGRID" target="JING LIU">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CCGRID" target="TRACKING SCIENTIFIC SIMULATION USING ONLINE TIME-SERIES MODELLING">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CCGRID" target="PARALLEL I/O ON COMPRESSED DATA FILES: SEMANTICS, ALGORITHMS, AND PERFORMANCE EVALUATION">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CCGRID" target="PUFFERSCALE: RESCALING HPC DATA SERVICES FOR HIGH ENERGY PHYSICS APPLICATIONS.">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CCGRID" target="DEEPFREEZE: TOWARDS SCALABLE ASYNCHRONOUS CHECKPOINTING OF DEEP LEARNING MODELS.">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CCGRID" target="EFFICIENT METADATA INDEXING FOR HPC STORAGE SYSTEMS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CCGRID" target="THERMO-MECHANICAL COUPLING INDUCED PERFORMANCE DEGRADATION IN STORAGE SYSTEMS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CCGRID" target="EFFICIENT HPC STORAGE MANAGEMENT VIA BURST BUFFER OVER-SUBSCRIPTION">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CCGRID" target="MULTIVERSE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CCGRID" target="10.1109/CCGRID49817.2020.00-80">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CCGRID" target="DYNAMIC VM PROVISIONING FOR VIRTUALIZED HIGH PERFORMANCE COMPUTING CLUSTERS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CCGRID" target="DIMINET: DISTRIBUTED MODULE FOR INTER-SITE NETWORKING">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CCGRID" target="CHARACTERIZING ACCURACY-AWARE RESILIENCE OF GPGPU APPLICATIONS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CCGRID" target="DESIGN AND CHARACTERIZATION OF INFINIBAND HARDWARE TAG MATCHING IN MPI">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CCGRID" target="PAPER &quot;REDEMON: RESILIENT DECENTRALIZED MONITORING SYSTEM FOR EDGE INFRASTRUCTURES.&quot;">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CCGRID" target="ROBUSTNESS-ORIENTED K EDGE SERVER PLACEMENT">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="CCGRID" target="MERGE, SPLIT, AND CLUSTER: DYNAMIC DEPLOYMENT OF STREAM PROCESSING APPLICATIONS.">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CCGRID" target="NAMB: A QUICK AND FLEXIBLE STREAM PROCESSING APPLICATION PROTOTYPE GENERATOR.">
+      <data key="d0">14.0</data>
+    </edge>
+    <edge source="CCGRID" target="NFV PLACEMENT IN RESOURCE-SCARCE EDGE NODES.">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CCGRID" target="PERFORMANCE OPTIMIZATION FOR EDGE-CLOUD SERVERLESS PLATFORMS VIA DYNAMIC TASK PLACEMENT">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CCGRID" target="CO-UTILE PEER-TO-PEER DECENTRALIZED COMPUTING">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CCGRID" target="RELIABILITY MANAGEMENT FOR BLOCKCHAIN-BASED DECENTRALIZED MULTI-CLOUD">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CCGRID" target="A PATTERN-BASED API FOR MAPPING APPLICATIONS TO A HIERARCHY OF MULTI-CORE DEVICES.">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="CCGRID" target="HUMAN-CENTRIC SOFTWARE ENGINEERING FOR NEXT GENERATION CLOUD- AND EDGE-BASED SMART LIVING APPLICATIONS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="2020" target="TRUA: EFFICIENT TASK REPLICATION FOR FLEXIBLE USER-DEFINED AVAILABILITY IN SCIENTIFIC GRIDS.">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="2020" target="A NEW FORMAT FOR SIMD-ACCELERATED SPMV">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="2020" target="SALAMANDER: A HOLISTIC SCHEDULING OF MAPREDUCE JOBS ON EPHEMERAL CLOUD RESOURCES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="2020" target="ENHANCING MICROSERVICES ARCHITECTURES USING DATA-DRIVEN SERVICE DISCOVERY AND QOS GUARANTEES">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="2020" target="ALIEVIATING LOAD IMBALANCE IN DATA PROCESSING FOR LARGE-SCALE DEEP LEARNING">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="2020" target="CHECKPOINT RESTART SUPPORT FOR HETEROGENEOUS HPC APPLICATIONS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="2020" target="ENERGY EFFICIENCY AND PERFORMANCE MODELING OF STENCIL APPLICATIONS ON MANYCORE AND GPU COMPUTING RESOURCES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="2020" target="USING ARM SCALABLE VECTOR EXTENSION TO OPTIMIZE OPEN MPI">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="2020" target="TRACKING SCIENTIFIC SIMULATION USING ONLINE TIME-SERIES MODELLING">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="2020" target="PUFFERSCALE: RESCALING HPC DATA SERVICES FOR HIGH ENERGY PHYSICS APPLICATIONS.">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="2020" target="EFFICIENT METADATA INDEXING FOR HPC STORAGE SYSTEMS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="2020" target="10.1109/CCGRID49817.2020.00-80">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="2020" target="DYNAMIC VM PROVISIONING FOR VIRTUALIZED HIGH PERFORMANCE COMPUTING CLUSTERS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="2020" target="DIMINET: DISTRIBUTED MODULE FOR INTER-SITE NETWORKING">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="2020" target="RELIABILITY MANAGEMENT FOR BLOCKCHAIN-BASED DECENTRALIZED MULTI-CLOUD">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="2020" target="A PATTERN-BASED API FOR MAPPING APPLICATIONS TO A HIERARCHY OF MULTI-CORE DEVICES.">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="2020" target="HUMAN-CENTRIC SOFTWARE ENGINEERING FOR NEXT GENERATION CLOUD- AND EDGE-BASED SMART LIVING APPLICATIONS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="AUTOMATED POWER MODELLING PROCESS" target="AUTOMATED HARDWARE PERFORMANCE COUNTER SELECTION METHOD">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="AUTOMATED POWER MODELLING PROCESS" target="NOISE FILTER BASED ON CLUSTERING">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="AUTOMATED POWER MODELLING PROCESS" target="TWO STAGE POWER MODEL">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="AUTOMATED HARDWARE PERFORMANCE COUNTER SELECTION METHOD" target="ARM PROCESSORS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="AUTOMATED HARDWARE PERFORMANCE COUNTER SELECTION METHOD" target="INTEL PROCESSORS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="AUTOMATED HARDWARE PERFORMANCE COUNTER SELECTION METHOD" target="ARM">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="AUTOMATED HARDWARE PERFORMANCE COUNTER SELECTION METHOD" target="INTEL">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="TWO STAGE POWER MODEL" target="ARM PROCESSORS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="TWO STAGE POWER MODEL" target="INTEL PROCESSORS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="TWO STAGE POWER MODEL" target="ARM">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="TWO STAGE POWER MODEL" target="INTEL">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="UNIVERSIDADE DE BRAS&#205;LIA" target="LEONARDO REBOU&#199;AS DE CARVALHO">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="UNIVERSIDADE DE BRAS&#205;LIA" target="ALET&#201;IA ARA&#218;JO">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="LEONARDO REBOU&#199;AS DE CARVALHO" target="PERFORMANCE COMPARISON OF TERRAFORM AND CLOUDIFY AS MULTICLOUD ORCHESTRATORS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ALET&#201;IA ARA&#218;JO" target="PERFORMANCE COMPARISON OF TERRAFORM AND CLOUDIFY AS MULTICLOUD ORCHESTRATORS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PERFORMANCE COMPARISON OF TERRAFORM AND CLOUDIFY AS MULTICLOUD ORCHESTRATORS" target="TERRAFORM">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PERFORMANCE COMPARISON OF TERRAFORM AND CLOUDIFY AS MULTICLOUD ORCHESTRATORS" target="CLOUDIFY">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PERFORMANCE COMPARISON OF TERRAFORM AND CLOUDIFY AS MULTICLOUD ORCHESTRATORS" target="HEAT">
+      <data key="d0">5.0</data>
+    </edge>
+    <edge source="PERFORMANCE COMPARISON OF TERRAFORM AND CLOUDIFY AS MULTICLOUD ORCHESTRATORS" target="CLOUDFORMATION">
+      <data key="d0">5.0</data>
+    </edge>
+    <edge source="PERFORMANCE COMPARISON OF TERRAFORM AND CLOUDIFY AS MULTICLOUD ORCHESTRATORS" target="CLOUD ASSEMBLY">
+      <data key="d0">5.0</data>
+    </edge>
+    <edge source="PERFORMANCE COMPARISON OF TERRAFORM AND CLOUDIFY AS MULTICLOUD ORCHESTRATORS" target="TOSCA STANDARD">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="TERRAFORM" target="SKY COMPUTING">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="TERRAFORM" target="CLOUDIFY">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CLOUDIFY" target="SKY COMPUTING">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="SKY COMPUTING" target="MULTICLOUD">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="MULTICLOUD" target="CLOUD COMPUTING">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CLOUD COMPUTING" target="HOHAI UNIVERSITY">
+      <data key="d0">3.0</data>
+    </edge>
+    <edge source="CLOUD COMPUTING" target="PERFORMANCE EVALUATION OF SECURITY-AWARE LIST SCHEDULING ALGORITHMS IN IAAS CLOUD">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CLOUD COMPUTING" target="DECENTRALIZED COMPUTATION">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="UNIVERSITY OF UTAH" target="DMITRY DUPLYAKIN">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="UNIVERSITY OF UTAH" target="ALEKSANDER MARICQ">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="UNIVERSITY OF UTAH" target="ROBERT RICCI">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="DMITRY DUPLYAKIN" target="DATACENTER PERFORMANCE, THE ONLY CONSTANT IS CHANGE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ALEKSANDER MARICQ" target="DATACENTER PERFORMANCE, THE ONLY CONSTANT IS CHANGE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ROBERT RICCI" target="DATACENTER PERFORMANCE, THE ONLY CONSTANT IS CHANGE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="DATACENTER PERFORMANCE, THE ONLY CONSTANT IS CHANGE" target="ALEXANDRU UTA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="DATACENTER PERFORMANCE, THE ONLY CONSTANT IS CHANGE" target="PERFORMANCE VARIABILITY">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="DATACENTER PERFORMANCE, THE ONLY CONSTANT IS CHANGE" target="BARE-METAL HARDWARE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ALEXANDRU UTA" target="VRIJE UNIVERSITEIT AMSTERDAM">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PERFORMANCE VARIABILITY" target="CLOUDLAB">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="PERFORMANCE VARIABILITY" target="CHANGETPOINT DETECTION">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="PERFORMANCE VARIABILITY" target="NOISY NEIGHBORS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PERFORMANCE VARIABILITY" target="HARDWARE CHANGES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PERFORMANCE VARIABILITY" target="HYPERVISOR STACK CHANGES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PERFORMANCE VARIABILITY" target="UNDOCUMENTED INTERACTIONS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PERFORMANCE VARIABILITY" target="VIRTUALIZED INFRASTRUCTURE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PERFORMANCE VARIABILITY" target="BENCHMARK RESULTS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="PERFORMANCE VARIABILITY" target="COMPUTING FACILITY">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="PERFORMANCE VARIABILITY" target="METHODOLOGY">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CLOUDLAB" target="CHANGETPOINT DETECTION">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="CLOUDLAB" target="BENCHMARK RESULTS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CHANGETPOINT DETECTION" target="PERFORMANCE REGIMES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="UNDOCUMENTED INTERACTIONS" target="WORKLOADS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="UNDOCUMENTED INTERACTIONS" target="COMPUTING RESOURCE PROVIDER">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="COMPUTING FACILITY" target="METHODOLOGY">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="PERFORMANCE REGIMES" target="APPLICATION PERFORMANCE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="PERFORMANCE REGIMES" target="PERFORMANCE MEASUREMENTS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="WORKLOADS" target="MULTI-RESOURCE LOW-LATENCY CLUSTER SCHEDULING WITHOUT EXECUTION TIME ESTIMATION">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="WORKLOADS" target="RESCALING">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="WORKLOADS" target="PUFFERSCALE: RESCALING HPC DATA SERVICES FOR HIGH ENERGY PHYSICS APPLICATIONS.">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CLOUDS" target="PERFORMANCE MEASUREMENTS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PERFORMANCE MEASUREMENTS" target="HPC FACILITIES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PERFORMANCE MEASUREMENTS" target="DATACENTER ENVIRONMENTS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="APPLICATION PERFORMANCE" target="NONSTATIONARITIES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ZHE ZHANG" target="TRUA: EFFICIENT TASK REPLICATION FOR FLEXIBLE USER-DEFINED AVAILABILITY IN SCIENTIFIC GRIDS.">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ZHE ZHANG" target="UNIVERSITY OF NEBRASKA&#8211;LINCOLN">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="TRUA: EFFICIENT TASK REPLICATION FOR FLEXIBLE USER-DEFINED AVAILABILITY IN SCIENTIFIC GRIDS." target="BRIAN BOCKELMAN">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="TRUA: EFFICIENT TASK REPLICATION FOR FLEXIBLE USER-DEFINED AVAILABILITY IN SCIENTIFIC GRIDS." target="DEREK WEITZEL">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="TRUA: EFFICIENT TASK REPLICATION FOR FLEXIBLE USER-DEFINED AVAILABILITY IN SCIENTIFIC GRIDS." target="XINKAI ZHANG">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="TRUA: EFFICIENT TASK REPLICATION FOR FLEXIBLE USER-DEFINED AVAILABILITY IN SCIENTIFIC GRIDS." target="HAMID VAKILZADIAN">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="TRUA: EFFICIENT TASK REPLICATION FOR FLEXIBLE USER-DEFINED AVAILABILITY IN SCIENTIFIC GRIDS." target="DAVID SWANSON">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="UNIVERSITY OF NEBRASKA&#8211;LINCOLN" target="DEREK WEITZEL">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="UNIVERSITY OF NEBRASKA&#8211;LINCOLN" target="XINKAI ZHANG">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="UNIVERSITY OF NEBRASKA&#8211;LINCOLN" target="HAMID VAKILZADIAN">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="UNIVERSITY OF NEBRASKA&#8211;LINCOLN" target="DAVID SWANSON">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="BRIAN BOCKELMAN" target="MORGRIDGE INSTITUTE FOR RESEARCH">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="TRUA" target="SCIENTIFIC GRIDS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="TRUA" target="TASK REPLICATION FOR USERDEFINED AVAILABILITY">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="TRUA" target="FAILURE IS INEVITABLE IN SCIENTIFIC COMPUTING">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="TRUA" target="RELIABILITY MODEL">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="TRUA" target="ANOMALY DETECTOR">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="TRUA" target="SELECTION ALGORITHMS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="TRUA" target="OPEN SCIENCE GRID (OSG)">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="TRUA" target="USER-DEFINED AVAILABILITY">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="TRUA" target="HISTORIC FAILURE INFORMATION">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="TRUA" target="TEMPORARY CORRELATIONS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="TRUA" target="SPATIAL CORRELATIONS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="TRUA" target="SCIENTIFIC COMPUTING CUSTOMERS">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="FAILURE IS INEVITABLE IN SCIENTIFIC COMPUTING" target="SCIENTIFIC APPLICATIONS">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="FAILURE IS INEVITABLE IN SCIENTIFIC COMPUTING" target="FACILITIES">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="RELIABILITY MODEL" target="BIMODAL JOHNSON DISTRIBUTION">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="HISTORIC FAILURE INFORMATION" target="VIRTUAL LAYER">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="SCIENTIFIC COMPUTING CUSTOMERS" target="COMPUTATIONAL PROVIDERS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="SCIENTIFIC APPLICATIONS" target="FACILITIES">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="SCIENTIFIC APPLICATIONS" target="PARALLEL I/O ON COMPRESSED DATA FILES: SEMANTICS, ALGORITHMS, AND PERFORMANCE EVALUATION">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="SCIENTIFIC APPLICATIONS" target="LARGE DATA SETS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="QINGHAI UNIVERSITY" target="HAODONG BIAN">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="QINGHAI UNIVERSITY" target="JIANQIANG HUANG">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="QINGHAI UNIVERSITY" target="RUNTING DONG">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="QINGHAI UNIVERSITY" target="LINGBIN LIU">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="QINGHAI UNIVERSITY" target="XIAOYING WANG">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="QINGHAI UNIVERSITY" target="A NEW FORMAT FOR SIMD-ACCELERATED SPMV">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="A NEW FORMAT FOR SIMD-ACCELERATED SPMV" target="CSR2">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="A NEW FORMAT FOR SIMD-ACCELERATED SPMV" target="SPMV">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="A NEW FORMAT FOR SIMD-ACCELERATED SPMV" target="SIMD">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="A NEW FORMAT FOR SIMD-ACCELERATED SPMV" target="10.1109/CCGRID49817.2020.00-58">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="CSR2" target="SPMV">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CSR2" target="SIMD">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CSR2" target="CSR5">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CSR2" target="INTEL CORE I7-7700HQ CPU">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CSR2" target="INTEL XEON CPU E5-2670 V3">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CSR5" target="INTEL CORE I7-7700HQ CPU">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CSR5" target="INTEL XEON CPU E5-2670 V3">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="MAVERICK CHARDET" target="PREDICTABLE EFFICIENCY FOR RECONFIGURATION OF SERVICE-ORIENTED SYSTEMS WITH CONCERTO">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="MAVERICK CHARDET" target="IMT ATLANTIQUE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="MAVERICK CHARDET" target="LABORATOIRE DES SCIENCES DU NUM&#201;RIQUE DE NANTES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="PREDICTABLE EFFICIENCY FOR RECONFIGURATION OF SERVICE-ORIENTED SYSTEMS WITH CONCERTO" target="H&#201;L&#200;NE COULLON">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PREDICTABLE EFFICIENCY FOR RECONFIGURATION OF SERVICE-ORIENTED SYSTEMS WITH CONCERTO" target="CHRISTIAN P&#201;REZ">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PREDICTABLE EFFICIENCY FOR RECONFIGURATION OF SERVICE-ORIENTED SYSTEMS WITH CONCERTO" target="CONCERTO">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PREDICTABLE EFFICIENCY FOR RECONFIGURATION OF SERVICE-ORIENTED SYSTEMS WITH CONCERTO" target="DYNAMIC RECONFIGURATION OF DISTRIBUTED SOFTWARE SYSTEMS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PREDICTABLE EFFICIENCY FOR RECONFIGURATION OF SERVICE-ORIENTED SYSTEMS WITH CONCERTO" target="IOT AND SMART APPLICATIONS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PREDICTABLE EFFICIENCY FOR RECONFIGURATION OF SERVICE-ORIENTED SYSTEMS WITH CONCERTO" target="FOG AND EDGE COMPUTING">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PREDICTABLE EFFICIENCY FOR RECONFIGURATION OF SERVICE-ORIENTED SYSTEMS WITH CONCERTO" target="QUALITY OF SERVICE AND EXPERIENCE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="PREDICTABLE EFFICIENCY FOR RECONFIGURATION OF SERVICE-ORIENTED SYSTEMS WITH CONCERTO" target="PERFORMANCE PREDICTABILITY">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PREDICTABLE EFFICIENCY FOR RECONFIGURATION OF SERVICE-ORIENTED SYSTEMS WITH CONCERTO" target="DYNAMIC RECONFIGURATION">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PREDICTABLE EFFICIENCY FOR RECONFIGURATION OF SERVICE-ORIENTED SYSTEMS WITH CONCERTO" target="SERVICE-ORIENTED SYSTEMS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PREDICTABLE EFFICIENCY FOR RECONFIGURATION OF SERVICE-ORIENTED SYSTEMS WITH CONCERTO" target="DISTRIBUTED SOFTWARE SYSTEMS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PREDICTABLE EFFICIENCY FOR RECONFIGURATION OF SERVICE-ORIENTED SYSTEMS WITH CONCERTO" target="STATE-OF-THE-ART SYSTEMS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="PREDICTABLE EFFICIENCY FOR RECONFIGURATION OF SERVICE-ORIENTED SYSTEMS WITH CONCERTO" target="TIME ESTIMATION">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="IMT ATLANTIQUE" target="H&#201;L&#200;NE COULLON">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="IMT ATLANTIQUE" target="ADRIEN L&#200;BRE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="LABORATOIRE DES SCIENCES DU NUM&#201;RIQUE DE NANTES" target="H&#201;L&#200;NE COULLON">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="LABORATOIRE DES SCIENCES DU NUM&#201;RIQUE DE NANTES" target="ADRIEN L&#200;BRE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CHRISTIAN P&#201;REZ" target="&#201;COLE NORMALE SUP&#201;RIEURE DE LYON">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CHRISTIAN P&#201;REZ" target="UNIVERSIT&#201; CLAUDE BERNARD LYON 1">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CHRISTIAN P&#201;REZ" target="CENTRE NATIONAL DE LA RECHERCHE SCIENTIFIQUE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="&#201;COLE NORMALE SUP&#201;RIEURE DE LYON" target="ZEINA HOUMANI">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="&#201;COLE NORMALE SUP&#201;RIEURE DE LYON" target="EDDY CARON">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="UNIVERSIT&#201; CLAUDE BERNARD LYON 1" target="ZEINA HOUMANI">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="UNIVERSIT&#201; CLAUDE BERNARD LYON 1" target="EDDY CARON">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="CENTRE NATIONAL DE LA RECHERCHE SCIENTIFIQUE" target="ZEINA HOUMANI">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="CENTRE NATIONAL DE LA RECHERCHE SCIENTIFIQUE" target="EDDY CARON">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="CENTRE NATIONAL DE LA RECHERCHE SCIENTIFIQUE" target="AYMEN JLASSI">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CENTRE NATIONAL DE LA RECHERCHE SCIENTIFIQUE" target="C&#201;DRIC TEDESCHI">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CENTRE NATIONAL DE LA RECHERCHE SCIENTIFIQUE" target="ALESSIO PAGLIARI">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="CENTRE NATIONAL DE LA RECHERCHE SCIENTIFIQUE" target="FABRICE HUET">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="CENTRE NATIONAL DE LA RECHERCHE SCIENTIFIQUE" target="GUILLAUME URVOY-KELLER">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="CONCERTO" target="DYNAMIC RECONFIGURATION OF DISTRIBUTED SOFTWARE SYSTEMS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CONCERTO" target="PERFORMANCE PREDICTABILITY">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="CONCERTO" target="PARALLELISM">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PARALLELISM" target="MARABUNTA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PARALLELISM" target="STREAM PROCESSING SYSTEMS (SPSS)">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="HAMZA DJIGAL" target="HOHAI UNIVERSITY">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="HAMZA DJIGAL" target="PERFORMANCE EVALUATION OF SECURITY-AWARE LIST SCHEDULING ALGORITHMS IN IAAS CLOUD">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="HOHAI UNIVERSITY" target="JUN FENG">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="HOHAI UNIVERSITY" target="JIAMIN LU">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PERFORMANCE EVALUATION OF SECURITY-AWARE LIST SCHEDULING ALGORITHMS IN IAAS CLOUD" target="JUN FENG">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PERFORMANCE EVALUATION OF SECURITY-AWARE LIST SCHEDULING ALGORITHMS IN IAAS CLOUD" target="JIAMIN LU">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PERFORMANCE EVALUATION OF SECURITY-AWARE LIST SCHEDULING ALGORITHMS IN IAAS CLOUD" target="SECURITY-AWARE WORKFLOW SCHEDULING">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PERFORMANCE EVALUATION OF SECURITY-AWARE LIST SCHEDULING ALGORITHMS IN IAAS CLOUD" target="LIST SCHEDULING ALGORITHMS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PERFORMANCE EVALUATION OF SECURITY-AWARE LIST SCHEDULING ALGORITHMS IN IAAS CLOUD" target="TASKS PRIORITIZING PHASE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="PERFORMANCE EVALUATION OF SECURITY-AWARE LIST SCHEDULING ALGORITHMS IN IAAS CLOUD" target="VIRTUAL MACHINE SELECTION PHASE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="PERFORMANCE EVALUATION OF SECURITY-AWARE LIST SCHEDULING ALGORITHMS IN IAAS CLOUD" target="SCHEDULING LENGTH">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PERFORMANCE EVALUATION OF SECURITY-AWARE LIST SCHEDULING ALGORITHMS IN IAAS CLOUD" target="SPEEDUP">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PERFORMANCE EVALUATION OF SECURITY-AWARE LIST SCHEDULING ALGORITHMS IN IAAS CLOUD" target="EFFICIENCY">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="PERFORMANCE EVALUATION OF SECURITY-AWARE LIST SCHEDULING ALGORITHMS IN IAAS CLOUD" target="IAAS CLOUD">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PERFORMANCE EVALUATION OF SECURITY-AWARE LIST SCHEDULING ALGORITHMS IN IAAS CLOUD" target="SECURITY REQUIREMENTS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="PERFORMANCE EVALUATION OF SECURITY-AWARE LIST SCHEDULING ALGORITHMS IN IAAS CLOUD" target="SECURITY SERVICES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="PERFORMANCE EVALUATION OF SECURITY-AWARE LIST SCHEDULING ALGORITHMS IN IAAS CLOUD" target="REAL-WORLD APPLICATIONS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PERFORMANCE EVALUATION OF SECURITY-AWARE LIST SCHEDULING ALGORITHMS IN IAAS CLOUD" target="DISTRIBUTED INFRASTRUCTURES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PERFORMANCE EVALUATION OF SECURITY-AWARE LIST SCHEDULING ALGORITHMS IN IAAS CLOUD" target="HETEROGENEOUS SYSTEMS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PERFORMANCE EVALUATION OF SECURITY-AWARE LIST SCHEDULING ALGORITHMS IN IAAS CLOUD" target="VIRTUAL MACHINES">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="SECURITY-AWARE WORKFLOW SCHEDULING" target="IAAS CLOUD">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="SECURITY-AWARE WORKFLOW SCHEDULING" target="SECURITY REQUIREMENTS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="SECURITY-AWARE WORKFLOW SCHEDULING" target="SECURITY SERVICES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="LIST SCHEDULING ALGORITHMS" target="TASK GRAPHS">
+      <data key="d0">15.0</data>
+    </edge>
+    <edge source="LIST SCHEDULING ALGORITHMS" target="HETEROGENEOUS SYSTEMS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="MOHAMED HANDAOUI" target="SALAMANDER: A HOLISTIC SCHEDULING OF MAPREDUCE JOBS ON EPHEMERAL CLOUD RESOURCES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="SALAMANDER: A HOLISTIC SCHEDULING OF MAPREDUCE JOBS ON EPHEMERAL CLOUD RESOURCES" target="JEAN-EMILE DARTOIS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="SALAMANDER: A HOLISTIC SCHEDULING OF MAPREDUCE JOBS ON EPHEMERAL CLOUD RESOURCES" target="LAURENT LEMARCHAND">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="SALAMANDER: A HOLISTIC SCHEDULING OF MAPREDUCE JOBS ON EPHEMERAL CLOUD RESOURCES" target="JALIL BOUKHOBZA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="SALAMANDER: A HOLISTIC SCHEDULING OF MAPREDUCE JOBS ON EPHEMERAL CLOUD RESOURCES" target="CLOUD DATA CENTERS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="SALAMANDER: A HOLISTIC SCHEDULING OF MAPREDUCE JOBS ON EPHEMERAL CLOUD RESOURCES" target="EPHEMERAL RESOURCES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="SALAMANDER: A HOLISTIC SCHEDULING OF MAPREDUCE JOBS ON EPHEMERAL CLOUD RESOURCES" target="HADOOP MAPREDUCE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="SALAMANDER: A HOLISTIC SCHEDULING OF MAPREDUCE JOBS ON EPHEMERAL CLOUD RESOURCES" target="HOLISTIC SCHEDULER">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="SALAMANDER: A HOLISTIC SCHEDULING OF MAPREDUCE JOBS ON EPHEMERAL CLOUD RESOURCES" target="CLOUD INFRASTRUCTURE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="SALAMANDER: A HOLISTIC SCHEDULING OF MAPREDUCE JOBS ON EPHEMERAL CLOUD RESOURCES" target="RESOURCE UTILIZATION PREDICTIONS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="SALAMANDER: A HOLISTIC SCHEDULING OF MAPREDUCE JOBS ON EPHEMERAL CLOUD RESOURCES" target="DATA LOCALITY">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="SALAMANDER: A HOLISTIC SCHEDULING OF MAPREDUCE JOBS ON EPHEMERAL CLOUD RESOURCES" target="CO-LOCATED WORKLOADS">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="CLOUD DATA CENTERS" target="CLOUD RESOURCES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CLOUD DATA CENTERS" target="CLOUD INFRASTRUCTURE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="EPHEMERAL RESOURCES" target="HOLISTIC SCHEDULER">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="HADOOP MAPREDUCE" target="HOLISTIC SCHEDULER">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="HADOOP MAPREDUCE" target="DATA-INTENSIVE APPLICATIONS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="HOLISTIC SCHEDULER" target="MAPREDUCE TASK AND JOB SCHEDULER">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="HOLISTIC SCHEDULER" target="SCHEDULER-BASED DATA PLACEMENT STRATEGY">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="HOLISTIC SCHEDULER" target="REACTIVE QOS CONTROLLER">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="HOLISTIC SCHEDULER" target="RESOURCE UTILIZATION PREDICTIONS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="HOLISTIC SCHEDULER" target="DATA LOCALITY">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="HOLISTIC SCHEDULER" target="CO-LOCATED WORKLOADS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CLOUD RESOURCES" target="DATA-INTENSIVE APPLICATIONS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="REACTIVE QOS CONTROLLER" target="SERVICE-LEVEL AGREEMENT (SLA)">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="THE UNIVERSITY OF TOKYO" target="HIDEHITO YABUUCHI">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="THE UNIVERSITY OF TOKYO" target="TAKAHIRO SHINAGAWA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="HIDEHITO YABUUCHI" target="MULTI-RESOURCE LOW-LATENCY CLUSTER SCHEDULING WITHOUT EXECUTION TIME ESTIMATION">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="TAKAHIRO SHINAGAWA" target="MULTI-RESOURCE LOW-LATENCY CLUSTER SCHEDULING WITHOUT EXECUTION TIME ESTIMATION">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="MULTI-RESOURCE LOW-LATENCY CLUSTER SCHEDULING WITHOUT EXECUTION TIME ESTIMATION" target="CLUSTER SCHEDULING">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="MULTI-RESOURCE LOW-LATENCY CLUSTER SCHEDULING WITHOUT EXECUTION TIME ESTIMATION" target="KAIROS">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="MULTI-RESOURCE LOW-LATENCY CLUSTER SCHEDULING WITHOUT EXECUTION TIME ESTIMATION" target="TASKS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="MULTI-RESOURCE LOW-LATENCY CLUSTER SCHEDULING WITHOUT EXECUTION TIME ESTIMATION" target="JOB LATENCY">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="MULTI-RESOURCE LOW-LATENCY CLUSTER SCHEDULING WITHOUT EXECUTION TIME ESTIMATION" target="PREEMPTION">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="MULTI-RESOURCE LOW-LATENCY CLUSTER SCHEDULING WITHOUT EXECUTION TIME ESTIMATION" target="SLOWDOWN RATES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="MULTI-RESOURCE LOW-LATENCY CLUSTER SCHEDULING WITHOUT EXECUTION TIME ESTIMATION" target="HETEROGENEOUS COMPUTING RESOURCE DEMANDS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CLUSTER SCHEDULING" target="KAIROS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CLUSTER SCHEDULING" target="EXECUTION TIME ESTIMATION">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CLUSTER SCHEDULING" target="JOB LATENCY">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="CLUSTER SCHEDULING" target="TASKS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="KAIROS" target="SLOWDOWN RATES">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="TASKS" target="JOB LATENCY">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="TASKS" target="HETEROGENEOUS COMPUTING RESOURCE DEMANDS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="QICHEN CHEN" target="FLEXGPU: A FLEXIBLE AND EFFICIENT SCHEDULER FOR GPU SHARING SYSTEMS.">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="QICHEN CHEN" target="CHUNG-ANG UNIVERSITY">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="FLEXGPU: A FLEXIBLE AND EFFICIENT SCHEDULER FOR GPU SHARING SYSTEMS." target="HYOJEONG LEE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="FLEXGPU: A FLEXIBLE AND EFFICIENT SCHEDULER FOR GPU SHARING SYSTEMS." target="HEON Y. YEOM">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="FLEXGPU: A FLEXIBLE AND EFFICIENT SCHEDULER FOR GPU SHARING SYSTEMS." target="YONGSEOK SON">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="FLEXGPU: A FLEXIBLE AND EFFICIENT SCHEDULER FOR GPU SHARING SYSTEMS." target="FLEXGPU">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="CHUNG-ANG UNIVERSITY" target="HYOJEONG LEE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CHUNG-ANG UNIVERSITY" target="HEON Y. YEOM">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CHUNG-ANG UNIVERSITY" target="YONGSEOK SON">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="FLEXGPU" target="GRAPHICS PROCESSING UNIT (GPU)">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="FLEXGPU" target="GPU SHARING SYSTEMS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="FLEXGPU" target="MEMORY OVERSUBSCRIPTION ISSUE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="FLEXGPU" target="KERNELS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="FLEXGPU" target="HOST MEMORY">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="FLEXGPU" target="GPU UTILIZATION">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="FLEXGPU" target="OUT-OF-MEMORY FAILURE">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="GRAPHICS PROCESSING UNIT (GPU)" target="MEMORY OVERSUBSCRIPTION ISSUE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="GRAPHICS PROCESSING UNIT (GPU)" target="GPU SHARING SYSTEMS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="GRAPHICS PROCESSING UNIT (GPU)" target="FINANCE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="GRAPHICS PROCESSING UNIT (GPU)" target="MACHINE LEARNING">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="GRAPHICS PROCESSING UNIT (GPU)" target="IMAGE PROCESSING">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="GRAPHICS PROCESSING UNIT (GPU)" target="GPU UTILIZATION">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ZEINA HOUMANI" target="ENHANCING MICROSERVICES ARCHITECTURES USING DATA-DRIVEN SERVICE DISCOVERY AND QOS GUARANTEES">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="ZEINA HOUMANI" target="INSTITUT NATIONAL DE RECHERCHE EN INFORMATIQUE ET EN AUTOMATIQUE">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="ENHANCING MICROSERVICES ARCHITECTURES USING DATA-DRIVEN SERVICE DISCOVERY AND QOS GUARANTEES" target="DANIEL BALOUK&#8208;THOMERT">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="ENHANCING MICROSERVICES ARCHITECTURES USING DATA-DRIVEN SERVICE DISCOVERY AND QOS GUARANTEES" target="EDDY CARON">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="ENHANCING MICROSERVICES ARCHITECTURES USING DATA-DRIVEN SERVICE DISCOVERY AND QOS GUARANTEES" target="MANISH PARASHAR">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="INSTITUT NATIONAL DE RECHERCHE EN INFORMATIQUE ET EN AUTOMATIQUE" target="EDDY CARON">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="DANIEL BALOUK&#8208;THOMERT" target="RUTGERS, THE STATE UNIVERSITY OF NEW JERSEY">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="RUTGERS, THE STATE UNIVERSITY OF NEW JERSEY" target="MANISH PARASHAR">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="MICROSERVICES" target="SERVICE MESHES">
+      <data key="d0">14.0</data>
+    </edge>
+    <edge source="MICROSERVICES" target="DATA-DRIVEN SERVICE DISCOVERY FRAMEWORK">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="DATA-DRIVEN SERVICE DISCOVERY FRAMEWORK" target="GEOGRAPHICAL ZONES">
+      <data key="d0">2.0</data>
+    </edge>
+    <edge source="BOXIONG TAN" target="A NSGA-II-BASED APPROACH FOR MULTI-OBJECTIVE MICRO-SERVICE ALLOCATION IN CONTAINER-BASED CLOUDS">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="A NSGA-II-BASED APPROACH FOR MULTI-OBJECTIVE MICRO-SERVICE ALLOCATION IN CONTAINER-BASED CLOUDS" target="HUI MA">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="A NSGA-II-BASED APPROACH FOR MULTI-OBJECTIVE MICRO-SERVICE ALLOCATION IN CONTAINER-BASED CLOUDS" target="YI MEI">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="A NSGA-II-BASED APPROACH FOR MULTI-OBJECTIVE MICRO-SERVICE ALLOCATION IN CONTAINER-BASED CLOUDS" target="MICRO-SERVICES">
+      <data key="d0">14.0</data>
+    </edge>
+    <edge source="A NSGA-II-BASED APPROACH FOR MULTI-OBJECTIVE MICRO-SERVICE ALLOCATION IN CONTAINER-BASED CLOUDS" target="CONTAINER-BASED CLOUDS">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="A NSGA-II-BASED APPROACH FOR MULTI-OBJECTIVE MICRO-SERVICE ALLOCATION IN CONTAINER-BASED CLOUDS" target="NSGA-II">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="MICRO-SERVICES" target="CONTAINER-BASED CLOUDS">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="CONTAINER-BASED CLOUDS" target="NSGA-II">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="CONTAINER-BASED CLOUDS" target="MICRO-SERVICE ALLOCATION">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="NSGA-II" target="MICRO-SERVICE ALLOCATION">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="JINGO0 HAN" target="10.1109/CCGRID49817.2020.00-66">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="10.1109/CCGRID49817.2020.00-66" target="M. MUSTAFA RAFIQUE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="10.1109/CCGRID49817.2020.00-66" target="LING XU">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="10.1109/CCGRID49817.2020.00-66" target="ALI R. BUTT">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="10.1109/CCGRID49817.2020.00-66" target="SEUNG&#8211;HWAN LIM">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="10.1109/CCGRID49817.2020.00-66" target="SUDHARSHAN S. VAZHKUDAI">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ALI R. BUTT" target="EFFICIENT METADATA INDEXING FOR HPC STORAGE SYSTEMS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="M. MUSTAFA RAFIQUE" target="ROCHESTER INSTITUTE OF TECHNOLOGY">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="SEUNG&#8211;HWAN LIM" target="OAK RIDGE NATIONAL LABORATORY">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="OAK RIDGE NATIONAL LABORATORY" target="SUDHARSHAN S. VAZHKUDAI">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="OAK RIDGE NATIONAL LABORATORY" target="SUMMIT SUPERCOMPUTER">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="MARBLE" target="DEEP LEARNING">
+      <data key="d0">19.0</data>
+    </edge>
+    <edge source="MARBLE" target="HPC SYSTEMS">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="MARBLE" target="SUMMIT SUPERCOMPUTER">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="MARBLE" target="PLATFORM LOAD SHARING FACILITY (LSF)">
+      <data key="d0">15.0</data>
+    </edge>
+    <edge source="MARBLE" target="OPTIMUS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="MARBLE" target="GRAPHICS PROCESSING UNITS (GPUS)">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="DEEP LEARNING" target="HPC SYSTEMS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="DEEP LEARNING" target="GRAPHICS PROCESSING UNITS (GPUS)">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="DEEP LEARNING" target="ALIEVIATING LOAD IMBALANCE IN DATA PROCESSING FOR LARGE-SCALE DEEP LEARNING">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="DEEP LEARNING" target="LOAD IMBALANCE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="DEEP LEARNING" target="TENSORFLOW">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="DEEP LEARNING" target="HOROVOD">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="DEEP LEARNING" target="NEURAL NETWORK TRAINING">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="DEEP LEARNING" target="GRAPH SCHEDULING">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="DEEP LEARNING" target="INPUT PIPELINE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="DEEP LEARNING" target="GRADIENT SYNCHRONIZATION">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="DEEP LEARNING" target="CHECKPOINTING">
+      <data key="d0">14.0</data>
+    </edge>
+    <edge source="SUMMIT SUPERCOMPUTER" target="ALIEVIATING LOAD IMBALANCE IN DATA PROCESSING FOR LARGE-SCALE DEEP LEARNING">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="SUMMIT SUPERCOMPUTER" target="GPUS">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="GRAPHICS PROCESSING UNITS (GPUS)" target="CPU">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="SARUNYA PUMMA" target="ALIEVIATING LOAD IMBALANCE IN DATA PROCESSING FOR LARGE-SCALE DEEP LEARNING">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ALIEVIATING LOAD IMBALANCE IN DATA PROCESSING FOR LARGE-SCALE DEEP LEARNING" target="DANIELLE BUONO">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ALIEVIATING LOAD IMBALANCE IN DATA PROCESSING FOR LARGE-SCALE DEEP LEARNING" target="FABIO CHECCONI">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ALIEVIATING LOAD IMBALANCE IN DATA PROCESSING FOR LARGE-SCALE DEEP LEARNING" target="XINYU QUE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ALIEVIATING LOAD IMBALANCE IN DATA PROCESSING FOR LARGE-SCALE DEEP LEARNING" target="WU-CHUN FENG">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ALIEVIATING LOAD IMBALANCE IN DATA PROCESSING FOR LARGE-SCALE DEEP LEARNING" target="LOAD IMBALANCE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ALIEVIATING LOAD IMBALANCE IN DATA PROCESSING FOR LARGE-SCALE DEEP LEARNING" target="TENSORFLOW">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ALIEVIATING LOAD IMBALANCE IN DATA PROCESSING FOR LARGE-SCALE DEEP LEARNING" target="HOROVOD">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ALIEVIATING LOAD IMBALANCE IN DATA PROCESSING FOR LARGE-SCALE DEEP LEARNING" target="SCALABLE DEEP LEARNING">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ALIEVIATING LOAD IMBALANCE IN DATA PROCESSING FOR LARGE-SCALE DEEP LEARNING" target="DEEP LEARNING PERFORMANCE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="DANIELLE BUONO" target="IBM (UNITED STATES)">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="IBM (UNITED STATES)" target="FABIO CHECCONI">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="IBM (UNITED STATES)" target="XINYU QUE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="LOAD IMBALANCE" target="SCALABLE DEEP LEARNING">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="LOAD IMBALANCE" target="RESOURCE CONTENTION">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="LOAD IMBALANCE" target="DEGRADED SCALABILITY">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="SCALABLE DEEP LEARNING" target="DEEP LEARNING PERFORMANCE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="DEEP LEARNING PERFORMANCE" target="NEURAL NETWORKS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="RESOURCE CONTENTION" target="HARDWARE RESOURCES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="NEURAL NETWORK TRAINING" target="HARDWARE RESOURCES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="GRAPH SCHEDULING" target="HARDWARE RESOURCES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="INPUT PIPELINE" target="HARDWARE RESOURCES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="GRADIENT SYNCHRONIZATION" target="HARDWARE RESOURCES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="GPUS" target="NEURAL NETWORKS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="GPUS" target="CHECKPOINT RESTART SUPPORT FOR HETEROGENEOUS HPC APPLICATIONS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="GPUS" target="FAULT TOLERANCE INTERFACE (FTI)">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="GPUS" target="SUPERCOMPUTING SYSTEMS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="BING LI" target="MARABUNTA: CONTINUOUS DISTRIBUTED PROCESSING OF SKEWED STREAMS.">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="MARABUNTA: CONTINUOUS DISTRIBUTED PROCESSING OF SKEWED STREAMS." target="ZHIBIN ZHANG">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="MARABUNTA: CONTINUOUS DISTRIBUTED PROCESSING OF SKEWED STREAMS." target="TIANQI ZHENG">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="MARABUNTA: CONTINUOUS DISTRIBUTED PROCESSING OF SKEWED STREAMS." target="QIAOLING ZHONG">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="MARABUNTA: CONTINUOUS DISTRIBUTED PROCESSING OF SKEWED STREAMS." target="QUN HUANG">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="MARABUNTA: CONTINUOUS DISTRIBUTED PROCESSING OF SKEWED STREAMS." target="XUEQI CHENG">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="MARABUNTA: CONTINUOUS DISTRIBUTED PROCESSING OF SKEWED STREAMS." target="MARABUNTA">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="MARABUNTA" target="FLINK">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="MARABUNTA" target="HERON">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="MARABUNTA" target="STREAM PROCESSING SYSTEMS (SPSS)">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="MARABUNTA" target="DATA DISTRIBUTIONS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="MARABUNTA" target="COMPUTATIONAL RESOURCES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="MARABUNTA" target="LOAD BALANCING">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="MARABUNTA" target="DYNAMIC SCALING">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="MARABUNTA" target="THROUGHPUT">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="MARABUNTA" target="ELASTICITY">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="FLINK" target="DATA STREAM PROCESSING (DSP) PLATFORMS">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="STREAM PROCESSING SYSTEMS (SPSS)" target="DATA DISTRIBUTIONS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="STREAM PROCESSING SYSTEMS (SPSS)" target="COMPUTATIONAL RESOURCES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="COMPUTATIONAL RESOURCES" target="DECENTRALIZED MULTI-CLOUD">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="COMPUTATIONAL RESOURCES" target="COMPUTATIONAL TASKS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="UNIVERSITAT POLIT&#200;CNICA DE CATALUNYA" target="KONSTANTINOS PARASYRIS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="UNIVERSITAT POLIT&#200;CNICA DE CATALUNYA" target="KAI KELLER">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="UNIVERSITAT POLIT&#200;CNICA DE CATALUNYA" target="LEONARDO BAUTISTA-GOMEZ">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="UNIVERSITAT POLIT&#200;CNICA DE CATALUNYA" target="OSMAN &#220;NSAL">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="UNIVERSITAT POLIT&#200;CNICA DE CATALUNYA" target="BARCELONA SUPERCOMPUTING CENTER">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="UNIVERSITAT POLIT&#200;CNICA DE CATALUNYA" target="ROGER PUEYO CENTELLES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="UNIVERSITAT POLIT&#200;CNICA DE CATALUNYA" target="MENNAN SELIMI">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="UNIVERSITAT POLIT&#200;CNICA DE CATALUNYA" target="F&#200;LIX FREITAG">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="UNIVERSITAT POLIT&#200;CNICA DE CATALUNYA" target="LEANDRO NAVARRO">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="UNIVERSITAT POLIT&#200;CNICA DE CATALUNYA" target="PAPER &quot;REDEMON: RESILIENT DECENTRALIZED MONITORING SYSTEM FOR EDGE INFRASTRUCTURES.&quot;">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="KONSTANTINOS PARASYRIS" target="BARCELONA SUPERCOMPUTING CENTER">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="KONSTANTINOS PARASYRIS" target="CHECKPOINT RESTART SUPPORT FOR HETEROGENEOUS HPC APPLICATIONS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="KAI KELLER" target="BARCELONA SUPERCOMPUTING CENTER">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="KAI KELLER" target="CHECKPOINT RESTART SUPPORT FOR HETEROGENEOUS HPC APPLICATIONS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="LEONARDO BAUTISTA-GOMEZ" target="BARCELONA SUPERCOMPUTING CENTER">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="LEONARDO BAUTISTA-GOMEZ" target="CHECKPOINT RESTART SUPPORT FOR HETEROGENEOUS HPC APPLICATIONS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="OSMAN &#220;NSAL" target="BARCELONA SUPERCOMPUTING CENTER">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="OSMAN &#220;NSAL" target="CHECKPOINT RESTART SUPPORT FOR HETEROGENEOUS HPC APPLICATIONS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CHECKPOINT RESTART SUPPORT FOR HETEROGENEOUS HPC APPLICATIONS" target="EXA-SCALE COMPUTING">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CHECKPOINT RESTART SUPPORT FOR HETEROGENEOUS HPC APPLICATIONS" target="FAULT TOLERANCE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CHECKPOINT RESTART SUPPORT FOR HETEROGENEOUS HPC APPLICATIONS" target="CHECKPOINT/RESTART">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CHECKPOINT RESTART SUPPORT FOR HETEROGENEOUS HPC APPLICATIONS" target="HETEROGENEOUS HPC APPLICATIONS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CHECKPOINT RESTART SUPPORT FOR HETEROGENEOUS HPC APPLICATIONS" target="FAULT TOLERANCE INTERFACE (FTI)">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="CHECKPOINT RESTART SUPPORT FOR HETEROGENEOUS HPC APPLICATIONS" target="DIFFERENTIAL CHECKPOINT">
+      <data key="d0">23.0</data>
+    </edge>
+    <edge source="CHECKPOINT RESTART SUPPORT FOR HETEROGENEOUS HPC APPLICATIONS" target="10.1109/CCGRID49817.2020.00-69">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CHECKPOINT RESTART SUPPORT FOR HETEROGENEOUS HPC APPLICATIONS" target="TOP 500 LIST">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="CHECKPOINT RESTART SUPPORT FOR HETEROGENEOUS HPC APPLICATIONS" target="OPTIMIZATION STEPS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CHECKPOINT RESTART SUPPORT FOR HETEROGENEOUS HPC APPLICATIONS" target="OVERHEAD">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="EXA-SCALE COMPUTING" target="FAULT TOLERANCE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CHECKPOINT/RESTART" target="SUPERCOMPUTING SYSTEMS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CHECKPOINT/RESTART" target="TRANSPARENT DATA MANAGEMENT SYSTEM">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CHECKPOINT/RESTART" target="HPC APPLICATIONS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="FAULT TOLERANCE INTERFACE (FTI)" target="MEMORY MANAGER">
+      <data key="d0">14.0</data>
+    </edge>
+    <edge source="FAULT TOLERANCE INTERFACE (FTI)" target="MULTI-NODE/MULTI-GPU CHECKPOINTS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="DIFFERENTIAL CHECKPOINT" target="CHECKPOINT FILE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="KRZYSZTOF KUROWSKI" target="ENERGY EFFICIENCY AND PERFORMANCE MODELING OF STENCIL APPLICATIONS ON MANYCORE AND GPU COMPUTING RESOURCES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="KRZYSZTOF KUROWSKI" target="POZNAN SUPERCOMPUTING AND NETWORKING CENTER">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ENERGY EFFICIENCY AND PERFORMANCE MODELING OF STENCIL APPLICATIONS ON MANYCORE AND GPU COMPUTING RESOURCES" target="MI&#321;OSZ CI&#379;NICKI">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ENERGY EFFICIENCY AND PERFORMANCE MODELING OF STENCIL APPLICATIONS ON MANYCORE AND GPU COMPUTING RESOURCES" target="JAN W&#280;GLARZ">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ENERGY EFFICIENCY AND PERFORMANCE MODELING OF STENCIL APPLICATIONS ON MANYCORE AND GPU COMPUTING RESOURCES" target="STENCIL COMPUTATIONS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ENERGY EFFICIENCY AND PERFORMANCE MODELING OF STENCIL APPLICATIONS ON MANYCORE AND GPU COMPUTING RESOURCES" target="DCWORMS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ENERGY EFFICIENCY AND PERFORMANCE MODELING OF STENCIL APPLICATIONS ON MANYCORE AND GPU COMPUTING RESOURCES" target="GSSIM">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ENERGY EFFICIENCY AND PERFORMANCE MODELING OF STENCIL APPLICATIONS ON MANYCORE AND GPU COMPUTING RESOURCES" target="HETEROGENEOUS COMPUTING RESOURCES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ENERGY EFFICIENCY AND PERFORMANCE MODELING OF STENCIL APPLICATIONS ON MANYCORE AND GPU COMPUTING RESOURCES" target="APPLICATION-SPECIFIC PERFORMANCE MODELS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ENERGY EFFICIENCY AND PERFORMANCE MODELING OF STENCIL APPLICATIONS ON MANYCORE AND GPU COMPUTING RESOURCES" target="PERFORMANCE ANALYSIS TOOLS">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="POZNAN SUPERCOMPUTING AND NETWORKING CENTER" target="MI&#321;OSZ CI&#379;NICKI">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="JAN W&#280;GLARZ" target="POZNA&#323; UNIVERSITY OF TECHNOLOGY">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="STENCIL COMPUTATIONS" target="HPC SYSTEM">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="HETEROGENEOUS COMPUTING RESOURCES" target="MANYCORE AND GPUS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="HETEROGENEOUS COMPUTING RESOURCES" target="ENERGY-EFFICIENCY METRICS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="HETEROGENEOUS COMPUTING RESOURCES" target="EXTREME-SCALE STENCIL APPLICATIONS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="NUMERICAL WEATHER PREDICTION" target="HPC SYSTEM">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="ENERGY-EFFICIENCY METRICS" target="PLUGGABLE AND EXTENSIBLE ARCHITECTURES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="STENCIL KERNEL" target="ENERGY CONSUMPTION">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ENERGY CONSUMPTION" target="STENCIL APPLICATION-SPECIFIC PARAMETERS">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="ENERGY CONSUMPTION" target="THERMO-MECHANICAL COUPLING INDUCED PERFORMANCE DEGRADATION IN STORAGE SYSTEMS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="ENERGY CONSUMPTION" target="EADC">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ENERGY CONSUMPTION" target="STORAGE SYSTEM PERFORMANCE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="STENCIL APPLICATION-SPECIFIC PARAMETERS" target="REAL EXPERIMENTS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="DONG ZHONG" target="UNIVERSITY OF TENNESSEE AT KNOXVILLE">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="DONG ZHONG" target="USING ARM SCALABLE VECTOR EXTENSION TO OPTIMIZE OPEN MPI">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="UNIVERSITY OF TENNESSEE AT KNOXVILLE" target="QINGLEI CAO">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="UNIVERSITY OF TENNESSEE AT KNOXVILLE" target="GEORGE BOSILCA">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="UNIVERSITY OF TENNESSEE AT KNOXVILLE" target="JACK DON &#2458;&#2494;&#2480;&#2463;&#2495;">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="USING ARM SCALABLE VECTOR EXTENSION TO OPTIMIZE OPEN MPI" target="PAVEL SHAMIS">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="USING ARM SCALABLE VECTOR EXTENSION TO OPTIMIZE OPEN MPI" target="QINGLEI CAO">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="USING ARM SCALABLE VECTOR EXTENSION TO OPTIMIZE OPEN MPI" target="GEORGE BOSILCA">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="USING ARM SCALABLE VECTOR EXTENSION TO OPTIMIZE OPEN MPI" target="SHINJI SUMIMOTO">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="USING ARM SCALABLE VECTOR EXTENSION TO OPTIMIZE OPEN MPI" target="KIYOTAKA MIURA">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="USING ARM SCALABLE VECTOR EXTENSION TO OPTIMIZE OPEN MPI" target="JACK DON &#2458;&#2494;&#2480;&#2463;&#2495;">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="USING ARM SCALABLE VECTOR EXTENSION TO OPTIMIZE OPEN MPI" target="HIGH-PERFORMANCE COMPUTING (HPC)">
+      <data key="d0">14.0</data>
+    </edge>
+    <edge source="USING ARM SCALABLE VECTOR EXTENSION TO OPTIMIZE OPEN MPI" target="OPEN MPI">
+      <data key="d0">19.0</data>
+    </edge>
+    <edge source="USING ARM SCALABLE VECTOR EXTENSION TO OPTIMIZE OPEN MPI" target="FUJITSU&#8217;S A64FX PROCESSOR">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PAVEL SHAMIS" target="AMERICAN ROCK MECHANICS ASSOCIATION">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="AMERICAN ROCK MECHANICS ASSOCIATION" target="SHINJI SUMIMOTO">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="GEORGE BOSILCA" target="DEEPFREEZE: TOWARDS SCALABLE ASYNCHRONOUS CHECKPOINTING OF DEEP LEARNING MODELS.">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="KIYOTAKA MIURA" target="FUJITSU (CHINA)">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="OPEN MPI" target="SCALABLE VECTOR EXTENSION (SVE)">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="OPEN MPI" target="ARM SCALABLE VECTOR EXTENSION">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="OPEN MPI" target="MPI OPERATIONS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ARMV8-A ARCHITECTURE" target="SCALABLE VECTOR EXTENSION (SVE)">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="SCALABLE VECTOR EXTENSION (SVE)" target="A64 INSTRUCTION ENCODINGS">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="SCALABLE VECTOR EXTENSION (SVE)" target="MEMCPY">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="SCALABLE VECTOR EXTENSION (SVE)" target="LOCAL REDUCTION OPERATIONS">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="SCALABLE VECTOR EXTENSION (SVE)" target="MPI OPERATIONS">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="MEMCPY" target="ARM SCALABLE VECTOR EXTENSION">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="LOCAL REDUCTION OPERATIONS" target="ARM SCALABLE VECTOR EXTENSION">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="MPI OPERATIONS" target="DATATYPE PACKING/UNPACKING">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="MPI OPERATIONS" target="MPI REDUCTION">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="MPI OPERATIONS" target="ARM SCALABLE VECTOR EXTENSION">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ZEMING HAO" target="INNER MONGOLIA UNIVERSITY">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="INNER MONGOLIA UNIVERSITY" target="JING LIU">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="GAN-ASD" target="BEGAN MODEL">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="GAN-ASD" target="STATE CLUSTERING">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="GAN-ASD" target="SOFTWARE AGING">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="GAN-ASD" target="ANDROID SYSTEM">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="GAN-ASD" target="REJUVENATION COEFFICIENT (RC)">
+      <data key="d0">14.0</data>
+    </edge>
+    <edge source="GAN-ASD" target="REJUVENATION FREQUENCY (RF)">
+      <data key="d0">2.0</data>
+    </edge>
+    <edge source="SOFTWARE AGING" target="ANDROID SYSTEM">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="SOFTWARE AGING" target="SOFTWARE REJUVENATION">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="ANDROID SYSTEM" target="INTERPOLATION CLIPPING PROCESSING">
+      <data key="d0">14.0</data>
+    </edge>
+    <edge source="ANDROID SYSTEM" target="K-MEANS CLUSTERING MODEL">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="REJUVENATION COEFFICIENT (RC)" target="SOFTWARE REJUVENATION">
+      <data key="d0">14.0</data>
+    </edge>
+    <edge source="REJUVENATION FREQUENCY (RF)" target="SOFTWARE REJUVENATION">
+      <data key="d0">14.0</data>
+    </edge>
+    <edge source="MINH NGOC DINH" target="TRACKING SCIENTIFIC SIMULATION USING ONLINE TIME-SERIES MODELLING">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="MINH NGOC DINH" target="RMIT VIETNAM">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="TRACKING SCIENTIFIC SIMULATION USING ONLINE TIME-SERIES MODELLING" target="CHIEN TRUNG VO">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="TRACKING SCIENTIFIC SIMULATION USING ONLINE TIME-SERIES MODELLING" target="DAVID ABRAMSON">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="TRACKING SCIENTIFIC SIMULATION USING ONLINE TIME-SERIES MODELLING" target="SOFT ERRORS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="TRACKING SCIENTIFIC SIMULATION USING ONLINE TIME-SERIES MODELLING" target="TIME-SERIES MODELLING">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="TRACKING SCIENTIFIC SIMULATION USING ONLINE TIME-SERIES MODELLING" target="LAMMPS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="TRACKING SCIENTIFIC SIMULATION USING ONLINE TIME-SERIES MODELLING" target="PLUTO">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="TRACKING SCIENTIFIC SIMULATION USING ONLINE TIME-SERIES MODELLING" target="10.1109/CCGRID49817.2020.00-73">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="RMIT VIETNAM" target="CHIEN TRUNG VO">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="DAVID ABRAMSON" target="UNIVERSITY OF QUEENSLAND">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="SOFT ERRORS" target="LAMMPS">
+      <data key="d0">5.0</data>
+    </edge>
+    <edge source="SOFT ERRORS" target="PLUTO">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="SIDDHESH PRATAP SINGH" target="PARALLEL I/O ON COMPRESSED DATA FILES: SEMANTICS, ALGORITHMS, AND PERFORMANCE EVALUATION">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="SIDDHESH PRATAP SINGH" target="UNIVERSITY OF HOUSTON">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="PARALLEL I/O ON COMPRESSED DATA FILES: SEMANTICS, ALGORITHMS, AND PERFORMANCE EVALUATION" target="EDGAR GABRIEL">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PARALLEL I/O ON COMPRESSED DATA FILES: SEMANTICS, ALGORITHMS, AND PERFORMANCE EVALUATION" target="MPI I/O">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PARALLEL I/O ON COMPRESSED DATA FILES: SEMANTICS, ALGORITHMS, AND PERFORMANCE EVALUATION" target="COLLECTIVE I/O OPERATIONS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PARALLEL I/O ON COMPRESSED DATA FILES: SEMANTICS, ALGORITHMS, AND PERFORMANCE EVALUATION" target="TWO-PHASE COLLECTIVE I/O ALGORITHM">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PARALLEL I/O ON COMPRESSED DATA FILES: SEMANTICS, ALGORITHMS, AND PERFORMANCE EVALUATION" target="SNAPPY COMPRESSION LIBRARY">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="PARALLEL I/O ON COMPRESSED DATA FILES: SEMANTICS, ALGORITHMS, AND PERFORMANCE EVALUATION" target="OMPIO PARALLEL I/O FRAMEWORK">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="PARALLEL I/O ON COMPRESSED DATA FILES: SEMANTICS, ALGORITHMS, AND PERFORMANCE EVALUATION" target="BEEGFS FILE SYSTEM">
+      <data key="d0">2.0</data>
+    </edge>
+    <edge source="PARALLEL I/O ON COMPRESSED DATA FILES: SEMANTICS, ALGORITHMS, AND PERFORMANCE EVALUATION" target="PARALLEL I/O">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="PARALLEL I/O ON COMPRESSED DATA FILES: SEMANTICS, ALGORITHMS, AND PERFORMANCE EVALUATION" target="DATA COMPRESSION">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="PARALLEL I/O ON COMPRESSED DATA FILES: SEMANTICS, ALGORITHMS, AND PERFORMANCE EVALUATION" target="LARGE DATA SETS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="PARALLEL I/O ON COMPRESSED DATA FILES: SEMANTICS, ALGORITHMS, AND PERFORMANCE EVALUATION" target="SEQUENTIAL COMPRESSION/DECOMPRESSION OPERATIONS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="PARALLEL I/O ON COMPRESSED DATA FILES: SEMANTICS, ALGORITHMS, AND PERFORMANCE EVALUATION" target="MPI I/O OPERATIONS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PARALLEL I/O ON COMPRESSED DATA FILES: SEMANTICS, ALGORITHMS, AND PERFORMANCE EVALUATION" target="INDIVIDUAL READ AND WRITE OPERATIONS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PARALLEL I/O ON COMPRESSED DATA FILES: SEMANTICS, ALGORITHMS, AND PERFORMANCE EVALUATION" target="PERFORMANCE EVALUATION">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="PARALLEL I/O ON COMPRESSED DATA FILES: SEMANTICS, ALGORITHMS, AND PERFORMANCE EVALUATION" target="COMPRESSED DATA FILES">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="PARALLEL I/O ON COMPRESSED DATA FILES: SEMANTICS, ALGORITHMS, AND PERFORMANCE EVALUATION" target="PARALLEL BEEGFS FILE SYSTEM">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="UNIVERSITY OF HOUSTON" target="EDGAR GABRIEL">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="BEEGFS FILE SYSTEM" target="PERFORMANCE EVALUATION">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="PARALLEL I/O" target="DATA COMPRESSION">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PARALLEL I/O" target="SEQUENTIAL COMPRESSION/DECOMPRESSION OPERATIONS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="PARALLEL I/O" target="MPI I/O OPERATIONS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PARALLEL I/O" target="COMPRESSED DATA FILES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="DATA COMPRESSION" target="LARGE DATA SETS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="NATHANA&#203;L CHERIERE" target="PUFFERSCALE: RESCALING HPC DATA SERVICES FOR HIGH ENERGY PHYSICS APPLICATIONS.">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PUFFERSCALE: RESCALING HPC DATA SERVICES FOR HIGH ENERGY PHYSICS APPLICATIONS." target="MATTHIEU DORIER">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PUFFERSCALE: RESCALING HPC DATA SERVICES FOR HIGH ENERGY PHYSICS APPLICATIONS." target="GABRIEL ANTONIU">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PUFFERSCALE: RESCALING HPC DATA SERVICES FOR HIGH ENERGY PHYSICS APPLICATIONS." target="STEFAN WILD">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PUFFERSCALE: RESCALING HPC DATA SERVICES FOR HIGH ENERGY PHYSICS APPLICATIONS." target="SVEN LEYFFER">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PUFFERSCALE: RESCALING HPC DATA SERVICES FOR HIGH ENERGY PHYSICS APPLICATIONS." target="ROBERT ROSS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PUFFERSCALE: RESCALING HPC DATA SERVICES FOR HIGH ENERGY PHYSICS APPLICATIONS." target="PUFFERSCALE">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="PUFFERSCALE: RESCALING HPC DATA SERVICES FOR HIGH ENERGY PHYSICS APPLICATIONS." target="EVENT DATA">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PUFFERSCALE: RESCALING HPC DATA SERVICES FOR HIGH ENERGY PHYSICS APPLICATIONS." target="ANALYSIS WORKFLOWS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PUFFERSCALE: RESCALING HPC DATA SERVICES FOR HIGH ENERGY PHYSICS APPLICATIONS." target="RESOURCE USAGE">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="MATTHIEU DORIER" target="ARGONNE NATIONAL LABORATORY">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="MATTHIEU DORIER" target="DEEPFREEZE: TOWARDS SCALABLE ASYNCHRONOUS CHECKPOINTING OF DEEP LEARNING MODELS.">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ARGONNE NATIONAL LABORATORY" target="STEFAN WILD">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ARGONNE NATIONAL LABORATORY" target="SVEN LEYFFER">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ARGONNE NATIONAL LABORATORY" target="ROBERT ROSS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="PUFFERSCALE" target="DISTRIBUTED STORAGE SYSTEM">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PUFFERSCALE" target="HEPNOS STORAGE SYSTEM">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PUFFERSCALE" target="MICROSERVICE-BASED DISTRIBUTED STORAGE SYSTEMS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PUFFERSCALE" target="STORAGE MALLEABILITY">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="DISTRIBUTED STORAGE SYSTEM" target="RESCALING">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="HEPNOS STORAGE SYSTEM" target="STORAGE MALLEABILITY">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="HIGH ENERGY PHYSICS" target="USER-SPACE HPC DATA SERVICES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="HIGH ENERGY PHYSICS" target="HEP">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="HIGH ENERGY PHYSICS" target="EVENT DATA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="USER-SPACE HPC DATA SERVICES" target="HEP">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="USER-SPACE HPC DATA SERVICES" target="PARALLEL FILE SYSTEMS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="USER-SPACE HPC DATA SERVICES" target="POSIX COMPLIANCE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="EVENT DATA" target="ANALYSIS WORKFLOWS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="RESCALING" target="LOAD BALANCE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="RESCALING" target="DATA BALANCE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="RESCALING" target="DURATION OF THE RESCALING OPERATION">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="RESCALING" target="RESOURCE USAGE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="RESCALING" target="HEURISTIC">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="BOGDAN NICOLAE" target="DEEPFREEZE: TOWARDS SCALABLE ASYNCHRONOUS CHECKPOINTING OF DEEP LEARNING MODELS.">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="DEEPFREEZE: TOWARDS SCALABLE ASYNCHRONOUS CHECKPOINTING OF DEEP LEARNING MODELS." target="JIALI LI">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="DEEPFREEZE: TOWARDS SCALABLE ASYNCHRONOUS CHECKPOINTING OF DEEP LEARNING MODELS." target="JUSTIN M. WOZNIAK">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="DEEPFREEZE: TOWARDS SCALABLE ASYNCHRONOUS CHECKPOINTING OF DEEP LEARNING MODELS." target="FRANCK CAPPELLO">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="DEEPFREEZE: TOWARDS SCALABLE ASYNCHRONOUS CHECKPOINTING OF DEEP LEARNING MODELS." target="10.1109/CCGRID49817.2020.00-76">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="DEEPFREEZE: TOWARDS SCALABLE ASYNCHRONOUS CHECKPOINTING OF DEEP LEARNING MODELS." target="CHECKPOINTING">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="DEEPFREEZE: TOWARDS SCALABLE ASYNCHRONOUS CHECKPOINTING OF DEEP LEARNING MODELS." target="SERIALIZATION PERFORMANCE">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="DEEPFREEZE: TOWARDS SCALABLE ASYNCHRONOUS CHECKPOINTING OF DEEP LEARNING MODELS." target="BLOCKING I/O">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="DEEPFREEZE: TOWARDS SCALABLE ASYNCHRONOUS CHECKPOINTING OF DEEP LEARNING MODELS." target="STRAGGLERS">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="DEEPFREEZE: TOWARDS SCALABLE ASYNCHRONOUS CHECKPOINTING OF DEEP LEARNING MODELS." target="ASYNCHRONOUS TECHNIQUES">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="DEEPFREEZE: TOWARDS SCALABLE ASYNCHRONOUS CHECKPOINTING OF DEEP LEARNING MODELS." target="CANDLE">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="DEEPFREEZE: TOWARDS SCALABLE ASYNCHRONOUS CHECKPOINTING OF DEEP LEARNING MODELS." target="RESNET">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="DEEPFREEZE: TOWARDS SCALABLE ASYNCHRONOUS CHECKPOINTING OF DEEP LEARNING MODELS." target="THETA">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="CANDLE" target="THETA">
+      <data key="d0">14.0</data>
+    </edge>
+    <edge source="RESNET" target="THETA">
+      <data key="d0">2.0</data>
+    </edge>
+    <edge source="ARNAB K. PAUL" target="EFFICIENT METADATA INDEXING FOR HPC STORAGE SYSTEMS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="EFFICIENT METADATA INDEXING FOR HPC STORAGE SYSTEMS" target="BRIAN WANG">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="EFFICIENT METADATA INDEXING FOR HPC STORAGE SYSTEMS" target="NATHAN RUTMAN">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="EFFICIENT METADATA INDEXING FOR HPC STORAGE SYSTEMS" target="CORY SPITZ">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="EFFICIENT METADATA INDEXING FOR HPC STORAGE SYSTEMS" target="HIGH PERFORMANCE COMPUTING (HPC) STORAGE SYSTEMS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="EFFICIENT METADATA INDEXING FOR HPC STORAGE SYSTEMS" target="BRINDEXER">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="EFFICIENT METADATA INDEXING FOR HPC STORAGE SYSTEMS" target="CCGRID 2020">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="EFFICIENT METADATA INDEXING FOR HPC STORAGE SYSTEMS" target="10.1109/CCGRID49817.2020.00-77">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="EFFICIENT METADATA INDEXING FOR HPC STORAGE SYSTEMS" target="METADATA INDEXING">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="EFFICIENT METADATA INDEXING FOR HPC STORAGE SYSTEMS" target="FILE SYSTEM MANAGEMENT">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="EFFICIENT METADATA INDEXING FOR HPC STORAGE SYSTEMS" target="SPATIAL TREES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="EFFICIENT METADATA INDEXING FOR HPC STORAGE SYSTEMS" target="EXTERNAL DATABASE">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="HIGH PERFORMANCE COMPUTING (HPC) STORAGE SYSTEMS" target="BRINDEXER">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="HIGH PERFORMANCE COMPUTING (HPC) STORAGE SYSTEMS" target="SPATIAL TREES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="HIGH PERFORMANCE COMPUTING (HPC) STORAGE SYSTEMS" target="EXTERNAL DATABASE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="HIGH PERFORMANCE COMPUTING (HPC) STORAGE SYSTEMS" target="METADATA INDEXING">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="HIGH PERFORMANCE COMPUTING (HPC) STORAGE SYSTEMS" target="FILE SYSTEM MANAGEMENT">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="BRINDEXER" target="LUSTRE">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="BRINDEXER" target="METADATA INDEXING">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="BRINDEXER" target="FILE SYSTEM MANAGEMENT">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="BRINDEXER" target="LEVELED PARTITIONING">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="BRINDEXER" target="IN-TREE DESIGN">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="BRINDEXER" target="RDBMS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="BRINDEXER" target="CHANGELOG-BASED APPROACH">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CCGRID 2020" target="EFFICIENT HPC STORAGE MANAGEMENT VIA BURST BUFFER OVER-SUBSCRIPTION">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CCGRID 2020" target="PERFORMANCE OPTIMIZATION FOR EDGE-CLOUD SERVERLESS PLATFORMS VIA DYNAMIC TASK PLACEMENT">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ORACLE" target="SANJEEV SONDUR">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ORACLE" target="KENNETH C. GROSS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ORACLE" target="UNITED STATES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="SANJEEV SONDUR" target="THERMO-MECHANICAL COUPLING INDUCED PERFORMANCE DEGRADATION IN STORAGE SYSTEMS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="KENNETH C. GROSS" target="THERMO-MECHANICAL COUPLING INDUCED PERFORMANCE DEGRADATION IN STORAGE SYSTEMS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="THERMO-MECHANICAL COUPLING INDUCED PERFORMANCE DEGRADATION IN STORAGE SYSTEMS" target="KRISHNA KANT">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="THERMO-MECHANICAL COUPLING INDUCED PERFORMANCE DEGRADATION IN STORAGE SYSTEMS" target="EADC">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="THERMO-MECHANICAL COUPLING INDUCED PERFORMANCE DEGRADATION IN STORAGE SYSTEMS" target="ORACLE LABS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="THERMO-MECHANICAL COUPLING INDUCED PERFORMANCE DEGRADATION IN STORAGE SYSTEMS" target="POWER/THERMAL ASPECTS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="THERMO-MECHANICAL COUPLING INDUCED PERFORMANCE DEGRADATION IN STORAGE SYSTEMS" target="VIBRATIONS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="THERMO-MECHANICAL COUPLING INDUCED PERFORMANCE DEGRADATION IN STORAGE SYSTEMS" target="MECHANICAL DISKS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="THERMO-MECHANICAL COUPLING INDUCED PERFORMANCE DEGRADATION IN STORAGE SYSTEMS" target="LEAKAGE POWER">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="THERMO-MECHANICAL COUPLING INDUCED PERFORMANCE DEGRADATION IN STORAGE SYSTEMS" target="COOLING FAN">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="THERMO-MECHANICAL COUPLING INDUCED PERFORMANCE DEGRADATION IN STORAGE SYSTEMS" target="STORAGE SYSTEM PERFORMANCE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="THERMO-MECHANICAL COUPLING INDUCED PERFORMANCE DEGRADATION IN STORAGE SYSTEMS" target="IO DELAY">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="THERMO-MECHANICAL COUPLING INDUCED PERFORMANCE DEGRADATION IN STORAGE SYSTEMS" target="BASELINE SYSTEM">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="THERMO-MECHANICAL COUPLING INDUCED PERFORMANCE DEGRADATION IN STORAGE SYSTEMS" target="VIBRATION AWARE CONTROLS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="KRISHNA KANT" target="TEMPLE UNIVERSITY">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="EADC" target="ORACLE LABS">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="EADC" target="IO DELAY">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="EADC" target="VIBRATION AWARE CONTROLS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ORACLE LABS" target="STORAGE SERVERS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="VIBRATIONS" target="STORAGE SYSTEM PERFORMANCE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="VIBRATIONS" target="COOLING FAN">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="LEAKAGE POWER" target="STORAGE SYSTEM PERFORMANCE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="SEOUL NATIONAL UNIVERSITY" target="HANUL SUNG">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="SEOUL NATIONAL UNIVERSITY" target="JIWOO BANG">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="SEOUL NATIONAL UNIVERSITY" target="CHUNGYONG KIM">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="SEOUL NATIONAL UNIVERSITY" target="HYUNG&#8208;SIN KIM">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="SEOUL NATIONAL UNIVERSITY" target="HYEONSHANG EOM">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="HANUL SUNG" target="EFFICIENT HPC STORAGE MANAGEMENT VIA BURST BUFFER OVER-SUBSCRIPTION">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="JIWOO BANG" target="EFFICIENT HPC STORAGE MANAGEMENT VIA BURST BUFFER OVER-SUBSCRIPTION">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CHUNGYONG KIM" target="EFFICIENT HPC STORAGE MANAGEMENT VIA BURST BUFFER OVER-SUBSCRIPTION">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="HYUNG&#8208;SIN KIM" target="EFFICIENT HPC STORAGE MANAGEMENT VIA BURST BUFFER OVER-SUBSCRIPTION">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="HYEONSHANG EOM" target="EFFICIENT HPC STORAGE MANAGEMENT VIA BURST BUFFER OVER-SUBSCRIPTION">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="LAWRENCE BERKELEY NATIONAL LABORATORY" target="ALEX SIM">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="LAWRENCE BERKELEY NATIONAL LABORATORY" target="GLENN K. LOCKWOOD">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ALEX SIM" target="EFFICIENT HPC STORAGE MANAGEMENT VIA BURST BUFFER OVER-SUBSCRIPTION">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="GLENN K. LOCKWOOD" target="EFFICIENT HPC STORAGE MANAGEMENT VIA BURST BUFFER OVER-SUBSCRIPTION">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="EFFICIENT HPC STORAGE MANAGEMENT VIA BURST BUFFER OVER-SUBSCRIPTION" target="BURST BUFFER OVER-SUBSCRIPTION">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="EFFICIENT HPC STORAGE MANAGEMENT VIA BURST BUFFER OVER-SUBSCRIPTION" target="BB OVER-SUBSCRIPTION">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="EFFICIENT HPC STORAGE MANAGEMENT VIA BURST BUFFER OVER-SUBSCRIPTION" target="I/O SCHEDULER">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="EFFICIENT HPC STORAGE MANAGEMENT VIA BURST BUFFER OVER-SUBSCRIPTION" target="TRANSPARENT DATA MANAGEMENT SYSTEM">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="EFFICIENT HPC STORAGE MANAGEMENT VIA BURST BUFFER OVER-SUBSCRIPTION" target="HPC">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="EFFICIENT HPC STORAGE MANAGEMENT VIA BURST BUFFER OVER-SUBSCRIPTION" target="ALL-FLASH HPC STORAGE SYSTEMS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="EFFICIENT HPC STORAGE MANAGEMENT VIA BURST BUFFER OVER-SUBSCRIPTION" target="BB ALLOCATION">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="EFFICIENT HPC STORAGE MANAGEMENT VIA BURST BUFFER OVER-SUBSCRIPTION" target="HPC APPLICATIONS">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="EFFICIENT HPC STORAGE MANAGEMENT VIA BURST BUFFER OVER-SUBSCRIPTION" target="10.1109/CCGRID49817.2020.00-79">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="EFFICIENT HPC STORAGE MANAGEMENT VIA BURST BUFFER OVER-SUBSCRIPTION" target="BURST BUFFER UTILIZATION">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="EFFICIENT HPC STORAGE MANAGEMENT VIA BURST BUFFER OVER-SUBSCRIPTION" target="PERFORMANCE DEGRADATION">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="EFFICIENT HPC STORAGE MANAGEMENT VIA BURST BUFFER OVER-SUBSCRIPTION" target="RESTART REQUESTS">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="BURST BUFFER OVER-SUBSCRIPTION" target="BURST BUFFER UTILIZATION">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="BB OVER-SUBSCRIPTION" target="I/O INTERFERENCE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="BB OVER-SUBSCRIPTION" target="DEMOTION OVERHEAD">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="BB OVER-SUBSCRIPTION" target="PERFORMANCE DEGRADATION">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="I/O SCHEDULER" target="I/O INTERFERENCE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="TRANSPARENT DATA MANAGEMENT SYSTEM" target="RESTART REQUESTS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ALL-FLASH HPC STORAGE SYSTEMS" target="PFS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="BB ALLOCATION" target="BB">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="HPC APPLICATIONS" target="BB">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="PERFORMANCE DEGRADATION" target="I/O INTERFERENCE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="PERFORMANCE DEGRADATION" target="DEMOTION OVERHEAD">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="PFS" target="BB">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="JASHWANT RAJ GUNASEKARAN" target="PENNSYLVANIA STATE UNIVERSITY">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="JASHWANT RAJ GUNASEKARAN" target="MULTIVERSE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="JASHWANT RAJ GUNASEKARAN" target="DYNAMIC VM PROVISIONING FOR VIRTUALIZED HIGH PERFORMANCE COMPUTING CLUSTERS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PENNSYLVANIA STATE UNIVERSITY" target="PRASHANTH THINAKARAN">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PENNSYLVANIA STATE UNIVERSITY" target="MAHMUT KANDEMIR">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PENNSYLVANIA STATE UNIVERSITY" target="CHITA R. DAS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="MULTIVERSE" target="MICHAEL CUI">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="MULTIVERSE" target="PRASHANTH THINAKARAN">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="MULTIVERSE" target="JOSH SIMONS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="MULTIVERSE" target="MAHMUT KANDEMIR">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="MULTIVERSE" target="CHITA R. DAS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="MULTIVERSE" target="HIGH PERFORMANCE COMPUTING CLUSTERS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="MULTIVERSE" target="VIRTUALIZATION">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="MULTIVERSE" target="RESOURCE ELASTICITY">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="MULTIVERSE" target="VIRTUAL MACHINE PROVISIONING">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="MULTIVERSE" target="HPC SCHEDULER">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="MULTIVERSE" target="VM HYPERVISOR">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="MULTIVERSE" target="CLUSTER UTILIZATION">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="MULTIVERSE" target="JOB COMPLETION THROUGHPUT">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="MULTIVERSE" target="VM PROVISIONING DELAYS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="MULTIVERSE" target="PHYSICAL HARDWARE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="MULTIVERSE" target="PROVISIONING OVERHEADS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="MULTIVERSE" target="SLURM SCHEDULER">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="MULTIVERSE" target="VSPHERE VM RESOURCE MANAGER">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="MULTIVERSE" target="INSTANT CLONING">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="MULTIVERSE" target="BURSTY JOB ARRIVAL SCENARIOS">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="DYNAMIC VM PROVISIONING FOR VIRTUALIZED HIGH PERFORMANCE COMPUTING CLUSTERS" target="MICHAEL CUI">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="DYNAMIC VM PROVISIONING FOR VIRTUALIZED HIGH PERFORMANCE COMPUTING CLUSTERS" target="PRASHANTH THINAKARAN">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="DYNAMIC VM PROVISIONING FOR VIRTUALIZED HIGH PERFORMANCE COMPUTING CLUSTERS" target="JOSH SIMONS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="DYNAMIC VM PROVISIONING FOR VIRTUALIZED HIGH PERFORMANCE COMPUTING CLUSTERS" target="MAHMUT KANDEMIR">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="DYNAMIC VM PROVISIONING FOR VIRTUALIZED HIGH PERFORMANCE COMPUTING CLUSTERS" target="CHITA R. DAS">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="DYNAMIC VM PROVISIONING FOR VIRTUALIZED HIGH PERFORMANCE COMPUTING CLUSTERS" target="10.1109/CCGRID49817.2020.00-80">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="INSTANT CLONING" target="FULL VM CLONING">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="DAVID ESPINEL SARMIENTO" target="ORANGE (FRANCE)">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="DAVID ESPINEL SARMIENTO" target="DIMINET: DISTRIBUTED MODULE FOR INTER-SITE NETWORKING">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ORANGE (FRANCE)" target="ABDELHADI CHARI">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="DIMINET: DISTRIBUTED MODULE FOR INTER-SITE NETWORKING" target="ADRIEN L&#200;BRE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="DIMINET: DISTRIBUTED MODULE FOR INTER-SITE NETWORKING" target="LUCAS NUSSBAUM">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="DIMINET: DISTRIBUTED MODULE FOR INTER-SITE NETWORKING" target="ABDELHADI CHARI">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="DIMINET: DISTRIBUTED MODULE FOR INTER-SITE NETWORKING" target="10.1109/CCGRID49817.2020.00-81">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="LUCAS NUSSBAUM" target="UNIVERSIT&#201; DE LORRAINE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="LUCAS NUSSBAUM" target="LABORATOIRE LORRAIN DE RECHERCHE EN INFORMATIQUE ET SES APPLICATIONS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="GEO-DISTRIBUTED CLOUD INFRASTRUCTURE" target="NETWORK FUNCTION VIRTUALIZATION">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="GEO-DISTRIBUTED CLOUD INFRASTRUCTURE" target="INTERNET OF THINGS APPLICATIONS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="GEO-DISTRIBUTED CLOUD INFRASTRUCTURE" target="VIRTUAL INFRASTRUCTURE MANAGER (VIM)">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="GEO-DISTRIBUTED CLOUD INFRASTRUCTURE" target="DIMINET">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="GEO-DISTRIBUTED CLOUD INFRASTRUCTURE" target="POINT-OF-PRESENCES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="VIRTUAL INFRASTRUCTURE MANAGER (VIM)" target="NETWORK EQUIPMENT">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="VIRTUAL INFRASTRUCTURE MANAGER (VIM)" target="DIMINET">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="DIMINET" target="OPENSTACK">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="BIN NIE" target="CHARACTERIZING ACCURACY-AWARE RESILIENCE OF GPGPU APPLICATIONS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CHARACTERIZING ACCURACY-AWARE RESILIENCE OF GPGPU APPLICATIONS" target="ADWAIT JOG">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CHARACTERIZING ACCURACY-AWARE RESILIENCE OF GPGPU APPLICATIONS" target="EVGENIA SMIRNI">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CHARACTERIZING ACCURACY-AWARE RESILIENCE OF GPGPU APPLICATIONS" target="GRAPHICS PROCESSING UNITS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CHARACTERIZING ACCURACY-AWARE RESILIENCE OF GPGPU APPLICATIONS" target="GPGPU APPLICATIONS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="GRAPHICS PROCESSING UNITS" target="GPGPU APPLICATIONS">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="MOHAMMADREZA BAYATPOUR" target="DESIGN AND CHARACTERIZATION OF INFINIBAND HARDWARE TAG MATCHING IN MPI">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="DESIGN AND CHARACTERIZATION OF INFINIBAND HARDWARE TAG MATCHING IN MPI" target="S. MAHDIEH GHAZIMIRSAEED">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="DESIGN AND CHARACTERIZATION OF INFINIBAND HARDWARE TAG MATCHING IN MPI" target="SHULEI XU">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="DESIGN AND CHARACTERIZATION OF INFINIBAND HARDWARE TAG MATCHING IN MPI" target="HARI SUBRAMONI">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="DESIGN AND CHARACTERIZATION OF INFINIBAND HARDWARE TAG MATCHING IN MPI" target="DHABALESWAR K. PANDA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="DESIGN AND CHARACTERIZATION OF INFINIBAND HARDWARE TAG MATCHING IN MPI" target="MESSAGE PASSING INTERFACE (MPI)">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="DESIGN AND CHARACTERIZATION OF INFINIBAND HARDWARE TAG MATCHING IN MPI" target="MPI LIBRARY">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="DESIGN AND CHARACTERIZATION OF INFINIBAND HARDWARE TAG MATCHING IN MPI" target="HARDWARE TAG MATCHING">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="DESIGN AND CHARACTERIZATION OF INFINIBAND HARDWARE TAG MATCHING IN MPI" target="INFINIBAND HARDWARE TAG MATCHING">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="DESIGN AND CHARACTERIZATION OF INFINIBAND HARDWARE TAG MATCHING IN MPI" target="APPLICATION DEVELOPERS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="MESSAGE PASSING INTERFACE (MPI)" target="TAG MATCHING (TM)">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="MESSAGE PASSING INTERFACE (MPI)" target="SOURCE RANK">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="MESSAGE PASSING INTERFACE (MPI)" target="TAG">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="MESSAGE PASSING INTERFACE (MPI)" target="COMMUNICATOR ID">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="MPI LIBRARY" target="HARDWARE TAG MATCHING">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="HARDWARE TAG MATCHING" target="NON-BLOCKING COLLECTIVES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="HARDWARE TAG MATCHING" target="3DSTENCIL APPLICATION KERNEL">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="HARDWARE TAG MATCHING" target="NEKBONE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="HARDWARE TAG MATCHING" target="APPLICATION DEVELOPERS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="INFINIBAND HARDWARE TAG MATCHING" target="TAG MATCHING (TM)">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="INFINIBAND HARDWARE TAG MATCHING" target="MELLANOX CONNECTX-5">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="INFINIBAND HARDWARE TAG MATCHING" target="COMMUNICATION PROGRESS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="INFINIBAND HARDWARE TAG MATCHING" target="HOST">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="INFINIBAND HARDWARE TAG MATCHING" target="PERFORMANCE">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="TAG MATCHING (TM)" target="MELLANOX CONNECTX-5">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="TAG MATCHING (TM)" target="INFINIBAND">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="TAG MATCHING (TM)" target="RECEIVE QUEUES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="TAG MATCHING (TM)" target="APPLICATION RECEIVE BUFFER">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="TAG MATCHING (TM)" target="SYNCHRONIZATION OVERHEADS">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="TAG MATCHING (TM)" target="PERFORMANCE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="TAG MATCHING (TM)" target="MPI LIBRARIES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="MELLANOX CONNECTX-5" target="INFINIBAND">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="MELLANOX CONNECTX-5" target="NETWORK CARD">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="INFINIBAND" target="NETWORK CARD">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="MPI LIBRARIES" target="MAIN THREAD">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="MPI LIBRARIES" target="COMMUNICATION PROGRESS THREAD">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="COMMUNICATION PROGRESS" target="COMMUNICATION PROGRESS THREAD">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ROGER PUEYO CENTELLES" target="PAPER &quot;REDEMON: RESILIENT DECENTRALIZED MONITORING SYSTEM FOR EDGE INFRASTRUCTURES.&quot;">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PAPER &quot;REDEMON: RESILIENT DECENTRALIZED MONITORING SYSTEM FOR EDGE INFRASTRUCTURES.&quot;" target="MENNAN SELIMI">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PAPER &quot;REDEMON: RESILIENT DECENTRALIZED MONITORING SYSTEM FOR EDGE INFRASTRUCTURES.&quot;" target="F&#200;LIX FREITAG">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PAPER &quot;REDEMON: RESILIENT DECENTRALIZED MONITORING SYSTEM FOR EDGE INFRASTRUCTURES.&quot;" target="LEANDRO NAVARRO">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PAPER &quot;REDEMON: RESILIENT DECENTRALIZED MONITORING SYSTEM FOR EDGE INFRASTRUCTURES.&quot;" target="REDEMON">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="REDEMON" target="GUIFI.NET">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="REDEMON" target="ANTIDONEDB">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="REDEMON" target="EDGE INFRASTRUCTURES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="REDEMON" target="CRDT-BASED DATA STRUCTURES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="REDEMON" target="DECENTRALIZED ASSIGNMENT MECHANISM">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="REDEMON" target="CONSUMPTION FOOTPRINT">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="REDEMON" target="CPU USAGE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="REDEMON" target="RAM USAGE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="REDEMON" target="NETWORK TRAFFIC">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="REDEMON" target="DATA STORAGE LAYER">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="REDEMON" target="EDGE APPLICATIONS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="GUIFI.NET" target="DECENTRALIZED ASSIGNMENT MECHANISM">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="ANTIDONEDB" target="CRDT-BASED DATA STRUCTURES">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="EDGE APPLICATIONS" target="CLOUD COMPUTING DOMAIN">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="EDGE APPLICATIONS" target="SHARED DATA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="GUANGMING CUI" target="ROBUSTNESS-ORIENTED K EDGE SERVER PLACEMENT">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ROBUSTNESS-ORIENTED K EDGE SERVER PLACEMENT" target="QIANG HE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ROBUSTNESS-ORIENTED K EDGE SERVER PLACEMENT" target="XIAOYU XIA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ROBUSTNESS-ORIENTED K EDGE SERVER PLACEMENT" target="FEIFEI CHEN">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ROBUSTNESS-ORIENTED K EDGE SERVER PLACEMENT" target="HAI JIN">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ROBUSTNESS-ORIENTED K EDGE SERVER PLACEMENT" target="YUN YANG">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ROBUSTNESS-ORIENTED K EDGE SERVER PLACEMENT" target="MOBILE EDGE COMPUTING (MEC)">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="ROBUSTNESS-ORIENTED K EDGE SERVER PLACEMENT" target="ROBUSTNESS-ORIENTED K EDGE SERVER PLACEMENT (RKESP)">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="MOBILE EDGE COMPUTING (MEC)" target="EDGE SERVERS">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="ROBUSTNESS-ORIENTED K EDGE SERVER PLACEMENT (RKESP)" target="EDGE SERVERS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ROBUSTNESS-ORIENTED K EDGE SERVER PLACEMENT (RKESP)" target="COST-EFFECTIVE K EDGE SERVER PLACEMENT (KESP)">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="ROBUSTNESS-ORIENTED K EDGE SERVER PLACEMENT (RKESP)" target="OPT">
+      <data key="d0">36.0</data>
+    </edge>
+    <edge source="ROBUSTNESS-ORIENTED K EDGE SERVER PLACEMENT (RKESP)" target="APPROX">
+      <data key="d0">20.0</data>
+    </edge>
+    <edge source="AYMEN JLASSI" target="MERGE, SPLIT, AND CLUSTER: DYNAMIC DEPLOYMENT OF STREAM PROCESSING APPLICATIONS.">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="AYMEN JLASSI" target="INSTITUT DE RECHERCHE EN INFORMATIQUE ET SYST&#200;MES AL&#201;ATOIRES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="AYMEN JLASSI" target="UNIVERSITY OF RENNES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="MERGE, SPLIT, AND CLUSTER: DYNAMIC DEPLOYMENT OF STREAM PROCESSING APPLICATIONS." target="C&#201;DRIC TEDESCHI">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="MERGE, SPLIT, AND CLUSTER: DYNAMIC DEPLOYMENT OF STREAM PROCESSING APPLICATIONS." target="MERGE, SPLIT, AND CLUSTER APPROACH">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="INSTITUT DE RECHERCHE EN INFORMATIQUE ET SYST&#200;MES AL&#201;ATOIRES" target="C&#201;DRIC TEDESCHI">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="UNIVERSITY OF RENNES" target="C&#201;DRIC TEDESCHI">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="MERGE, SPLIT, AND CLUSTER APPROACH" target="STREAM PROCESSING (SP)">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="MERGE, SPLIT, AND CLUSTER APPROACH" target="INTER-NODE TRAFFIC">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="MERGE, SPLIT, AND CLUSTER APPROACH" target="NODE CAPACITY">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="MERGE, SPLIT, AND CLUSTER APPROACH" target="COMPUTING RESOURCES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="MERGE, SPLIT, AND CLUSTER APPROACH" target="INTRA-NODE TRAFFIC">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="STREAM PROCESSING (SP)" target="STREAM PROCESSING ENGINES (SPE)">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="STREAM PROCESSING (SP)" target="DIRECTED ACYCLIC GRAPH (DAG)">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="STREAM PROCESSING ENGINES (SPE)" target="DIRECTED ACYCLIC GRAPH (DAG)">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="ALESSIO PAGLIARI" target="LABORATOIRE D'INFORMATIQUE, SIGNAUX ET SYST&#200;MES DE SOPHIA ANTIPOLIS">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="LABORATOIRE D'INFORMATIQUE, SIGNAUX ET SYST&#200;MES DE SOPHIA ANTIPOLIS" target="FABRICE HUET">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="LABORATOIRE D'INFORMATIQUE, SIGNAUX ET SYST&#200;MES DE SOPHIA ANTIPOLIS" target="GUILLAUME URVOY-KELLER">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="NAMB: A QUICK AND FLEXIBLE STREAM PROCESSING APPLICATION PROTOTYPE GENERATOR." target="NAMB">
+      <data key="d0">20.0</data>
+    </edge>
+    <edge source="NAMB" target="STREAM PROCESSING">
+      <data key="d0">2.0</data>
+    </edge>
+    <edge source="NAMB" target="DATA STREAM PROCESSING (DSP) PLATFORMS">
+      <data key="d0">20.0</data>
+    </edge>
+    <edge source="BIG DATA" target="STREAM PROCESSING">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="STREAM PROCESSING" target="DATA STREAM PROCESSING (DSP) PLATFORMS">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="DATA STREAM PROCESSING (DSP) PLATFORMS" target="STORM">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="DATA STREAM PROCESSING (DSP) PLATFORMS" target="SPARK STREAMING">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="DATA STREAM PROCESSING (DSP) PLATFORMS" target="HERON APACHE">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="DATA STREAM PROCESSING (DSP) PLATFORMS" target="GOOGLE MILLWHEEL">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="YARON FAIRSTEIN" target="TECHNION &#8211; ISRAEL INSTITUTE OF TECHNOLOGY">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="YARON FAIRSTEIN" target="NFV PLACEMENT IN RESOURCE-SCARCE EDGE NODES.">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="TECHNION &#8211; ISRAEL INSTITUTE OF TECHNOLOGY" target="DOR HARRIS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="TECHNION &#8211; ISRAEL INSTITUTE OF TECHNOLOGY" target="JOSEPH NAOR">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="TECHNION &#8211; ISRAEL INSTITUTE OF TECHNOLOGY" target="DANNY RAZ">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="NFV PLACEMENT IN RESOURCE-SCARCE EDGE NODES." target="DOR HARRIS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="NFV PLACEMENT IN RESOURCE-SCARCE EDGE NODES." target="JOSEPH NAOR">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="NFV PLACEMENT IN RESOURCE-SCARCE EDGE NODES." target="DANNY RAZ">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="NFV PLACEMENT IN RESOURCE-SCARCE EDGE NODES." target="CAPACITATED MEC ALLOCATION PROBLEM (CMAP)">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="NFV PLACEMENT IN RESOURCE-SCARCE EDGE NODES." target="NETWORK FUNCTION PLACEMENT METHODS">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="NFV PLACEMENT IN RESOURCE-SCARCE EDGE NODES." target="NETWORK FUNCTIONS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="NFV PLACEMENT IN RESOURCE-SCARCE EDGE NODES." target="CUSTOMERS BENEFIT">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CAPACITATED MEC ALLOCATION PROBLEM (CMAP)" target="MULTI-ACCESS EDGE COMPUTING (MEC)">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CAPACITATED MEC ALLOCATION PROBLEM (CMAP)" target="NETWORK FUNCTIONS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CAPACITATED MEC ALLOCATION PROBLEM (CMAP)" target="EDGE NODES">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="MULTI-ACCESS EDGE COMPUTING (MEC)" target="5G NETWORKS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="MULTI-ACCESS EDGE COMPUTING (MEC)" target="EDGE NODES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="MULTI-ACCESS EDGE COMPUTING (MEC)" target="RESOURCE ALLOCATION">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="EDGE NODES" target="RESOURCE ALLOCATION">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ANIRBAN DAS" target="RENSSELAER POLYTECHNIC INSTITUTE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ANIRBAN DAS" target="PERFORMANCE OPTIMIZATION FOR EDGE-CLOUD SERVERLESS PLATFORMS VIA DYNAMIC TASK PLACEMENT">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="RENSSELAER POLYTECHNIC INSTITUTE" target="SHIGERU IMAI">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="RENSSELAER POLYTECHNIC INSTITUTE" target="STACY PATTERSON">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PERFORMANCE OPTIMIZATION FOR EDGE-CLOUD SERVERLESS PLATFORMS VIA DYNAMIC TASK PLACEMENT" target="SHIGERU IMAI">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PERFORMANCE OPTIMIZATION FOR EDGE-CLOUD SERVERLESS PLATFORMS VIA DYNAMIC TASK PLACEMENT" target="STACY PATTERSON">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PERFORMANCE OPTIMIZATION FOR EDGE-CLOUD SERVERLESS PLATFORMS VIA DYNAMIC TASK PLACEMENT" target="MIKE P. WITTIE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PERFORMANCE OPTIMIZATION FOR EDGE-CLOUD SERVERLESS PLATFORMS VIA DYNAMIC TASK PLACEMENT" target="DYNAMIC TASK PLACEMENT">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="PERFORMANCE OPTIMIZATION FOR EDGE-CLOUD SERVERLESS PLATFORMS VIA DYNAMIC TASK PLACEMENT" target="SERVERLESS EDGE-CLOUD PLATFORMS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="PERFORMANCE OPTIMIZATION FOR EDGE-CLOUD SERVERLESS PLATFORMS VIA DYNAMIC TASK PLACEMENT" target="SMART EDGE DEVICES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PERFORMANCE OPTIMIZATION FOR EDGE-CLOUD SERVERLESS PLATFORMS VIA DYNAMIC TASK PLACEMENT" target="AWS LAMBDA">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PERFORMANCE OPTIMIZATION FOR EDGE-CLOUD SERVERLESS PLATFORMS VIA DYNAMIC TASK PLACEMENT" target="AWS GREENGRASS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PERFORMANCE OPTIMIZATION FOR EDGE-CLOUD SERVERLESS PLATFORMS VIA DYNAMIC TASK PLACEMENT" target="SIMULATION EVALUATION">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PERFORMANCE OPTIMIZATION FOR EDGE-CLOUD SERVERLESS PLATFORMS VIA DYNAMIC TASK PLACEMENT" target="PROTOTYPE IMPLEMENTATION">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="MIKE P. WITTIE" target="MONTANA STATE UNIVERSITY">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="DYNAMIC TASK PLACEMENT" target="SERVERLESS EDGE-CLOUD PLATFORMS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="DYNAMIC TASK PLACEMENT" target="PERFORMANCE OPTIMIZATION">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="DYNAMIC TASK PLACEMENT" target="TASK PLACEMENT">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="DYNAMIC TASK PLACEMENT" target="EDGE DEVICE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="DYNAMIC TASK PLACEMENT" target="CLOUD EXECUTION">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="SERVERLESS EDGE-CLOUD PLATFORMS" target="SMART EDGE DEVICES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="SERVERLESS EDGE-CLOUD PLATFORMS" target="AWS LAMBDA">
+      <data key="d0">5.0</data>
+    </edge>
+    <edge source="SERVERLESS EDGE-CLOUD PLATFORMS" target="AWS GREENGRASS">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="SERVERLESS EDGE-CLOUD PLATFORMS" target="PERFORMANCE OPTIMIZATION">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="SERVERLESS EDGE-CLOUD PLATFORMS" target="EDGE-ONLY EXECUTION">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="AWS LAMBDA" target="PROTOTYPE IMPLEMENTATION">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="AWS GREENGRASS" target="PROTOTYPE IMPLEMENTATION">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PROTOTYPE IMPLEMENTATION" target="END-TO-END LATENCY">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="TASK PLACEMENT" target="PERFORMANCE GOALS">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="CLOUD EXECUTION" target="CONTAINER RESOURCE CONFIGURATION">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="EDGE-ONLY EXECUTION" target="END-TO-END LATENCY">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="PERFORMANCE GOALS" target="CONTAINER RESOURCE CONFIGURATION">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="JOSEP DOMINGO-FERRER" target="CO-UTILE PEER-TO-PEER DECENTRALIZED COMPUTING">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CO-UTILE PEER-TO-PEER DECENTRALIZED COMPUTING" target="ALBERTO BLANCO-JUSTICIA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CO-UTILE PEER-TO-PEER DECENTRALIZED COMPUTING" target="DAVID S&#193;NCHEZ">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CO-UTILE PEER-TO-PEER DECENTRALIZED COMPUTING" target="NAJEEB MOHARRAM JEBREEL">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CO-UTILE PEER-TO-PEER DECENTRALIZED COMPUTING" target="CO-UTILITY">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CO-UTILE PEER-TO-PEER DECENTRALIZED COMPUTING" target="DECENTRALIZED COMPUTATION">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CO-UTILE PEER-TO-PEER DECENTRALIZED COMPUTING" target="FEDERATED LEARNING">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CO-UTILE PEER-TO-PEER DECENTRALIZED COMPUTING" target="DECENTRALIZED REPUTATION CALCULATION">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CO-UTILITY" target="DECENTRALIZED COMPUTATION">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CO-UTILITY" target="REPUTATION">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="DECENTRALIZED COMPUTATION" target="REPUTATION">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="DECENTRALIZED COMPUTATION" target="DECENTRALIZED REPUTATION CALCULATION">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="FEDERATED LEARNING" target="REPUTATION">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="DECENTRALIZED REPUTATION CALCULATION" target="REPUTATION">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="ATAKAN ARAL" target="TU WIEN">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ATAKAN ARAL" target="RELIABILITY MANAGEMENT FOR BLOCKCHAIN-BASED DECENTRALIZED MULTI-CLOUD">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="TU WIEN" target="RAFAEL BRUNDO URIARTE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="TU WIEN" target="IVONA BRANDI&#262;">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="RELIABILITY MANAGEMENT FOR BLOCKCHAIN-BASED DECENTRALIZED MULTI-CLOUD" target="RAFAEL BRUNDO URIARTE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="RELIABILITY MANAGEMENT FOR BLOCKCHAIN-BASED DECENTRALIZED MULTI-CLOUD" target="ANTHONY SIMONET-BOULOGNE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="RELIABILITY MANAGEMENT FOR BLOCKCHAIN-BASED DECENTRALIZED MULTI-CLOUD" target="IVONA BRANDI&#262;">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="RELIABILITY MANAGEMENT FOR BLOCKCHAIN-BASED DECENTRALIZED MULTI-CLOUD" target="BLOCKCHAIN-BASED DECENTRALIZED MULTI-CLOUD">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="RELIABILITY MANAGEMENT FOR BLOCKCHAIN-BASED DECENTRALIZED MULTI-CLOUD" target="PROVIDER RELIABILITY">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="RELIABILITY MANAGEMENT FOR BLOCKCHAIN-BASED DECENTRALIZED MULTI-CLOUD" target="PROBABILISTIC SCHEDULER">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="BLOCKCHAIN-BASED DECENTRALIZED MULTI-CLOUD" target="PROVIDER RELIABILITY">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="BLOCKCHAIN-BASED DECENTRALIZED MULTI-CLOUD" target="BLOCKCHAIN">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="BLOCKCHAIN-BASED DECENTRALIZED MULTI-CLOUD" target="DECENTRALIZED CLOUD PROVIDER">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="PROVIDER RELIABILITY" target="PROBABILISTIC SCHEDULER">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="PROVIDER RELIABILITY" target="LOG TRACES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PROVIDER RELIABILITY" target="PROVIDER REPUTATION">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="PROVIDER RELIABILITY" target="SCHEDULING OF NEW SERVICES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="PROBABILISTIC SCHEDULER" target="RELIABILITY CONSTRAINTS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="DECENTRALIZED CLOUD PROVIDER" target="LOG TRACES">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="JIA GUO" target="THE OHIO STATE UNIVERSITY">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="JIA GUO" target="A PATTERN-BASED API FOR MAPPING APPLICATIONS TO A HIERARCHY OF MULTI-CORE DEVICES.">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="THE OHIO STATE UNIVERSITY" target="RADU TEODORESCU">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="A PATTERN-BASED API FOR MAPPING APPLICATIONS TO A HIERARCHY OF MULTI-CORE DEVICES." target="RADU TEODORESCU">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="A PATTERN-BASED API FOR MAPPING APPLICATIONS TO A HIERARCHY OF MULTI-CORE DEVICES." target="GAGAN AGRAWAL">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="A PATTERN-BASED API FOR MAPPING APPLICATIONS TO A HIERARCHY OF MULTI-CORE DEVICES." target="MAPREDUCE">
+      <data key="d0">14.0</data>
+    </edge>
+    <edge source="A PATTERN-BASED API FOR MAPPING APPLICATIONS TO A HIERARCHY OF MULTI-CORE DEVICES." target="IMAGE PROCESSING APPLICATIONS">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="A PATTERN-BASED API FOR MAPPING APPLICATIONS TO A HIERARCHY OF MULTI-CORE DEVICES." target="OPENCV">
+      <data key="d0">2.0</data>
+    </edge>
+    <edge source="GAGAN AGRAWAL" target="AUGUSTA UNIVERSITY">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="IMAGE PROCESSING APPLICATIONS" target="OPENCV">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="INTERNET OF THINGS (IOT)" target="EDGE/FOG COMPUTING">
+      <data key="d0">14.0</data>
+    </edge>
+    <edge source="EDGE/FOG COMPUTING" target="COMPUTER VISION APPLICATIONS">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="JOHN GRUNDY" target="HUMAN-CENTRIC SOFTWARE ENGINEERING FOR NEXT GENERATION CLOUD- AND EDGE-BASED SMART LIVING APPLICATIONS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="JOHN GRUNDY" target="MONASH UNIVERSITY">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="HUMAN-CENTRIC SOFTWARE ENGINEERING FOR NEXT GENERATION CLOUD- AND EDGE-BASED SMART LIVING APPLICATIONS" target="HUMAN-CENTRIC ISSUES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="HUMAN-CENTRIC SOFTWARE ENGINEERING FOR NEXT GENERATION CLOUD- AND EDGE-BASED SMART LIVING APPLICATIONS" target="CLOUD-BASED SOFTWARE SYSTEMS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="HUMAN-CENTRIC SOFTWARE ENGINEERING FOR NEXT GENERATION CLOUD- AND EDGE-BASED SMART LIVING APPLICATIONS" target="EDGE-BASED SOFTWARE SYSTEMS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="HUMAN-CENTRIC ISSUES" target="SOFTWARE ENGINEERING">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="HUMAN-CENTRIC ISSUES" target="SMART LIVING APPLICATIONS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="HUMAN-CENTRIC ISSUES" target="DATA ANALYSIS APPLICATIONS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="HUMAN-CENTRIC ISSUES" target="PERSONALITY IMPACT">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="HUMAN-CENTRIC ISSUES" target="END USER EMOTIONS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="HUMAN-CENTRIC ISSUES" target="HUMAN USAGE PATTERNS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="HUMAN-CENTRIC ISSUES" target="VISUALISING SMART CITY-RELATED DATA">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="HUMAN-CENTRIC ISSUES" target="SOFTWARE USABILITY DEFECTS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="HUMAN-CENTRIC ISSUES" target="HUMAN-CENTRIC SECURITY AND PRIVACY REQUIREMENTS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="SOFTWARE ENGINEERING" target="SMART LIVING APPLICATIONS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="END USER EMOTIONS" target="SOFTWARE REQUIREMENTS ENGINEERING">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="HUMAN USAGE PATTERNS" target="EDGE COMPUTING APPLICATIONS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="VISUALISING SMART CITY-RELATED DATA" target="SMART CITY">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="HUMAN-CENTRIC SECURITY AND PRIVACY REQUIREMENTS" target="SMART LIVING SYSTEMS">
+      <data key="d0">2.0</data>
+    </edge>
+    <edge source="SOFTWARE REQUIREMENTS ENGINEERING" target="SMART HOMES">
+      <data key="d0">7.0</data>
+    </edge>
+  </graph>
+</graphml>
