@@ -2,6 +2,10 @@
 
 LiteRAG fundamentally alters the Pareto frontier of Retrieval-Augmented Generation. Instead of using Large Language Models (LLMs) to make traversal decisions (e.g., *"Which node should I look at next?"*), LiteRAG utilizes optimized, programmatic algorithms.
 
+<div align="center" style="margin: 30px 0;">
+    <img src="./architecture.png" width="100%" alt="LiteRAG Architecture Diagram">
+</div>
+
 The engine operates in three distinct phases:
 
 ## Phase 1: Multi-Strategy Anchor Discovery
@@ -41,3 +45,5 @@ LiteRAG ranks the explored subgraphs and translates the topological relationship
 > `[Entity A] is connected to [Entity B] via *Description of the relationship*`
 
 By pre-computing these logical links, the LLM is no longer forced to deduce latent relationships across disparate paragraphs. It simply reads the causal map and generates the answer. This **Contextual Compression** reduces token usage by up to 99% while maintaining SOTA reasoning accuracy.
+
+For more detailed information, see the LiteRAG paper: [arXiv link pending].

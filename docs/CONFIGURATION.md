@@ -1,98 +1,70 @@
-# Configuration Guide
+# ⚙️ Configuration Guide
 
-LiteRAG configuration is defined in LiteRAGConfig and can be supplied via Python or YAML.
+LiteRAG is highly configurable to suit different dataset sizes and query types. Configuration is managed via the `LiteRAGConfig` class and can be loaded directly from a YAML file (`literag_config.yaml`).
 
-## YAML Loading
+> **💡 Pro Tip:** You can use environment variables in your YAML file like this: `api_key: ${GEMINI_API_KEY}`.
 
-Use LiteRAGConfig.from_yaml("literag_config.yaml").
+## 1. Core & Model Settings
 
-The loader supports environment variable expansion in this form:
+| Parameter | Type | Default | Description |
+| :--- | :--- | :--- | :--- |
+| `data_dir` | `str` | `"./example-data/output"` | Path to the directory containing GraphRAG parquet outputs. |
+| `api_key` | `str` | `null` | Your LLM API key (Required unless using LiteLLM). |
+| `llm_model` | `str` | `"gemini/gemini-flash-lite-latest"` | The model used for generation and query expansion. |
+| `embedding_model` | `str` | `"models/gemini-embedding-001"` | The model used for semantic vectorization. |
+| `use_litellm` | `bool` | `false` | Set to true to route traffic through a LiteLLM proxy. |
 
-- ${VAR_NAME}
+## 2. Phase 1: Anchor Discovery
 
-## Core Fields
+Controls how LiteRAG finds its starting points in the graph.
 
-### Required
+| Parameter | Default | Description |
+| :--- | :--- | :--- |
+| `max_anchors` | `8` | Maximum number of starting nodes to select. |
+| `min_anchor_score` | `0.3` | Minimum confidence score required to become an anchor. |
+| `semantic_weight` | `0.40` | Importance of LanceDB vector similarity. |
+| `keyword_exact_weight` | `0.30` | Importance of exact N-gram matches (BM25). |
+| `keyword_fuzzy_weight` | `0.15` | Importance of fuzzy matching (Levenshtein). |
+| `community_weight` | `0.15` | Importance of community-level relevance. |
 
-- data_dir (str, default: ./data)
-- api_key (str or null)
+## 3. Phase 2: Graph Exploration (Zero-LLM Traversal)
 
-Note: api_key is required when use_litellm is false.
+These are the most critical parameters for tuning latency and accuracy.
 
-### Model and Provider
+| Parameter | Default | Description |
+| :--- | :--- | :--- |
+| `max_exploration_depth` | `3` | Maximum number of hops away from an anchor. |
+| `min_relevance_threshold`| `0.25`| The base floor for the Dynamic Semantic Threshold. |
+| `relevance_decay_factor` | `0.7` | How much semantic relevance degrades per hop. |
+| `max_nodes_per_anchor` | `50` | Hard cap on nodes explored per worker thread. |
+| `degree_influence` | `0.05` | The penalty applied to high-degree hubs. Higher = stricter filtering. |
+| `community_cohesion_weight`| `0.8` | Protection factor for Topic Hubs. `1.0` = fully protected. |
 
-- llm_model (default: gemini/gemini-flash-lite-latest)
-- embedding_model (default: models/gemini-embedding-001)
-- use_litellm (default: false)
-- litellm_base_url (default: <http://localhost:4000>)
-- lancedb_uri (optional; auto-detected if omitted)
+## 4. Phase 3: Consensus & Context Assembly
 
-### Query Processing
+Controls what actually gets sent to the LLM.
 
-- enable_query_expansion (default: false)
+| Parameter | Default | Description |
+| :--- | :--- | :--- |
+| `max_ranked_entities` | `50` | Maximum number of entities allowed in the final context window. |
+| `intersection_weight` | `0.45` | Reward for nodes found by multiple independent anchor paths. |
+| `max_context_tokens` | `10000` | The absolute token budget for the final LLM prompt. |
+| `enable_safety_net` | `true` | Injects raw text units for exact string references as a fallback. |
 
-### Anchor Discovery
+---
 
-- max_anchors (default: 8)
-- min_anchor_score (default: 0.3)
-- semantic_weight (default: 0.40)
-- keyword_exact_weight (default: 0.30)
-- keyword_fuzzy_weight (default: 0.15)
-- community_weight (default: 0.15)
+## 🛠️ Recommended Tuning Profiles
 
-### Exploration
+### Profile A: "Need for Speed" (Massive Graphs)
+If you have millions of nodes and need sub-second responses:
+* `max_anchors`: 4
+* `max_exploration_depth`: 2
+* `max_nodes_per_anchor`: 20
+* `degree_influence`: 0.10 *(Filter hubs aggressively)*
 
-- max_exploration_depth (default: 3)
-- min_relevance_threshold (default: 0.25)
-- relevance_decay_factor (default: 0.7)
-- max_nodes_per_anchor (default: 50)
-- max_neighbors_per_hop (default: 10)
-- num_exploration_workers (default: 4)
-- degree_influence (default: 0.05)
-- community_cohesion_weight (default: 0.8)
-- signal_amplification_factor (default: 0.5)
-
-### Safety Net
-
-- enable_safety_net (default: true)
-- safety_net_k (default: 5)
-
-### Consensus
-
-- max_ranked_entities (default: 50)
-- intersection_weight (default: 0.45)
-- consensus_semantic_weight (default: 0.40)
-- structural_weight (default: 0.05)
-- proximity_weight (default: 0.10)
-- anchor_boost (default: 1.2)
-
-### Context and Generation
-
-- max_context_tokens (default: 10000)
-- response_temperature (default: 0.7)
-- max_response_tokens (default: 2000)
-- embedding_batch_size (default: 100)
-
-## Recommended Tuning by Graph Size
-
-Small graph:
-
-- max_anchors: 5
-- max_exploration_depth: 2
-- max_nodes_per_anchor: 30
-
-Medium graph:
-
-- Use defaults as starting point.
-
-Large graph:
-
-- max_anchors: 8 to 12
-- max_neighbors_per_hop: 6 to 10
-- increase num_exploration_workers based on CPU capacity
-
-## Secret Management
-
-- Keep api_key in environment variables.
-- Do not commit .env files.
-- Keep literag_config.yaml free of raw secrets.
+### Profile B: "Deep Detective" (Complex Multi-Hop)
+If your queries require synthesizing data across widely disjointed concepts:
+* `max_anchors`: 12
+* `max_exploration_depth`: 4
+* `min_relevance_threshold`: 0.15 *(Open the door to wider exploration)*
+* `intersection_weight`: 0.60 *(Heavily favor nodes where paths intersect)*
