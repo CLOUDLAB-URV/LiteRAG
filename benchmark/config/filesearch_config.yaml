@@ -1,0 +1,10 @@
+# Either provide an existing store...
+file_search_store_name: ""
+
+# ...or provide files to upload at startup.
+corpus_files: []
+display_name: "benchmark-store"
+
+# Model and credentials
+model: "gemini-2.5-flash-lite"
+api_key: "os.environ/GOOGLE_API_KEY"

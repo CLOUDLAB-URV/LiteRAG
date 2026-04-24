@@ -1,0 +1,17 @@
+model_list:
+  - model_name: "gemini-flash-proxy"
+    litellm_params:
+      model: "gemini/gemini-2.5-flash-lite"
+      api_key: "GEMINI_API_KEY"
+
+  - model_name: "gemini-embedding-proxy"
+    litellm_params:
+      model: "gemini/gemini-embedding-001"
+      api_key: "GEMINI_API_KEY"
+
+#router_settings:
+#  routing_strategy: "least-busy"
+
+litellm_settings:
+  drop_params: true
+  callbacks: []

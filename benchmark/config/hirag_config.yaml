@@ -1,0 +1,34 @@
+working_dir: "./hirag_workspace"
+
+# LLM model (via LiteLLM proxy)
+llm_model: "openai/gpt-4o-mini"
+embedding_model: "openai/text-embedding-3-small"
+api_key: "os.environ/OPENAI_API_KEY"
+api_base: "os.environ/OPENAI_API_BASE"
+
+# Query parameters
+top_k: 20         # retrieve top-k entities
+top_m: 10         # retrieve top-m entities per retrieved community
+
+# Embedding settings
+embedding_dim: 3072
+embedding_batch_num: 6
+embedding_func_max_async: 8
+
+# LLM concurrency
+best_model_max_async: 8
+cheap_model_max_async: 8
+
+# HiRAG LLM cache (matches official config.yaml default: false)
+# Set to true to cache LLM responses to disk for reproducibility
+enable_llm_cache: false
+
+# Token limits per query section
+max_token_for_text_unit: 20000
+max_token_for_local_context: 20000
+max_token_for_bridge_knowledge: 12500
+max_token_for_community_report: 12500
+
+# Enable strict global token limit (max tokens shared across components)
+limit_tokens: true
+max_total_tokens: 2000
