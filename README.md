@@ -6,7 +6,8 @@
 
 <p>
   <a href='#'><img src='https://img.shields.io/badge/📄arXiv-Pending-ff6b6b?style=for-the-badge&logo=arxiv&logoColor=white&labelColor=1a1a2e'></a>
-  <a href="#"><img src='https://img.shields.io/github/stars/YOUR_ORG/LiteRAG?color=3A7D44&style=for-the-badge&logo=star&logoColor=white&labelColor=1a1a2e' /></a>
+  <a href="https://huggingface.co/datasets/macarronesc/DistComp"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Dataset-ffd21e?style=for-the-badge&labelColor=1a1a2e"></a>
+  <a href="#"><img src='https://img.shields.io/github/stars/macarronesc/LiteRAG?color=3A7D44&style=for-the-badge&logo=star&logoColor=white&labelColor=1a1a2e' /></a>
   <img src="https://img.shields.io/badge/🐍Python-3.9+-4ecdc4?style=for-the-badge&logo=python&logoColor=white&labelColor=1a1a2e">
   <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge&labelColor=1a1a2e">
 </p>
@@ -29,9 +30,9 @@ Current GraphRAG systems (like Microsoft GraphRAG or LightRAG) rely heavily on L
 
 ---
 
-## 🏆 Benchmark on 1280-Document Corpus (DistComp Dataset)
+## 🏆 Benchmark on 1280-Document Corpus
 
-*Results based on the DistComp dataset evaluating complex, multi-hop reasoning.*
+*Results based on evaluating complex, multi-hop reasoning.*
 
 | System | Mode | Accuracy ↑ | Latency (s) ↓ | Tokens ↓ | Cost (€) ↓ |
 |--------|------|------------|---------------|----------|------------|
@@ -43,6 +44,18 @@ Current GraphRAG systems (like Microsoft GraphRAG or LightRAG) rely heavily on L
 | GraphRAG | DRIFT | 0.657 | 142.04s | 6,441,013 | €25.2844 |
 
 > **Note:** LiteRAG outperforms Microsoft GraphRAG DRIFT by **100x in speed** and **2,600x in cost**, while actually *improving* accuracy by avoiding context pollution.
+
+---
+
+## 📦 The DistComp Dataset (Hugging Face)
+
+To rigorously evaluate LiteRAG against current SOTA paradigms, we are open-sourcing the **DistComp Corpus** on Hugging Face.
+
+👉 **[Download the DistComp Dataset on Hugging Face](https://huggingface.co/datasets/macarronesc/DistComp)**
+
+Derived from high-impact academic literature in Distributed Computing, the dataset evaluates complex semantic drift and graph-based reasoning across disjoint knowledge clusters. 
+
+Crucially, **we provide fully pre-indexed Microsoft GraphRAG artifacts** (Parquet files, LanceDB vector stores) stratified into splits of `{40, 80, 160, 320, 640, 1280}` documents. This allows researchers to bypass the costly indexing phase and immediately evaluate retrieval performance at scale.
 
 ---
 
@@ -62,30 +75,29 @@ LiteRAG operates in three highly optimized phases, utilizing the indexing struct
 
 ## 🛠️ Installation
 
-We recommend using a virtual environment.
+We recommend using a virtual environment. The addition of the `setup.py` module allows you to install LiteRAG dynamically in editable mode, making the `literag` package importable anywhere in your environment.
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-org/literag.git
-cd literag
+git clone https://github.com/macarronesc/LiteRAG.git
+cd LiteRAG
 
 # Create and activate virtual environment
 python -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 
-# Install dependencies
-pip install -r requirements.txt
-uv pip install -e .
+# Install LiteRAG and its dependencies in editable mode
+pip install -e .
 ```
 
 ---
 
 ## 🚀 Quick Start
 
-**Prerequisite:** LiteRAG acts as the *retrieval and generation* engine. It requires a pre-indexed Knowledge Graph. You must point LiteRAG to a directory containing GraphRAG's parquet outputs (`entities.parquet`, `relationships.parquet`, etc.).
+**Prerequisite:** LiteRAG acts as the *retrieval and generation* engine. It requires a pre-indexed Knowledge Graph. You must point LiteRAG to a directory containing GraphRAG's parquet outputs (`entities.parquet`, `relationships.parquet`, etc.), which you can download from our [Hugging Face dataset](https://huggingface.co/datasets/macarronesc/DistComp).
 
 ### 1. Configure LiteRAG
-Copy and paste your API keys and data directory to the literag_config.yaml file
+Copy and paste your API keys and data directory to the config file:
 ```bash
 cp literag_config.example.yaml literag_config.yaml
 ```
@@ -149,12 +161,12 @@ It utilizes a rigorous **Three-Pillar Evaluation Metric**:
 We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details on how to submit pull requests, report issues, or request features.
 
 ## 📄 Citation
-If you use LiteRAG in your research, please cite our paper:
+If you use LiteRAG or the DistComp dataset in your research, please cite our paper:
 ```bibtex
-@article{literag2025,
+@article{literag2026,
   title={LiteRAG: Cost-Efficient Graph Retrieval-Augmented Generation},
   author={Anonymous},
-  journal={ACL Submission},
-  year={2025}
+  journal={EMNLP Submission},
+  year={2026}
 }
 ```
