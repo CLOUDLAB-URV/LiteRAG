@@ -31,39 +31,40 @@ litellm_base_url: "http://localhost:4000/v1"
 enable_query_expansion: false  # Use LLM to expand query
 
 # ─────────────────────────────────────────────────────────────────────────────
-# Anchor Discovery (Phase 2)
+# Anchor Discovery (Phase 1)
 # ─────────────────────────────────────────────────────────────────────────────
 max_anchors: 8              # Maximum number of starting points
-min_anchor_score: 0.3       # Minimum score threshold
+min_anchor_score: 0.30      # Minimum score threshold
 
-# Strategy weights (should sum to ~1.0)
+# Strategy weights (should sum to 1.0)
 semantic_weight: 0.40
 keyword_exact_weight: 0.30
 keyword_fuzzy_weight: 0.15
 community_weight: 0.15
 
 # ─────────────────────────────────────────────────────────────────────────────
-# Graph Exploration (Phase 3)
+# Graph Exploration (Phase 2)
 # ─────────────────────────────────────────────────────────────────────────────
-max_exploration_depth: 3        # Maximum hops from anchor
-min_relevance_threshold: 0.3    # Stop when relevance drops below
-relevance_decay_factor: 0.7     # Relevance decay per hop
+max_exploration_depth: 3            # Maximum hops from anchor
+min_relevance_threshold: 0.25       # Base floor in the dynamic threshold
+relevance_decay_factor: 0.70        # Relevance decay per hop
+max_nodes_per_anchor: 50            # Limit nodes explored per anchor
+max_neighbors_per_hop: 10           # Limit neighbors to explore per node
 
-max_nodes_per_anchor: 50        # Limit nodes explored per anchor
-max_neighbors_per_hop: 10       # Limit neighbors to explore per node
-
-num_exploration_workers: 4      # For parallel exploration (future)
+degree_influence: 0.05              # Hub penalty strength
+community_cohesion_weight: 0.80     # Protection factor for within-community hubs
+signal_amplification_factor: 0.25   # Scaling factor for strong initial anchors
 
 # ─────────────────────────────────────────────────────────────────────────────
-# Consensus Ranking (Phase 3.5)
+# Consensus Ranking (Phase 3)
 # ─────────────────────────────────────────────────────────────────────────────
 max_ranked_entities: 50         # Maximum entities to rank
 
 # Scoring weights (should sum to 1.0)
-intersection_weight: 0.30       # Found by multiple workers
-consensus_semantic_weight: 0.25 # Semantic relevance
-structural_weight: 0.20         # PageRank/betweenness
-proximity_weight: 0.25          # Distance from anchors
+intersection_weight: 0.30       # Found by multiple independent anchor paths
+consensus_semantic_weight: 0.25 # Semantic relevance to query
+proximity_weight: 0.25          # Topological proximity to anchor set
+structural_weight: 0.20         # Centrality (PageRank/Betweenness)
 
 anchor_boost: 1.5               # Multiplier for anchor entities
 

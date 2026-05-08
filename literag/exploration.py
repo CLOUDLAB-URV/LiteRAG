@@ -262,7 +262,7 @@ class ParallelExplorer:
         # 2. Calculate Dynamic Threshold
         max_anchor_score = max([a.score for a in anchors])
         dynamic_threshold = self.config.min_relevance_threshold + (
-            self.config.signal_amplification * max_anchor_score * 0.5
+            self.config.signal_amplification * max_anchor_score
         )
         
         # 3. Create Tasks

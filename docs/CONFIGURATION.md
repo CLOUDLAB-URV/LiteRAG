@@ -21,35 +21,34 @@ Controls how LiteRAG finds its starting points in the graph.
 | Parameter | Default | Description |
 | :--- | :--- | :--- |
 | `max_anchors` | `8` | Maximum number of starting nodes to select. |
-| `min_anchor_score` | `0.3` | Minimum confidence score required to become an anchor. |
-| `semantic_weight` | `0.40` | Importance of LanceDB vector similarity. |
-| `keyword_exact_weight` | `0.30` | Importance of exact N-gram matches (BM25). |
-| `keyword_fuzzy_weight` | `0.15` | Importance of fuzzy matching (Levenshtein). |
-| `community_weight` | `0.15` | Importance of community-level relevance. |
+| `min_anchor_score` | `0.30` | Minimum composite score required to become an anchor. |
+| `semantic_weight` | `0.40` | Importance of LanceDB vector similarity ($\alpha$). |
+| `keyword_exact_weight` | `0.30` | Importance of exact N-gram matches (BM25) ($\beta_{exact}$). |
+| `keyword_fuzzy_weight` | `0.15` | Importance of fuzzy matching (Levenshtein) ($\beta_{fuzzy}$). |
+| `community_weight` | `0.15` | Importance of community-level relevance ($\gamma$). |
 
 ## 3. Phase 2: Graph Exploration (Zero-LLM Traversal)
 
-These are the most critical parameters for tuning latency and accuracy.
-
 | Parameter | Default | Description |
 | :--- | :--- | :--- |
-| `max_exploration_depth` | `3` | Maximum number of hops away from an anchor. |
-| `min_relevance_threshold`| `0.25`| The base floor for the Dynamic Semantic Threshold. |
-| `relevance_decay_factor` | `0.7` | How much semantic relevance degrades per hop. |
-| `max_nodes_per_anchor` | `50` | Hard cap on nodes explored per worker thread. |
-| `degree_influence` | `0.05` | The penalty applied to high-degree hubs. Higher = stricter filtering. |
-| `community_cohesion_weight`| `0.8` | Protection factor for Topic Hubs. `1.0` = fully protected. |
+| `max_exploration_depth` | `3` | Maximum number of hops away from an anchor ($k_{max}$). |
+| `min_relevance_threshold`| `0.25`| The base floor for the Dynamic Semantic Threshold ($\tau_{base}$). |
+| `signal_amplification_factor`| `0.25` | Scaling factor that raises threshold when anchors are strong ($\lambda$). |
+| `relevance_decay_factor` | `0.70` | How much semantic relevance degrades per hop ($d$). |
+| `max_nodes_per_anchor` | `50` | Hard cap on nodes explored per worker thread ($N_{max}$). |
+| `degree_influence` | `0.05` | The penalty applied to high-degree hubs ($\delta$). Higher = stricter filtering. |
+| `community_cohesion_weight`| `0.80` | Protection factor for Topic Hubs ($\kappa$). `1.0` = fully protected. |
 
 ## 4. Phase 3: Consensus & Context Assembly
-
-Controls what actually gets sent to the LLM.
 
 | Parameter | Default | Description |
 | :--- | :--- | :--- |
 | `max_ranked_entities` | `50` | Maximum number of entities allowed in the final context window. |
-| `intersection_weight` | `0.45` | Reward for nodes found by multiple independent anchor paths. |
-| `max_context_tokens` | `10000` | The absolute token budget for the final LLM prompt. |
-| `enable_safety_net` | `true` | Injects raw text units for exact string references as a fallback. |
+| `intersection_weight` | `0.30` | Reward for nodes found by multiple independent anchor paths ($\rho_1$). |
+| `consensus_semantic_weight`| `0.25`| Weight on semantic alignment in the final ranking ($\rho_2$). |
+| `proximity_weight` | `0.25` | Weight on topological proximity to the anchor set ($\rho_3$). |
+| `structural_weight` | `0.20` | Weight on structural centrality like PageRank/Betweenness ($\rho_4$). |
+| `anchor_boost` | `1.5` | Multiplier applied to the final score if the entity was an initial anchor. |
 
 ---
 

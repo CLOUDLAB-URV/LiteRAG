@@ -45,32 +45,41 @@ class LiteRAGConfig:
     community_weight: float = 0.15
     
     # ─────────────────────────────────────────────────────────────────────────
-    # Graph Exploration
+    # Anchor Discovery (Phase 1)
     # ─────────────────────────────────────────────────────────────────────────
-    max_exploration_depth: int = 3
-    min_relevance_threshold: float = 0.25
-    relevance_decay_factor: float = 0.7
-    max_nodes_per_anchor: int = 50
+    max_anchors: int = 8
+    min_anchor_score: float = 0.30           # tau_anchor
+    semantic_weight: float = 0.40            # alpha
+    keyword_exact_weight: float = 0.30       # beta (exact)
+    keyword_fuzzy_weight: float = 0.15       # beta (fuzzy)
+    community_weight: float = 0.15           # gamma
+    
+    # ─────────────────────────────────────────────────────────────────────────
+    # Graph Exploration (Phase 2)
+    # ─────────────────────────────────────────────────────────────────────────
+    max_exploration_depth: int = 3           # k_max
+    min_relevance_threshold: float = 0.25    # tau_base
+    relevance_decay_factor: float = 0.70     # d
+    max_nodes_per_anchor: int = 50           # N_max
     max_neighbors_per_hop: int = 10
     num_exploration_workers: int = 4
     
-    # Penalize hubs instead of boosting them
-    # Higher values increase the penalty applied to high-degree nodes (hubs) 
-    # during traversal
-    degree_influence: float = 0.05 
+    degree_influence: float = 0.05           # delta
+    community_cohesion_weight: float = 0.80  # kappa
+    signal_amplification_factor: float = 0.25 # lambda
     
     # ─────────────────────────────────────────────────────────────────────────
-    # Consensus Ranking
+    # Consensus Ranking (Phase 3)
     # ─────────────────────────────────────────────────────────────────────────
     max_ranked_entities: int = 50
     
-    # Weights shifted significantly towards Semantics and Intersection
-    intersection_weight: float = 0.45
-    consensus_semantic_weight: float = 0.40
-    structural_weight: float = 0.05
-    proximity_weight: float = 0.10
+    # Weights shifted to match paper's grid search (Sum = 1.0)
+    intersection_weight: float = 0.30        # rho_1
+    consensus_semantic_weight: float = 0.25  # rho_2
+    proximity_weight: float = 0.25           # rho_3
+    structural_weight: float = 0.20          # rho_4
     
-    anchor_boost: float = 1.2
+    anchor_boost: float = 1.5                # Paper specifies 1.5
 
     # ─────────────────────────────────────────────────────────────────────────
     # Signal-Dependent Exploration
