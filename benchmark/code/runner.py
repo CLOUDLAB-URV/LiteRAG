@@ -485,7 +485,7 @@ class UnifiedBenchmark:
                 print(f"   [{idx}/{total}] {engine.name}: ✗ {result.error[:40]}")
             else:
                 acc = f", Acc: {result.answer_accuracy:.2f}" if result.answer_accuracy else ""
-                print(f"   [{idx}/{total}] {engine.name}: ✓ {result.latency_seconds:.2f}s, {result.total_tokens} tok, €{result.cost_eur:.4f}{acc}")
+                print(f"   [{idx}/{total}] {engine.name}: ✓ {result.latency_seconds:.2f}s, {result.total_tokens} tok, ${result.cost_eur:.4f}{acc}")
             
             # Save individual response
             self._save_response(result)
@@ -514,7 +514,7 @@ class UnifiedBenchmark:
             f.write(f"Latency:    {result.latency_seconds}s\n")
             f.write(f"LLM Calls:  {result.llm_calls}\n")
             f.write(f"Tokens:     {result.total_tokens} (prompt: {result.prompt_tokens}, completion: {result.completion_tokens})\n")
-            f.write(f"Cost:       €{result.cost_eur}\n")
+            f.write(f"Cost:       ${result.cost_eur}\n")
             
             if result.answer_accuracy is not None:
                 f.write(f"\n{'='*70}\nQUALITY METRICS\n{'='*70}\n")
@@ -616,7 +616,7 @@ class UnifiedBenchmark:
             completion_tokens = int(token_breakdown.group(2))
             
         # Cost parsing
-        cost_str = extract_value(r"Cost:\s*[€$]?([\d\.]+)", perf_section, "0.0")
+        cost_str = extract_value(r"Cost:\s*[$$]?([\d\.]+)", perf_section, "0.0")
         cost = float(cost_str)
         
         # Quality Metrics
@@ -794,7 +794,7 @@ class UnifiedBenchmark:
         print(f"Successful:     {summary.successful_queries}")
         print(f"Failed:         {summary.failed_queries}")
         print(f"Total Time:     {summary.total_time_seconds:.2f}s")
-        print(f"Total Cost:     €{summary.total_cost_eur:.4f}")
+        print(f"Total Cost:     ${summary.total_cost_eur:.4f}")
         print(f"Total Tokens:   {summary.total_tokens:,}")
         
         # Per-engine comparison
@@ -809,7 +809,7 @@ class UnifiedBenchmark:
         for engine_name, stats in summary.engine_stats.items():
             latency = f"{stats['avg_latency']:.2f}s"
             tokens = f"{stats['avg_tokens']:.0f}"
-            cost = f"€{stats['total_cost']:.4f}"
+            cost = f"${stats['total_cost']:.4f}"
             accuracy = f"{stats.get('avg_accuracy', 0):.2f}" if stats.get('avg_accuracy') else "N/A"
             
             print(f"{engine_name:<20} {latency:>10} {tokens:>10} {cost:>10} {accuracy:>10}")

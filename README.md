@@ -34,14 +34,14 @@ Current GraphRAG systems (like Microsoft GraphRAG or LightRAG) rely heavily on L
 
 *Results based on evaluating complex, multi-hop reasoning.*
 
-| System | Mode | Accuracy ↑ | Latency (s) ↓ | Tokens ↓ | Cost (€) ↓ |
+| System | Mode | Accuracy ↑ | Latency (s) ↓ | Tokens ↓ | Cost ($) ↓ |
 |--------|------|------------|---------------|----------|------------|
-| **✨ LiteRAG (Ours)** | **Default** | **0.788** | **1.42s** | **2,291** | **€0.0096** |
-| GraphRAG | Basic | 0.775 | 1.96s | 4,599 | €0.0190 |
-| GraphRAG | Local | 0.773 | 2.27s | 7,866 | €0.0300 |
-| LightRAG | Hybrid | 0.763 | 3.32s | 20,567 | €0.0708 |
-| HiRAG | Global | 0.784 | 2.95s | 20,136 | €0.0688 |
-| GraphRAG | DRIFT | 0.657 | 142.04s | 6,441,013 | €25.2844 |
+| **✨ LiteRAG (Ours)** | **Default** | **0.788** | **1.42s** | **2,291** | **$0.0096** |
+| GraphRAG | Basic | 0.775 | 1.96s | 4,599 | $0.0190 |
+| GraphRAG | Local | 0.773 | 2.27s | 7,866 | $0.0300 |
+| LightRAG | Hybrid | 0.763 | 3.32s | 20,567 | $0.0708 |
+| HiRAG | Global | 0.773 | 3.17s | 20,112 | $0.0685 |
+| GraphRAG | DRIFT | 0.657 | 142.04s | 6,441,013 | $25.2844 |
 
 > **Note:** LiteRAG outperforms Microsoft GraphRAG DRIFT by **100x in speed** and **2,600x in cost**, while actually *improving* accuracy by avoiding context pollution.
 

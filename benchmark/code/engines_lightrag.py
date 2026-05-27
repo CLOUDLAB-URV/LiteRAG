@@ -368,9 +368,9 @@ class LightRAGEngine(SearchEngineInterface):
             query_param = QueryParam(
                 mode=self.mode,
                 top_k=self._config.top_k,
-                max_entity_tokens=self._config.max_entity_tokens,
-                max_relation_tokens=self._config.max_relation_tokens,
-                max_total_tokens=self._config.max_total_tokens,
+                max_token_for_local_context=self._config.max_entity_tokens,
+                max_token_for_global_context=self._config.max_relation_tokens,
+                max_token_for_text_unit=self._config.max_total_tokens,
             )
             
             # Execute query

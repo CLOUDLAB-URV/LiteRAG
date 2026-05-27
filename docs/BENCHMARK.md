@@ -31,13 +31,13 @@ $$ S_{total} = 0.6 \cdot S_{LLM} + 0.25 \cdot S_{sem} + 0.15 \cdot S_{lex} $$
 
 When tested on the 1280-document DistComp corpus, LiteRAG solved the **Performance Paradox**:
 
-| System | Mode | Accuracy ($S_{total}$) ↑ | Latency (s) ↓ | Tokens ↓ | Cost (€) ↓ |
+| System | Mode | Accuracy ($S_{total}$) ↑ | Latency (s) ↓ | Tokens ↓ | Cost ($) ↓ |
 |--------|------|-------------------------|---------------|----------|------------|
-| **LiteRAG** | **Default** | **0.798** | **1.42s** | **2,291** | **€0.0096** |
-| GraphRAG | Basic | 0.775 | 1.96s | 4,599 | €0.0190 |
-| LightRAG | Hybrid | 0.763 | 3.32s | 20,567 | €0.0708 |
-| HiRAG | Global | 0.784 | 2.95s | 20,136 | €0.0688 |
-| GraphRAG | DRIFT | 0.657 | 142.04s | 6,441,013 | €25.2844 |
+| **LiteRAG** | **Default** | **0.798** | **1.42s** | **2,291** | **$0.0096** |
+| GraphRAG | Basic | 0.775 | 1.96s | 4,599 | $0.0190 |
+| LightRAG | Hybrid | 0.763 | 3.32s | 20,567 | $0.0708 |
+| HiRAG | Global | 0.773 | 3.17s | 20,112 | $0.0685 |
+| GraphRAG | DRIFT | 0.657 | 142.04s | 6,441,013 | $25.2844 |
 
 **Key Takeaways:**
 1. **Context Pollution Causes Failure**: GraphRAG DRIFT retrieves 6.4 million tokens, saturating the context window with noise and dropping accuracy to `0.657`. LiteRAG filters this noise algorithmically, sending only `~2,200` highly relevant tokens, achieving `0.798` accuracy.

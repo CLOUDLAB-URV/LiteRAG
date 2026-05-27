@@ -160,7 +160,7 @@ def _plot_cost(df: pd.DataFrame, output_dir: Path) -> Path:
     ax = cost_by_method.plot(kind='bar', color='#3498db')
     
     ax.bar_label(ax.containers[0], 
-                 fmt=lambda x: f'€{_format_large_number(x, decimals=2)}', 
+                 fmt=lambda x: f'${_format_large_number(x, decimals=2)}', 
                  fontsize=10, padding=3)
     
     plt.title('Total Cost by Method', fontsize=14, fontweight='bold')
@@ -253,7 +253,7 @@ def _plot_heatmap(df: pd.DataFrame, output_dir: Path) -> Path:
     metrics = {
         'latency_seconds': ('Avg. Latency per Query (s)', 'Reds'),
         'total_tokens': ('Avg. Tokens per Query', 'YlOrRd'),
-        'cost_eur': ('Avg. Cost per Query (€)', 'Greens'),
+        'cost_eur': ('Avg. Cost per Query ($)', 'Greens'),
         'answer_accuracy': ('Avg. Overall Accuracy Score', 'RdYlGn')
     }
     
@@ -547,7 +547,7 @@ def generate_html_report(
             <div class="label">Total Time</div>
         </div>
         <div class="summary-card">
-            <div class="value">€{summary.get('total_cost_eur', 0):.4f}</div>
+            <div class="value">${summary.get('total_cost_eur', 0):.4f}</div>
             <div class="label">Total Cost</div>
         </div>
         <div class="summary-card">
@@ -583,7 +583,7 @@ def generate_html_report(
             <td>{stats.get('queries', 0)}</td>
             <td>{stats.get('avg_latency', 0):.2f}s</td>
             <td>{stats.get('avg_tokens', 0):,.0f}</td>
-            <td>€{stats.get('total_cost', 0):.4f}</td>
+            <td>${stats.get('total_cost', 0):.4f}</td>
             <td>{stats.get('avg_accuracy', 'N/A') if isinstance(stats.get('avg_accuracy'), str) else f"{stats.get('avg_accuracy', 0):.2f}"}</td>
         </tr>
 """
