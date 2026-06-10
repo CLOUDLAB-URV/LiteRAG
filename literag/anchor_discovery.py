@@ -237,6 +237,9 @@ class AnchorDiscovery:
         for title, source_scores in scores.items():
             entity = self.graph_data.entities.get(title)
             if not entity:
+                # LanceDB may return UUIDs instead of titles for GraphRAG tables
+                entity = self.graph_data.entities_by_id.get(title)
+            if not entity:
                 continue
             
             # Weighted combination
@@ -266,7 +269,7 @@ class AnchorDiscovery:
             if combined_score >= self.min_score_threshold:
                 anchor = Anchor(
                     entity_id=entity.id,
-                    entity_title=title,
+                    entity_title=entity.title,
                     score=combined_score,
                     sources=sources
                 )
@@ -376,6 +379,9 @@ class AnchorDiscovery:
                 continue
                 
             community = self.graph_data.communities.get(comm_id)
+            if not community:
+                # LanceDB may return UUIDs instead of integer community IDs
+                community = self.graph_data.communities_by_uuid.get(comm_id)
             if not community:
                 continue
             

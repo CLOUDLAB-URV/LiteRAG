@@ -8,9 +8,10 @@ scipy>=1.10.0 # For graph algorithms
 
 # Vector Database
 lancedb>=0.5.0
+pylance>=6.0.0
 
 # LLM & Embeddings
-google-generativeai>=0.4.0
+google-genai>=2.7.0
 litellm>=1.20.0 # Optional but highly recommended for multi-provider support
 requests>=2.31.0
 

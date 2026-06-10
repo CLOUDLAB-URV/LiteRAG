@@ -27,6 +27,7 @@ class GraphData:
     entities_by_id: Dict[str, Entity]  # id -> Entity
     relationships: List[Relationship]
     communities: Dict[str, Community]  # id -> Community
+    communities_by_uuid: Dict[str, Community]  # uuid -> Community
     text_units: Dict[str, str]  # id -> text content
     graph: nx.Graph
     
@@ -198,12 +199,14 @@ def load_graph_data(
     
     # Create Community objects
     communities: Dict[str, Community] = {}
+    communities_by_uuid: Dict[str, Community] = {}
     entity_to_community: Dict[str, str] = {}
     
     if community_reports_df is not None and communities_df is not None:
         for row in community_reports_df.itertuples(index=False):
             comm_id_val = _safe_get(row, 'community', _safe_get(row, 'id', ''))
             comm_id = str(comm_id_val)
+            comm_uuid = str(_safe_get(row, 'id', ''))
             
             # Find entity_ids from communities_df
             entity_ids = []
@@ -220,6 +223,8 @@ def load_graph_data(
                 entity_ids=entity_ids
             )
             communities[comm_id] = community
+            if comm_uuid:
+                communities_by_uuid[comm_uuid] = community
             
             # Map entities to community
             for eid in entity_ids:
@@ -242,6 +247,7 @@ def load_graph_data(
         entities_by_id=entities_by_id,
         relationships=relationships,
         communities=communities,
+        communities_by_uuid=communities_by_uuid,
         text_units=text_units,
         graph=graph,
         entity_to_relationships=entity_to_relationships,

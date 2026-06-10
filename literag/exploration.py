@@ -107,8 +107,8 @@ class GraphExplorer:
             # Relevance update formula
             adjusted_relevance = current_relevance * (0.4 + 0.6 * semantic_sim)
             
-            # Dynamic Pruning
-            if adjusted_relevance < dynamic_threshold:
+            # Dynamic Pruning (skip for the anchor node itself)
+            if current_title != anchor.entity_title and adjusted_relevance < dynamic_threshold:
                 continue
             
             nodes[current_title] = ExploredNode(
