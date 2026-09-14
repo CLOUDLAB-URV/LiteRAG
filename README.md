@@ -7,7 +7,7 @@
 <p>
   <a href='https://arxiv.org/abs/2609.10239'><img src='https://img.shields.io/badge/📄arXiv-2609.10239-b31b1b?style=for-the-badge&logo=arxiv&logoColor=white&labelColor=1a1a2e'></a>
   <a href="https://huggingface.co/datasets/macarronesc/DistComp"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Dataset-ffd21e?style=for-the-badge&labelColor=1a1a2e"></a>
-  <a href="#"><img src='https://img.shields.io/github/stars/macarronesc/LiteRAG?color=3A7D44&style=for-the-badge&logo=star&logoColor=white&labelColor=1a1a2e' /></a>
+  <a href="https://github.com/CLOUDLAB-URV/LiteRAG"><img src='https://img.shields.io/github/stars/CLOUDLAB-URV/LiteRAG?color=3A7D44&style=for-the-badge&logo=star&logoColor=white&labelColor=1a1a2e' /></a>
   <img src="https://img.shields.io/badge/🐍Python-3.9+-4ecdc4?style=for-the-badge&logo=python&logoColor=white&labelColor=1a1a2e">
   <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge&labelColor=1a1a2e">
 </p>
