@@ -5,7 +5,7 @@
 **Zero-LLM Graph Traversal • O(1) Latency • 99% Cost Reduction • SOTA Accuracy**
 
 <p>
-  <a href='#'><img src='https://img.shields.io/badge/📄arXiv-Pending-ff6b6b?style=for-the-badge&logo=arxiv&logoColor=white&labelColor=1a1a2e'></a>
+  <a href='https://arxiv.org/abs/2609.10239'><img src='https://img.shields.io/badge/📄arXiv-2609.10239-b31b1b?style=for-the-badge&logo=arxiv&logoColor=white&labelColor=1a1a2e'></a>
   <a href="https://huggingface.co/datasets/macarronesc/DistComp"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Dataset-ffd21e?style=for-the-badge&labelColor=1a1a2e"></a>
   <a href="#"><img src='https://img.shields.io/github/stars/macarronesc/LiteRAG?color=3A7D44&style=for-the-badge&logo=star&logoColor=white&labelColor=1a1a2e' /></a>
   <img src="https://img.shields.io/badge/🐍Python-3.9+-4ecdc4?style=for-the-badge&logo=python&logoColor=white&labelColor=1a1a2e">
@@ -166,7 +166,8 @@ If you use LiteRAG or the DistComp dataset in your research, please cite our pap
 @article{literag2026,
   title={LiteRAG: Cost-Efficient Graph Retrieval-Augmented Generation},
   author={Anonymous},
-  journal={EMNLP Submission},
-  year={2026}
+  journal={arXiv preprint arXiv:2609.10239},
+  year={2026},
+  url={[https://arxiv.org/abs/2609.10239](https://arxiv.org/abs/2609.10239)}
 }
 ```

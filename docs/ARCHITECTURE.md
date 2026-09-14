@@ -46,4 +46,4 @@ LiteRAG ranks the explored subgraphs and translates the topological relationship
 
 By pre-computing these logical links, the LLM is no longer forced to deduce latent relationships across disparate paragraphs. It simply reads the causal map and generates the answer. This **Contextual Compression** reduces token usage by up to 99% while maintaining SOTA reasoning accuracy.
 
-For more detailed information, see the LiteRAG paper: [arXiv link pending].
+For more detailed information, see the LiteRAG paper: https://arxiv.org/abs/2609.10239.
