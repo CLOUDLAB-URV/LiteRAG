@@ -163,11 +163,13 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 ## 📄 Citation
 If you use LiteRAG or the DistComp dataset in your research, please cite our paper:
 ```bibtex
-@article{literag2026,
-  title={LiteRAG: Cost-Efficient Graph Retrieval-Augmented Generation},
-  author={Anonymous},
-  journal={arXiv preprint arXiv:2609.10239},
-  year={2026},
-  url={[https://arxiv.org/abs/2609.10239](https://arxiv.org/abs/2609.10239)}
+@misc{tejeda2026literagcostefficientgraphbasedretrievalaugmented,
+      title={LiteRAG: Cost-Efficient Graph-Based Retrieval-Augmented Generation}, 
+      author={Daniel Alejandro Coll Tejeda and Pedro García López and Daniel Barcelona-Pons},
+      year={2026},
+      eprint={2609.10239},
+      archivePrefix={arXiv},
+      primaryClass={cs.IR},
+      url={https://arxiv.org/abs/2609.10239}, 
 }
 ```
